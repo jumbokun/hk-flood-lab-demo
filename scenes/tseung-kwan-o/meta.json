@@ -147,7 +147,8 @@
    "cell_spread_p90_m": 5.67,
    "reach_lift_pixels_pct": 3.07,
    "reach_lift_p99_m": 0.19,
-   "s": 18.4
+   "fine_tiles": "9x10",
+   "s": 30.5
   },
   "source": "CEDD 2020 LiDAR 0.5 m"
  },
