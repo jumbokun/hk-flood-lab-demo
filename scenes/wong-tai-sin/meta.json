@@ -1138,18 +1138,18 @@
    "id": "wts_mtr",
    "name": "黄大仙站大堂 / 黄大仙中心北馆地库 Wong Tai Sin station concourse / Temple Mall North basement",
    "type": "underground",
-   "x": 3065.0,
-   "y": 3515.0,
+   "x": 2995.0,
+   "y": 3525.0,
    "ug": {
     "area": 5000,
     "cap": 3.5,
     "cells": [
-     210906,
-     211505,
-     210905,
-     211504,
-     210305,
-     210904
+     211499,
+     211498,
+     213300,
+     213296,
+     213299,
+     212698
     ],
     "entrances": 6,
     "src": "press 2023: water poured into the station concourse; Link REIT: Temple Mall North lower ground floor flooded up to 2.9 m",

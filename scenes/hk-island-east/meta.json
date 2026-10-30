@@ -70,6 +70,7 @@
    {
     "id": "hfc",
     "grade": "B",
+    "lower": true,
     "basis": "天文台：海水涌入屋邨及地下停车场；HK01 图辑：地库停车场多辆汽车没顶 → ≥ 1.5 m",
     "zh": "杏花邨地下停车场",
     "en": "Heng Fa Chuen basement car parks",
