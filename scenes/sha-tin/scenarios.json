@@ -1,0 +1,14 @@
+{
+ "scenarios": [
+  {
+   "id": "ttu2018-pump-ok",
+   "zh": "实际（曾大屋泵房停运） vs 泵房正常",
+   "en": "Actual (Tsang Tai Uk pump house down) vs pump house working",
+   "desc_zh": "A 按沙田区议会记录重演：16 日 08:00 起曾大屋旧村蓄洪池泵房停运，低洼停车场的排水不收水；B 假设泵房照常运转，其余完全相同。",
+   "desc_en": "A replays the Sha Tin District Council record: the Tsang Tai Uk storage-pond pump house down from 08:00 on the 16th, so the low car park does not drain; B assumes the pumps kept running, everything else equal.",
+   "events": ["mangkhut-2018"],
+   "A": { "zh": "实际", "en": "Actual", "measures": "records" },
+   "B": { "zh": "泵房正常", "en": "Pumps working", "measures": "records", "exclude": ["ttu2018_pump_down"] }
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "version": 1,
+ "scene": "tai-o",
+ "origin": {
+  "e0": 802000,
+  "n0": 811000
+ },
+ "measures": [
+  {
+   "key": "taio_riverwall_2013",
+   "kind": "wall",
+   "role": "record",
+   "built": "2013-06",
+   "in_dtm": true,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf ; DSD presentation, HKO Research Forum 2019, Case Study Tai O https://www.hko.gov.hk/en/research_forum/files/RF2019_DSD.pdf",
+   "note": "约 220 m，已在 2020 地形中；只标注。",
+   "name": "大澳一涌河堤及雨水泵房（2013 防洪计划，堤顶约 +3.3 mPD）",
+   "name_en": "Tai O Yat Chung river wall and pumping station (2013 scheme, crest ~+3.3 mPD)",
+   "pts": [
+    {
+     "x": 2121,
+     "y": 1924
+    }
+   ]
+  },
+  {
+   "key": "taio_demountable_350m",
+   "kind": "wall",
+   "role": "temporary",
+   "events": [
+    "mangkhut-2018",
+    "hato-2017"
+   ],
+   "from_h": 0,
+   "height": 0.5,
+   "info": true,
+   "src": "LegCo HC paper CB(2)2055/17-18(01), Government report on Super Typhoon Mangkhut, 2018-10 https://www.legco.gov.hk/yr17-18/chinese/hc/papers/hc20181004cb2-2055-1-c.pdf ; DSD presentation, HKO Research Forum 2019, Case Study Tai O https://www.hko.gov.hk/en/research_forum/files/RF2019_DSD.pdf",
+   "note": "天文台预测海平面 ≥ 3.3 mCD 时安装：天鸽（2017-08，曾渗漏）、山竹前 2018-09-14 起安装；山竹实测堤外水深约 1.2 m、堤内约 0.2 m。线位需按渠务署 2019 简报航拍图描线后才能参与计算，目前只标注。",
+   "name": "大澳河堤顶 350 m 可拆卸式挡水板（装后防洪水平 +3.8 mPD）",
+   "name_en": "Tai O 350 m demountable flood barriers on the river wall (+3.8 mPD when installed)",
+   "pts": [
+    {
+     "x": 2173,
+     "y": 1968
+    }
+   ]
+  },
+  {
+   "key": "taio_tpsn_boards_2019",
+   "kind": "wall",
+   "role": "record",
+   "built": "2019-09",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "门牌未公布，只标注。",
+   "name": "太平街北约 20 间房屋挡水板（渠务署，2019）",
+   "name_en": "DSD flood boards for ~20 houses on Tai Ping Street North (2019)",
+   "pts": [
+    {
+     "x": 2080,
+     "y": 1879
+    }
+   ]
+  },
+  {
+   "key": "taio_stp_pier_2018",
+   "kind": "wall",
+   "role": "record",
+   "built": "2018-10",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "高度未公布，只标注。",
+   "name": "石仔埗街旧渡头升高（土拓署，山竹后）",
+   "name_en": "Shek Tsai Po Street old pier raised (CEDD, after Mangkhut)",
+   "pts": [
+    {
+     "x": 1709,
+     "y": 1913
+    }
+   ]
+  },
+  {
+   "key": "taio_fankwaitong_wall_2019",
+   "kind": "wall",
+   "role": "record",
+   "built": "2019-08",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "沿海岸线，尺寸未公布，只标注。",
+   "name": "番鬼塘沿岸混凝土墙（民政总署，2019）",
+   "name_en": "Fan Kwai Tong concrete wall (HAD, 2019)",
+   "pts": [
+    {
+     "x": 1676,
+     "y": 928
+    }
+   ]
+  },
+  {
+   "key": "taio_namchung_wall_2020",
+   "kind": "wall",
+   "role": "record",
+   "built": "2020-06",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "沿海岸线，尺寸未公布，只标注。",
+   "name": "南涌沿岸混凝土墙（民政总署，2020）",
+   "name_en": "Nam Chung concrete wall (HAD, 2020)",
+   "pts": [
+    {
+     "x": 1954,
+     "y": 1116
+    }
+   ]
+  },
+  {
+   "key": "taio_wingon_pump_2020",
+   "kind": "pump",
+   "role": "record",
+   "built": "2020-03",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "新容量未公布，只标注。",
+   "name": "永安街雨水泵房提升排洪能力（2020）",
+   "name_en": "Wing On Street pumping station capacity upgrade (2020)",
+   "pts": [
+    {
+     "x": 2018,
+     "y": 1780
+    }
+   ]
+  },
+  {
+   "key": "taio_sunki_outlets_2018",
+   "kind": "drain",
+   "role": "record",
+   "built": "2018-12",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "只标注。",
+   "name": "新基街增设排水口（2018）",
+   "name_en": "New drainage outlets at Sun Ki Street (2018)",
+   "pts": [
+    {
+     "x": 1987,
+     "y": 2090
+    }
+   ]
+  }
+ ],
+ "saved": "2026-10-30T14:30:35+01:00"
+}

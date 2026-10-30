@@ -1,0 +1,14 @@
+{
+ "scenarios": [
+  {
+   "id": "wts2023-intakes-clear",
+   "zh": "实际（两处山溪进水口被山泥堵塞） vs 进水口畅通",
+   "en": "Actual (two stream intakes blocked by debris) vs intakes clear",
+   "desc_zh": "A 按发展局答复重演：法藏寺、黄大仙祠两处进水口从 7 日 22:00 起被塌下的山泥堵塞，溪水随山势涌下沙田坳道；B 假设两处进水口一直畅通，其余完全相同。",
+   "desc_en": "A replays the Development Bureau account: the Fat Jong Temple and Wong Tai Sin Temple intakes blocked by landslide debris from 22:00 on the 7th, the streams running down Shatin Pass Road; B assumes both intakes stayed clear, everything else equal.",
+   "events": ["rainstorm-2023"],
+   "A": { "zh": "实际", "en": "Actual", "measures": "records" },
+   "B": { "zh": "进水口畅通", "en": "Intakes clear", "measures": "records", "exclude": ["wts2023_intake_temple", "wts2023_intake_fatjong"] }
+  }
+ ]
+}

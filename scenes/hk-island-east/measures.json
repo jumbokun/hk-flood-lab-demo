@@ -1,0 +1,371 @@
+{
+ "version": 1,
+ "scene": "hk-island-east",
+ "origin": {
+  "e0": 839500,
+  "n0": 813000
+ },
+ "saved": "2026-10-30T14:50:40+01:00",
+ "measures": [
+  {
+   "kind": "wall",
+   "pts": [
+    {
+     "x": 3205.0,
+     "y": 2685.0
+    },
+    {
+     "x": 3235.0,
+     "y": 2675.0
+    },
+    {
+     "x": 3255.0,
+     "y": 2655.0
+    },
+    {
+     "x": 3265.0,
+     "y": 2645.0
+    },
+    {
+     "x": 3285.0,
+     "y": 2635.0
+    },
+    {
+     "x": 3295.0,
+     "y": 2625.0
+    },
+    {
+     "x": 3315.0,
+     "y": 2615.0
+    },
+    {
+     "x": 3325.0,
+     "y": 2605.0
+    },
+    {
+     "x": 3345.0,
+     "y": 2595.0
+    },
+    {
+     "x": 3365.0,
+     "y": 2555.0
+    },
+    {
+     "x": 3375.0,
+     "y": 2515.0
+    },
+    {
+     "x": 3385.0,
+     "y": 2485.0
+    },
+    {
+     "x": 3395.0,
+     "y": 2435.0
+    },
+    {
+     "x": 3405.0,
+     "y": 2395.0
+    },
+    {
+     "x": 3415.0,
+     "y": 2355.0
+    },
+    {
+     "x": 3425.0,
+     "y": 2305.0
+    },
+    {
+     "x": 3435.0,
+     "y": 2265.0
+    },
+    {
+     "x": 3445.0,
+     "y": 2245.0
+    },
+    {
+     "x": 3455.0,
+     "y": 2185.0
+    },
+    {
+     "x": 3465.0,
+     "y": 2145.0
+    },
+    {
+     "x": 3485.0,
+     "y": 2135.0
+    },
+    {
+     "x": 3515.0,
+     "y": 2105.0
+    },
+    {
+     "x": 3525.0,
+     "y": 2095.0
+    },
+    {
+     "x": 3535.0,
+     "y": 2055.0
+    }
+   ],
+   "cells": [
+    113103,
+    113652,
+    113653,
+    114203,
+    114752,
+    114753,
+    115302,
+    115851,
+    115852,
+    116400,
+    116401,
+    116947,
+    116949,
+    116950,
+    117497,
+    117498,
+    117499,
+    118046,
+    118047,
+    118595,
+    118596,
+    119146,
+    119695,
+    119696,
+    120245,
+    120795,
+    121345,
+    121895,
+    122444,
+    122445,
+    122994,
+    123544,
+    124093,
+    124094,
+    124643,
+    124644,
+    125193,
+    125743,
+    126292,
+    126293,
+    126842,
+    127392,
+    127942,
+    128491,
+    128492,
+    129041,
+    129591,
+    130139,
+    130141,
+    130691,
+    131240,
+    131241,
+    131790,
+    132340,
+    132890,
+    133439,
+    133440,
+    133989,
+    134539,
+    135089,
+    135638,
+    135639,
+    136188,
+    136736,
+    136738,
+    137286,
+    137288,
+    137837,
+    137838,
+    138387,
+    138937,
+    139487,
+    140036,
+    140037,
+    140586,
+    141136,
+    141685,
+    141686,
+    142235,
+    142780,
+    142783,
+    142784,
+    142785,
+    143332,
+    143333,
+    143880,
+    143881,
+    144429,
+    144977,
+    144978,
+    145524,
+    145526,
+    145527,
+    146075,
+    146624,
+    146625,
+    147172,
+    147173,
+    147720,
+    147721
+   ],
+   "height": 1.0,
+   "key": "hfc_promenade_wall_1m",
+   "role": "whatif",
+   "scenario_only": true,
+   "name": "假设：杏花邨海滨长廊堤顶加高 1.0 m",
+   "name_en": "What-if: Heng Fa Chuen promenade crest raised 1.0 m",
+   "src": "A/B scenario (scenarios.json). cells = the polyline (MeasureEditor.lineCells) + every wave-exposed crest cell (relocated expo.bin) of the estate frontage, i 318-356 / j 203-269, south-up rows",
+   "note": "On only when an A/B scenario side lists its key. ~760 m along the crest from the north to the south end of the estate. Not a design: the planned 2026 wave wall (meta.defences hfc_wavewall) covers the northern 350 m."
+  },
+  {
+   "key": "hfc_mgmt_boards_2018",
+   "kind": "sandbag",
+   "role": "temporary",
+   "events": [
+    "mangkhut-2018"
+   ],
+   "info": true,
+   "src": "HK01 2018-09-16 (山竹各區災情) https://www.hk01.com/社會新聞/236067/ ; HK01 2025-09-07 (塔巴 杏花邨防水板)",
+   "note": "位置与尺寸未公布，只标注不参与计算；此后每次台风前（2025 塔巴、2026 红霞）管理处在长廊、公园、近岸大厦地下大门部署防水板。",
+   "name": "杏花邨管理处防水闸及沙包（山竹时长廊沙包被浪冲散）",
+   "name_en": "Heng Fa Chuen management flood boards and sandbags (promenade sandbags washed away in Mangkhut)",
+   "pts": [
+    {
+     "x": 3253,
+     "y": 2472
+    }
+   ]
+  },
+  {
+   "key": "hfc_dsd_barriers_2025",
+   "kind": "wall",
+   "role": "record",
+   "built": "2025-06",
+   "in_dtm": false,
+   "info": true,
+   "src": "DSD press release 2025-06-12 https://www.info.gov.hk/gia/general/202506/12/P2025061101095.htm",
+   "note": "渠务署署长 2025-06-11 视察时已就位；点位未公布，只标注。",
+   "name": "渠务署可拆卸式挡水板（杏花邨，2025 雨季起）",
+   "name_en": "DSD demountable flood barriers at Heng Fa Chuen (from the 2025 wet season)",
+   "pts": [
+    {
+     "x": 3325,
+     "y": 2450
+    }
+   ]
+  },
+  {
+   "key": "cw_roundabout_pump_2025",
+   "kind": "pump",
+   "role": "record",
+   "built": "2025-06",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "DSD press release 2025-06-12 https://www.info.gov.hk/gia/general/202506/12/P2025061101095.htm",
+   "note": "容量未公布，只标注。",
+   "name": "柴湾道回旋处组合式泵系统（渠务署，2025）",
+   "name_en": "Modular pumping system at Chai Wan Road roundabout (DSD, 2025)",
+   "pts": [
+    {
+     "x": 3017,
+     "y": 844
+    }
+   ]
+  },
+  {
+   "key": "lym_mapui_seawall_2018",
+   "kind": "wall",
+   "role": "record",
+   "built": "2018-05",
+   "in_dtm": true,
+   "info": true,
+   "src": "DEVB blog 2017-10-29 https://www.devb.gov.hk/en/home/my_blog/index_id_255.html ; Sing Tao Headline 2024-05-01 (馬環村水浸毀屋 倡延長海堤防災) https://www.stheadline.com/daily-hongkong/3340425/",
+   "note": "与马环村 110 m 海堤同一工程（马环段已作为 lym_seawall 记录建模）；马背段的线位与堤顶高程未公布，只标注。",
+   "name": "马背村波浪形石筑海堤及石笼护土墙（约 300 m，天鸽后）",
+   "name_en": "Ma Pui wave-shaped rock seawall and gabion wall (~300 m, after Hato)",
+   "pts": [
+    {
+     "x": 3552,
+     "y": 3358
+    }
+   ]
+  },
+  {
+   "key": "lym_had_wavewall_2018",
+   "kind": "wall",
+   "role": "record",
+   "built": "2018-05",
+   "in_dtm": true,
+   "info": true,
+   "src": "DEVB blog 2017-10-29 https://www.devb.gov.hk/en/home/my_blog/index_id_255.html",
+   "note": "高度与长度未公布，只标注。",
+   "name": "鲤鱼门海傍行人路石屎挡水墙（民政总署，海堤后方）",
+   "name_en": "HAD concrete wave wall behind the seawall along Lei Yue Mun Praya footpath",
+   "pts": [
+    {
+     "x": 3170,
+     "y": 4022
+    }
+   ]
+  },
+  {
+   "key": "lym_floodboards",
+   "kind": "wall",
+   "role": "temporary",
+   "events": [
+    "mangkhut-2018"
+   ],
+   "from_h": 0,
+   "info": true,
+   "src": "LegCo HC paper CB(2)2055/17-18(01), Government report on Super Typhoon Mangkhut, 2018-10 https://www.legco.gov.hk/yr17-18/chinese/hc/papers/hc20181004cb2-2055-1-c.pdf",
+   "note": "14 处点位清单未公开；此后每次风暴重复部署。只标注，不参与计算。",
+   "name": "鲤鱼门 14 处可拆卸式挡水板、3 个水位标尺及商户沙包（山竹前安装）",
+   "name_en": "Lei Yue Mun demountable flood boards at 14 locations, 3 staff gauges and shop sandbags (installed before Mangkhut)",
+   "pts": [
+    {
+     "x": 3222,
+     "y": 3956
+    }
+   ]
+  },
+  {
+   "key": "lym_gap_mawan",
+   "kind": "wall",
+   "role": "record",
+   "built": "2000-01",
+   "in_dtm": true,
+   "info": true,
+   "src": "Sing Tao Headline 2024-05-01 (馬環村水浸毀屋 倡延長海堤防災) https://www.stheadline.com/daily-hongkong/3340425/",
+   "note": "2024-05 仍未设防（土拓署顾问：建防波堤会影响航道）。不是措施，是缺口的标注。",
+   "name": "马环村约 140 m 无海堤岸段（约 20 间高脚屋，防护缺口）",
+   "name_en": "Ma Wan: ~140 m of shoreline with no seawall (~20 stilt houses, a gap in the defences)",
+   "pts": [
+    {
+     "x": 2933,
+     "y": 3790
+    }
+   ]
+  },
+  {
+   "key": "lym_pump_planned",
+   "kind": "pump",
+   "role": "record",
+   "built": "2027-12",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "Sing Tao Headline 2024-05-01 (馬環村水浸毀屋 倡延長海堤防災) https://www.stheadline.com/daily-hongkong/3340425/",
+   "note": "2024-05 已招标；容量与位置未公布，只标注。",
+   "name": "鲤鱼门海傍道雨水泵房（规划，设计完成）",
+   "name_en": "Lei Yue Mun Praya Road stormwater pumping station (planned, design complete)",
+   "pts": [
+    {
+     "x": 3191,
+     "y": 4044
+    }
+   ]
+  }
+ ]
+}

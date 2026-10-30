@@ -5,7 +5,7 @@
   "e0": 835000,
   "n0": 819000
  },
- "saved": "2026-10-30T12:15:25+01:00",
+ "saved": "2026-10-30T14:30:35+01:00",
  "measures": [
   {
    "kind": "drain",
@@ -186,6 +186,80 @@
    "from_h": 6,
    "src": "发展局答复（民建联约晤，2023-10）：法藏寺及黄大仙祠两处进水口在大雨期间被塌陷的山泥阻塞",
    "note": "排水系数 0 覆盖该山溪进水口以上的整个集水区（D8 汇水的凸包）：进水口、沿沙田坳道的渠务署管线和山坡截流（模型里代表溪流/引水道的 40 mm/h 汇项）都不收水，溪水按发展局描述随山势涌下沙田坳道。时间窗从 7 日 22:00（模拟第 6 小时）起直到事件结束。v0.8 只堵了进水口格（半径 40 m），对峰值几乎没影响——暴雨峰值时渠本来就满，而山坡上的水仍被截流项删掉。"
+  },
+  {
+   "key": "wts_intake_works_2024",
+   "kind": "drain",
+   "role": "record",
+   "built": "2024-05",
+   "in_dtm": false,
+   "info": true,
+   "radius": 60,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf",
+   "note": "尺寸未公布，只标注；2023 事件中进水口被堵的两处见 wts2023_intake_*。",
+   "name": "沙田坳道上游进水口改善、黄大仙祠旁级渠改善、龙翔道新光中心旁新排水渠（2023 黑雨后短期措施）",
+   "name_en": "Upstream intake improvements on Sha Tin Pass Road, stepped channel by Wong Tai Sin Temple, new drain by Lung Cheung Road (short-term works after the 2023 rainstorm)",
+   "pts": [
+    {
+     "x": 3228,
+     "y": 3292
+    }
+   ]
+  },
+  {
+   "key": "wts_morse_park_tank",
+   "kind": "tank",
+   "role": "record",
+   "built": "2029-12",
+   "in_dtm": false,
+   "radius": 110,
+   "capacity": 47000,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf ; Wong Tai Sin DC DFWC 5/2024 and 8/2025 https://districtcouncils.gov.hk/wts/doc/2024_2027/tc/committee_meetings_doc/DFWC/26650/DFWC_M2_005.pdf",
+   "note": "2024-05 申请拨款，约 4.5–5 年建成；对 2023 事件为「未建」。作为可建模的记录保留：在情景对比里强制启用可看它对黑雨的作用（池体位置按摩士公园三号公园硬地球场，半径 110 m 圆代替）。",
+   "name": "摩士公园地下雨水蓄洪池（约 47,000 m³，4176CD，规划）",
+   "name_en": "Morse Park underground stormwater storage tank (~47,000 m3, 4176CD, planned)",
+   "pts": [
+    {
+     "x": 2569,
+     "y": 3325
+    }
+   ]
+  },
+  {
+   "key": "wts_mtr_boards_2024",
+   "kind": "wall",
+   "role": "record",
+   "built": "2024-05",
+   "in_dtm": false,
+   "info": true,
+   "src": "MTR press release PR-24-027 (2024-05) https://mtr.com.hk/archive/corporate/en/press_release/PR-24-027-E.pdf",
+   "note": "只标注。",
+   "name": "港铁黄大仙站 B3 出入口挡水板、自动挡水闸试验及水浸感应器（2024）",
+   "name_en": "MTR Wong Tai Sin Station exit B3 flood boards, automatic flood gate trial and flood sensors (2024)",
+   "pts": [
+    {
+     "x": 2836,
+     "y": 3525
+    }
+   ]
+  },
+  {
+   "key": "wts_upper_estate_gates_2025",
+   "kind": "wall",
+   "role": "record",
+   "built": "2025-04",
+   "in_dtm": false,
+   "info": true,
+   "src": "Wong Tai Sin DC DFWC 5/2024 and 8/2025 https://districtcouncils.gov.hk/wts/doc/2024_2027/tc/committee_meetings_doc/DFWC/26650/DFWC_M2_005.pdf",
+   "note": "数量未公布，只标注。",
+   "name": "黄大仙上邨百步梯挡水闸（房屋署，红雨装一半、黑雨全装）",
+   "name_en": "Upper Wong Tai Sin Estate flood gates at the Hundred Steps (Housing Dept; half under red rain, all under black rain)",
+   "pts": [
+    {
+     "x": 2775,
+     "y": 3602
+    }
+   ]
   }
  ]
 }

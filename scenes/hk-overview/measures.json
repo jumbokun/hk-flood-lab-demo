@@ -1,0 +1,438 @@
+{
+ "version": 1,
+ "scene": "hk-overview",
+ "origin": {
+  "e0": 800000,
+  "n0": 800000
+ },
+ "measures": [
+  {
+   "key": "hfc_mgmt_boards_2018",
+   "kind": "sandbag",
+   "role": "temporary",
+   "events": [
+    "mangkhut-2018"
+   ],
+   "info": true,
+   "src": "HK01 2018-09-16 (山竹各區災情) https://www.hk01.com/社會新聞/236067/ ; HK01 2025-09-07 (塔巴 杏花邨防水板)",
+   "note": "位置与尺寸未公布，只标注不参与计算；此后每次台风前（2025 塔巴、2026 红霞）管理处在长廊、公园、近岸大厦地下大门部署防水板。",
+   "name": "杏花邨管理处防水闸及沙包（山竹时长廊沙包被浪冲散）",
+   "name_en": "Heng Fa Chuen management flood boards and sandbags (promenade sandbags washed away in Mangkhut)",
+   "pts": [
+    {
+     "x": 42753,
+     "y": 15472
+    }
+   ]
+  },
+  {
+   "key": "hfc_dsd_barriers_2025",
+   "kind": "wall",
+   "role": "record",
+   "built": "2025-06",
+   "in_dtm": false,
+   "info": true,
+   "src": "DSD press release 2025-06-12 https://www.info.gov.hk/gia/general/202506/12/P2025061101095.htm",
+   "note": "渠务署署长 2025-06-11 视察时已就位；点位未公布，只标注。",
+   "name": "渠务署可拆卸式挡水板（杏花邨，2025 雨季起）",
+   "name_en": "DSD demountable flood barriers at Heng Fa Chuen (from the 2025 wet season)",
+   "pts": [
+    {
+     "x": 42825,
+     "y": 15450
+    }
+   ]
+  },
+  {
+   "key": "cw_roundabout_pump_2025",
+   "kind": "pump",
+   "role": "record",
+   "built": "2025-06",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "DSD press release 2025-06-12 https://www.info.gov.hk/gia/general/202506/12/P2025061101095.htm",
+   "note": "容量未公布，只标注。",
+   "name": "柴湾道回旋处组合式泵系统（渠务署，2025）",
+   "name_en": "Modular pumping system at Chai Wan Road roundabout (DSD, 2025)",
+   "pts": [
+    {
+     "x": 42517,
+     "y": 13844
+    }
+   ]
+  },
+  {
+   "key": "lym_mapui_seawall_2018",
+   "kind": "wall",
+   "role": "record",
+   "built": "2018-05",
+   "in_dtm": true,
+   "info": true,
+   "src": "DEVB blog 2017-10-29 https://www.devb.gov.hk/en/home/my_blog/index_id_255.html ; Sing Tao Headline 2024-05-01 (馬環村水浸毀屋 倡延長海堤防災) https://www.stheadline.com/daily-hongkong/3340425/",
+   "note": "与马环村 110 m 海堤同一工程（马环段已作为 lym_seawall 记录建模）；马背段的线位与堤顶高程未公布，只标注。",
+   "name": "马背村波浪形石筑海堤及石笼护土墙（约 300 m，天鸽后）",
+   "name_en": "Ma Pui wave-shaped rock seawall and gabion wall (~300 m, after Hato)",
+   "pts": [
+    {
+     "x": 43052,
+     "y": 16358
+    }
+   ]
+  },
+  {
+   "key": "lym_had_wavewall_2018",
+   "kind": "wall",
+   "role": "record",
+   "built": "2018-05",
+   "in_dtm": true,
+   "info": true,
+   "src": "DEVB blog 2017-10-29 https://www.devb.gov.hk/en/home/my_blog/index_id_255.html",
+   "note": "高度与长度未公布，只标注。",
+   "name": "鲤鱼门海傍行人路石屎挡水墙（民政总署，海堤后方）",
+   "name_en": "HAD concrete wave wall behind the seawall along Lei Yue Mun Praya footpath",
+   "pts": [
+    {
+     "x": 42670,
+     "y": 17022
+    }
+   ]
+  },
+  {
+   "key": "lym_floodboards",
+   "kind": "wall",
+   "role": "temporary",
+   "events": [
+    "mangkhut-2018"
+   ],
+   "from_h": 0,
+   "info": true,
+   "src": "LegCo HC paper CB(2)2055/17-18(01), Government report on Super Typhoon Mangkhut, 2018-10 https://www.legco.gov.hk/yr17-18/chinese/hc/papers/hc20181004cb2-2055-1-c.pdf",
+   "note": "14 处点位清单未公开；此后每次风暴重复部署。只标注，不参与计算。",
+   "name": "鲤鱼门 14 处可拆卸式挡水板、3 个水位标尺及商户沙包（山竹前安装）",
+   "name_en": "Lei Yue Mun demountable flood boards at 14 locations, 3 staff gauges and shop sandbags (installed before Mangkhut)",
+   "pts": [
+    {
+     "x": 42722,
+     "y": 16956
+    }
+   ]
+  },
+  {
+   "key": "lym_gap_mawan",
+   "kind": "wall",
+   "role": "record",
+   "built": "2000-01",
+   "in_dtm": true,
+   "info": true,
+   "src": "Sing Tao Headline 2024-05-01 (馬環村水浸毀屋 倡延長海堤防災) https://www.stheadline.com/daily-hongkong/3340425/",
+   "note": "2024-05 仍未设防（土拓署顾问：建防波堤会影响航道）。不是措施，是缺口的标注。",
+   "name": "马环村约 140 m 无海堤岸段（约 20 间高脚屋，防护缺口）",
+   "name_en": "Ma Wan: ~140 m of shoreline with no seawall (~20 stilt houses, a gap in the defences)",
+   "pts": [
+    {
+     "x": 42433,
+     "y": 16790
+    }
+   ]
+  },
+  {
+   "key": "lym_pump_planned",
+   "kind": "pump",
+   "role": "record",
+   "built": "2027-12",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "Sing Tao Headline 2024-05-01 (馬環村水浸毀屋 倡延長海堤防災) https://www.stheadline.com/daily-hongkong/3340425/",
+   "note": "2024-05 已招标；容量与位置未公布，只标注。",
+   "name": "鲤鱼门海傍道雨水泵房（规划，设计完成）",
+   "name_en": "Lei Yue Mun Praya Road stormwater pumping station (planned, design complete)",
+   "pts": [
+    {
+     "x": 42691,
+     "y": 17044
+    }
+   ]
+  },
+  {
+   "key": "taio_riverwall_2013",
+   "kind": "wall",
+   "role": "record",
+   "built": "2013-06",
+   "in_dtm": true,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf ; DSD presentation, HKO Research Forum 2019, Case Study Tai O https://www.hko.gov.hk/en/research_forum/files/RF2019_DSD.pdf",
+   "note": "约 220 m，已在 2020 地形中；只标注。",
+   "name": "大澳一涌河堤及雨水泵房（2013 防洪计划，堤顶约 +3.3 mPD）",
+   "name_en": "Tai O Yat Chung river wall and pumping station (2013 scheme, crest ~+3.3 mPD)",
+   "pts": [
+    {
+     "x": 4121,
+     "y": 12924
+    }
+   ]
+  },
+  {
+   "key": "taio_demountable_350m",
+   "kind": "wall",
+   "role": "temporary",
+   "events": [
+    "mangkhut-2018",
+    "hato-2017"
+   ],
+   "from_h": 0,
+   "height": 0.5,
+   "info": true,
+   "src": "LegCo HC paper CB(2)2055/17-18(01), Government report on Super Typhoon Mangkhut, 2018-10 https://www.legco.gov.hk/yr17-18/chinese/hc/papers/hc20181004cb2-2055-1-c.pdf ; DSD presentation, HKO Research Forum 2019, Case Study Tai O https://www.hko.gov.hk/en/research_forum/files/RF2019_DSD.pdf",
+   "note": "天文台预测海平面 ≥ 3.3 mCD 时安装：天鸽（2017-08，曾渗漏）、山竹前 2018-09-14 起安装；山竹实测堤外水深约 1.2 m、堤内约 0.2 m。线位需按渠务署 2019 简报航拍图描线后才能参与计算，目前只标注。",
+   "name": "大澳河堤顶 350 m 可拆卸式挡水板（装后防洪水平 +3.8 mPD）",
+   "name_en": "Tai O 350 m demountable flood barriers on the river wall (+3.8 mPD when installed)",
+   "pts": [
+    {
+     "x": 4173,
+     "y": 12968
+    }
+   ]
+  },
+  {
+   "key": "taio_tpsn_boards_2019",
+   "kind": "wall",
+   "role": "record",
+   "built": "2019-09",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "门牌未公布，只标注。",
+   "name": "太平街北约 20 间房屋挡水板（渠务署，2019）",
+   "name_en": "DSD flood boards for ~20 houses on Tai Ping Street North (2019)",
+   "pts": [
+    {
+     "x": 4080,
+     "y": 12879
+    }
+   ]
+  },
+  {
+   "key": "taio_stp_pier_2018",
+   "kind": "wall",
+   "role": "record",
+   "built": "2018-10",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "高度未公布，只标注。",
+   "name": "石仔埗街旧渡头升高（土拓署，山竹后）",
+   "name_en": "Shek Tsai Po Street old pier raised (CEDD, after Mangkhut)",
+   "pts": [
+    {
+     "x": 3709,
+     "y": 12913
+    }
+   ]
+  },
+  {
+   "key": "taio_fankwaitong_wall_2019",
+   "kind": "wall",
+   "role": "record",
+   "built": "2019-08",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "沿海岸线，尺寸未公布，只标注。",
+   "name": "番鬼塘沿岸混凝土墙（民政总署，2019）",
+   "name_en": "Fan Kwai Tong concrete wall (HAD, 2019)",
+   "pts": [
+    {
+     "x": 3676,
+     "y": 11928
+    }
+   ]
+  },
+  {
+   "key": "taio_namchung_wall_2020",
+   "kind": "wall",
+   "role": "record",
+   "built": "2020-06",
+   "in_dtm": false,
+   "info": true,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "沿海岸线，尺寸未公布，只标注。",
+   "name": "南涌沿岸混凝土墙（民政总署，2020）",
+   "name_en": "Nam Chung concrete wall (HAD, 2020)",
+   "pts": [
+    {
+     "x": 3954,
+     "y": 12116
+    }
+   ]
+  },
+  {
+   "key": "taio_wingon_pump_2020",
+   "kind": "pump",
+   "role": "record",
+   "built": "2020-03",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "新容量未公布，只标注。",
+   "name": "永安街雨水泵房提升排洪能力（2020）",
+   "name_en": "Wing On Street pumping station capacity upgrade (2020)",
+   "pts": [
+    {
+     "x": 4018,
+     "y": 12780
+    }
+   ]
+  },
+  {
+   "key": "taio_sunki_outlets_2018",
+   "kind": "drain",
+   "role": "record",
+   "built": "2018-12",
+   "in_dtm": false,
+   "info": true,
+   "radius": 40,
+   "src": "Islands DC paper TAFEHCCC 38/2020 written reply (Tai O long-term flood prevention) https://www.districtcouncils.gov.hk/island/doc/2020_2023/en/committee_meetings_doc/TAFEHCCC/18559/TAFEHCCC_38_2020_WR_TC.pdf",
+   "note": "只标注。",
+   "name": "新基街增设排水口（2018）",
+   "name_en": "New drainage outlets at Sun Ki Street (2018)",
+   "pts": [
+    {
+     "x": 3987,
+     "y": 13090
+    }
+   ]
+  },
+  {
+   "key": "st_floodwall_planned",
+   "kind": "wall",
+   "role": "record",
+   "built": "2028-12",
+   "in_dtm": false,
+   "info": true,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf",
+   "note": "4182CD，2024-05 申请拨款，约 3 年 9 个月建成；线位未公布，只标注。",
+   "name": "城门河沿岸防洪墙（约 1.8 km、约 1 m）及沙田公园地下蓄洪池（约 8,600 m³）— 规划",
+   "name_en": "Shing Mun River flood walls (~1.8 km, ~1 m) and Sha Tin Park underground storage (~8,600 m3), planned",
+   "pts": [
+    {
+     "x": 37599,
+     "y": 26710
+    }
+   ]
+  },
+  {
+   "key": "tp_floodwall_planned",
+   "kind": "wall",
+   "role": "record",
+   "built": "2029-12",
+   "in_dtm": false,
+   "info": true,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf",
+   "note": "4183CD 第 1 期，约 5 年分阶段；只标注。",
+   "name": "林村河沿岸防洪墙（约 1.2 km、约 1 m）及大埔旧墟游乐场地下蓄洪池（25,000 m³）— 规划",
+   "name_en": "Lam Tsuen River flood walls (~1.2 km, ~1 m) and Tai Po Old Market playground storage tank (25,000 m3), planned",
+   "pts": [
+    {
+     "x": 35159,
+     "y": 34739
+    }
+   ]
+  },
+  {
+   "key": "tp_smt_boards_2024",
+   "kind": "wall",
+   "role": "record",
+   "built": "2024-09",
+   "in_dtm": false,
+   "info": true,
+   "src": "The Standard 2024-09-05 (Yagi precautions) https://www.thestandard.com.hk/news/article/220185/",
+   "note": "只标注。",
+   "name": "三门仔新村住户挡水板（2024）",
+   "name_en": "Flood boards at Sam Mun Tsai New Village houses (2024)",
+   "pts": [
+    {
+     "x": 40110,
+     "y": 35138
+    }
+   ]
+  },
+  {
+   "key": "wts_intake_works_2024",
+   "kind": "drain",
+   "role": "record",
+   "built": "2024-05",
+   "in_dtm": false,
+   "info": true,
+   "radius": 60,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf",
+   "note": "尺寸未公布，只标注；2023 事件中进水口被堵的两处见 wts2023_intake_*。",
+   "name": "沙田坳道上游进水口改善、黄大仙祠旁级渠改善、龙翔道新光中心旁新排水渠（2023 黑雨后短期措施）",
+   "name_en": "Upstream intake improvements on Sha Tin Pass Road, stepped channel by Wong Tai Sin Temple, new drain by Lung Cheung Road (short-term works after the 2023 rainstorm)",
+   "pts": [
+    {
+     "x": 38228,
+     "y": 22292
+    }
+   ]
+  },
+  {
+   "key": "wts_morse_park_tank",
+   "kind": "tank",
+   "role": "record",
+   "built": "2029-12",
+   "in_dtm": false,
+   "radius": 110,
+   "capacity": 47000,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf ; Wong Tai Sin DC DFWC 5/2024 and 8/2025 https://districtcouncils.gov.hk/wts/doc/2024_2027/tc/committee_meetings_doc/DFWC/26650/DFWC_M2_005.pdf",
+   "note": "2024-05 申请拨款，约 4.5–5 年建成；对 2023 事件为「未建」。作为可建模的记录保留：在情景对比里强制启用可看它对黑雨的作用（池体位置按摩士公园三号公园硬地球场，半径 110 m 圆代替）。",
+   "name": "摩士公园地下雨水蓄洪池（约 47,000 m³，4176CD，规划）",
+   "name_en": "Morse Park underground stormwater storage tank (~47,000 m3, 4176CD, planned)",
+   "pts": [
+    {
+     "x": 37569,
+     "y": 22325
+    }
+   ]
+  },
+  {
+   "key": "wts_mtr_boards_2024",
+   "kind": "wall",
+   "role": "record",
+   "built": "2024-05",
+   "in_dtm": false,
+   "info": true,
+   "src": "MTR press release PR-24-027 (2024-05) https://mtr.com.hk/archive/corporate/en/press_release/PR-24-027-E.pdf",
+   "note": "只标注。",
+   "name": "港铁黄大仙站 B3 出入口挡水板、自动挡水闸试验及水浸感应器（2024）",
+   "name_en": "MTR Wong Tai Sin Station exit B3 flood boards, automatic flood gate trial and flood sensors (2024)",
+   "pts": [
+    {
+     "x": 37836,
+     "y": 22525
+    }
+   ]
+  },
+  {
+   "key": "wts_upper_estate_gates_2025",
+   "kind": "wall",
+   "role": "record",
+   "built": "2025-04",
+   "in_dtm": false,
+   "info": true,
+   "src": "Wong Tai Sin DC DFWC 5/2024 and 8/2025 https://districtcouncils.gov.hk/wts/doc/2024_2027/tc/committee_meetings_doc/DFWC/26650/DFWC_M2_005.pdf",
+   "note": "数量未公布，只标注。",
+   "name": "黄大仙上邨百步梯挡水闸（房屋署，红雨装一半、黑雨全装）",
+   "name_en": "Upper Wong Tai Sin Estate flood gates at the Hundred Steps (Housing Dept; half under red rain, all under black rain)",
+   "pts": [
+    {
+     "x": 37775,
+     "y": 22602
+    }
+   ]
+  }
+ ],
+ "saved": "2026-10-30T14:30:35+01:00"
+}

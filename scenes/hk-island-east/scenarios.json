@@ -1,0 +1,14 @@
+{
+ "scenarios": [
+  {
+   "id": "hfc2018-wall-1m",
+   "zh": "2018 实际 vs 杏花邨海堤加高 1.0 m",
+   "en": "2018 actual vs Heng Fa Chuen seawall +1.0 m",
+   "desc_zh": "B 把杏花邨海滨长廊的堤顶（约 760 m，屋苑北端到南端）加高 1.0 m，堤顶越浪按 EurOtop 公式随干舷指数下降（情景措施 hfc_promenade_wall_1m，只在这一对里生效）。模型结果：墙后最深处变浅，但积水范围反而变大、地库照样灌满——墙也挡住了越过来的水回流入海的路，墙后的拍门排水口没有模拟。不是设计方案。",
+   "desc_en": "B raises the Heng Fa Chuen promenade crest by 1.0 m (about 760 m, north to south end of the estate), so EurOtop overtopping falls off exponentially with the extra freeboard (what-if measure hfc_promenade_wall_1m, on only in this pair). Model result: the deepest water behind the wall is shallower, but the wet area grows and the basement still fills, because the wall also blocks the way back to the sea for water that does come over; flap-gated outlets are not modelled. Not a design.",
+   "events": ["mangkhut-2018"],
+   "A": { "zh": "2018 实际", "en": "2018 actual", "measures": "records" },
+   "B": { "zh": "海堤 +1.0 m", "en": "Seawall +1.0 m", "measures": ["hfc_promenade_wall_1m"] }
+  }
+ ]
+}

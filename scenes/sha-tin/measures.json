@@ -5,7 +5,7 @@
   "e0": 835500,
   "n0": 824500
  },
- "saved": "2026-10-30T11:09:34+01:00",
+ "saved": "2026-10-30T14:30:35+01:00",
  "measures": [
   {
    "kind": "drain",
@@ -27,6 +27,24 @@
    "from_h": 8,
    "src": "沙田区议会 STDC 93/2018：渠务署——曾大屋旧村是低洼地，雨水先入蓄洪池再由泵房抽走；丘文俊议员——当日乡公所对出的渠务署水泵已停止运作；渠务署记停车场水深 1 m 以上、警方记最高水位约 1.5 m",
    "note": "排水系数 0 = 旧村停车场低洼处的本地排水与渠务署管线进水口不收水（泵站停运、出口被 4 m+ 的河水顶托）；时间窗从 16 日 08:00（模拟第 8 小时，潮位开始超过 4 mCD 之前）到事件结束。"
+  },
+  {
+   "key": "st_floodwall_planned",
+   "kind": "wall",
+   "role": "record",
+   "built": "2028-12",
+   "in_dtm": false,
+   "info": true,
+   "src": "LegCo Panel on Development CB(1)656/2024(04), 2024-05-28 https://www.legco.gov.hk/yr2024/chinese/panels/dev/papers/dev20240528cb1-656-4-c.pdf",
+   "note": "4182CD，2024-05 申请拨款，约 3 年 9 个月建成；线位未公布，只标注。",
+   "name": "城门河沿岸防洪墙（约 1.8 km、约 1 m）及沙田公园地下蓄洪池（约 8,600 m³）— 规划",
+   "name_en": "Shing Mun River flood walls (~1.8 km, ~1 m) and Sha Tin Park underground storage (~8,600 m3), planned",
+   "pts": [
+    {
+     "x": 2099,
+     "y": 2210
+    }
+   ]
   }
  ]
 }
