@@ -115,6 +115,7 @@
   "subgrid": {
    "fine_m": 1.0,
    "k": 5,
+   "scheme": "spill-faces v1.0c tol0.3",
    "buildings_rasterised": 726,
    "threshold_counts": {
     "0.3": 3,
@@ -124,7 +125,9 @@
    "raised_cells": 9715,
    "cell_spread_p50_m": 2.19,
    "cell_spread_p90_m": 3.66,
-   "s": 5.4
+   "reach_lift_pixels_pct": 1.16,
+   "reach_lift_p99_m": 0.06,
+   "s": 8.6
   },
   "source": "CEDD 2020 LiDAR 0.5 m"
  },
