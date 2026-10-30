@@ -1,0 +1,1203 @@
+{
+ "id": "victoria-harbour",
+ "name_zh": "维港核心：中环·湾仔·尖沙咀",
+ "name_en": "Victoria Harbour core: Central / Wan Chai / Tsim Sha Tsui",
+ "blurb_zh": "香港经济心脏；历史事件未大规模受淹，但千年一遇超强台风「天枢」情景下填海区面临考验。",
+ "blurb_en": "The economic heart of Hong Kong; spared in past events, but reclaimed land is tested in the fictional 1-in-1000-year Super Typhoon Dubhe.",
+ "origin": {
+  "e0": 831500,
+  "n0": 813500
+ },
+ "width_m": 7000,
+ "height_m": 6000,
+ "res": 10,
+ "cols": 700,
+ "rows": 600,
+ "lonlat_bbox": [
+  114.13061573887389,
+  22.260297101950012,
+  114.19853732301603,
+  22.31448599992209
+ ],
+ "gauge": "QUB",
+ "tide_scale": 1.0,
+ "tide_lag_min": 0,
+ "rain_mult": {
+  "rainstorm-2023": 1.0,
+  "dubhe-1000": 1.1
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "中环 Central",
+   "x": 2822.9,
+   "y": 2624.1
+  },
+  {
+   "name": "湾仔 Wan Chai",
+   "x": 4265.7,
+   "y": 2070.3
+  },
+  {
+   "name": "尖沙咀 Tsim Sha Tsui",
+   "x": 4265.7,
+   "y": 3952.8
+  },
+  {
+   "name": "西九龙 West Kowloon",
+   "x": 3029.2,
+   "y": 4728.0
+  }
+ ],
+ "gauges": [],
+ "validation": {
+  "mangkhut-2018": [
+   {
+    "id": "central",
+    "grade": "D",
+    "basis": "没有水浸报道 → 定为 0；没有报道不等于没有水浸",
+    "zh": "中环海滨",
+    "en": "Central waterfront",
+    "lon": 114.16,
+    "lat": 22.287,
+    "depth": 0.0,
+    "cls": "none",
+    "src": "no flooding reported",
+    "x": 3029.0,
+    "y": 2956.3
+   }
+  ],
+  "hato-2017": [
+   {
+    "id": "central",
+    "grade": "D",
+    "basis": "没有水浸报道 → 0",
+    "zh": "中环海滨",
+    "en": "Central waterfront",
+    "lon": 114.16,
+    "lat": 22.287,
+    "depth": 0.0,
+    "cls": "none",
+    "src": "no flooding reported",
+    "x": 3029.0,
+    "y": 2956.3
+   }
+  ],
+  "rainstorm-2023": [
+   {
+    "id": "tst",
+    "grade": "C",
+    "basis": "新闻：局部积水，无深度",
+    "zh": "尖沙咀",
+    "en": "Tsim Sha Tsui",
+    "lon": 114.172,
+    "lat": 22.298,
+    "depth": 0.1,
+    "cls": "minor",
+    "src": "press: localised ponding",
+    "x": 4285.0,
+    "y": 3965.0,
+    "snapped_m": 210.0
+   }
+  ],
+  "wanda-1962": [
+   {
+    "id": "central",
+    "grade": "C",
+    "basis": "新闻/史料：中环有水浸，无深度",
+    "zh": "中环",
+    "en": "Central",
+    "lon": 114.16,
+    "lat": 22.287,
+    "depth": 0.2,
+    "cls": "minor",
+    "src": "press",
+    "x": 3025.0,
+    "y": 2975.0,
+    "snapped_m": 19.0
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 600,
+  "cols": 700,
+  "zmin": 1.2038850784301758,
+  "zmax": 551.3187866210938,
+  "sea_fraction": 0.33807857142857145,
+  "land_below_4mpd_fraction": 0.07260968249000925,
+  "exposed_shore_cells": 2039,
+  "cedd_coverage": 0.6526190476190477,
+  "shore_cells": 2853,
+  "sinks_filled": 1061,
+  "water_polygons": 46,
+  "tidal_cells_added": 0,
+  "max_z": 6.0,
+  "dsd_conduits": 27379,
+  "dsd_trunks": 5554,
+  "dsd_trunk_cells": 11156,
+  "dsd_chains": 312,
+  "dsd_catchment_km2": 3.09,
+  "channel_cells": 14944,
+  "by_class": {
+   "stream/stream": 2467,
+   "canal/drain": 2649,
+   "canal/canal": 0,
+   "river/river": 0
+  },
+  "network_s": 11.8,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 10,
+   "buildings_rasterised": 13119,
+   "threshold_counts": {
+    "0.15": 1046,
+    "0.3": 408,
+    "0.5": 513,
+    "1.0": 11152
+   },
+   "raised_cells": 7132,
+   "cell_spread_p50_m": 1.94,
+   "cell_spread_p90_m": 7.06,
+   "s": 16.8
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 13119,
+  "mean_height": 26.212821099169144,
+  "footprint_fraction": 0.20811190476190478
+ },
+ "textures": {
+  "zoom": 16,
+  "tex_w": 3167,
+  "tex_h": 2714,
+  "m_per_px": 2.2102936532996527,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "碧瑤灣（下） Baguio Villa (Lower)",
+   "type": "bus",
+   "x": 142.5,
+   "y": 176.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "職員停車場 Staff Carpark",
+   "type": "carpark",
+   "x": 44.8,
+   "y": 998.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "瑪麗醫院 Queen Mary Hospital",
+   "type": "bus",
+   "x": 3.3,
+   "y": 1152.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "蒲飛路 Pokfield Road",
+   "type": "bus",
+   "x": 179.7,
+   "y": 2371.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "薄扶林分區電力站 Pok Fu Lam Zone Substation",
+   "type": "power",
+   "x": 186.7,
+   "y": 2545.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f5",
+   "name": "均益大廈第1期停車場 Kwan Yick Building Phase 1 Car Park",
+   "type": "carpark",
+   "x": 259.8,
+   "y": 2989.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f6",
+   "name": "Chong Yip Centre",
+   "type": "carpark",
+   "x": 666.6,
+   "y": 2843.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f7",
+   "name": "綜合大樓 (香港大學學生會) Composite Building (HKU Students' Union)",
+   "type": "carpark",
+   "x": 547.2,
+   "y": 2534.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f8",
+   "name": "香港大學 HKU",
+   "type": "mtr",
+   "x": 504.8,
+   "y": 2621.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f9",
+   "name": "西營盤 Sai Ying Pun",
+   "type": "mtr",
+   "x": 1240.3,
+   "y": 2783.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f10",
+   "name": "西尾園變壓站 West End Park Sub-station",
+   "type": "power",
+   "x": 1385.1,
+   "y": 2469.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f11",
+   "name": "西營盤分區電力站 (西座) Sai Ying Pun Zone Substation (West Block)",
+   "type": "power",
+   "x": 1533.1,
+   "y": 2817.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f12",
+   "name": "威利麻街6號變壓站 Wilmer St 6 Substation",
+   "type": "power",
+   "x": 1426.7,
+   "y": 2997.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f13",
+   "name": "上環分區電力站 Sheung Wan Zone Substation",
+   "type": "power",
+   "x": 1859.0,
+   "y": 3217.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f14",
+   "name": "港澳碼頭巴士停車場 Macau Ferry Bus Parking Site",
+   "type": "carpark",
+   "x": 1852.6,
+   "y": 3155.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f15",
+   "name": "長江花園停車場 Cheung Kong Park Car Park",
+   "type": "carpark",
+   "x": 3039.2,
+   "y": 2087.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f16",
+   "name": "花園道 Garden Road",
+   "type": "mtr",
+   "x": 2921.5,
+   "y": 1915.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f17",
+   "name": "馬己仙峽道二號變壓站 Magazine Gap Road No. 2 Substation",
+   "type": "power",
+   "x": 2833.8,
+   "y": 1560.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f18",
+   "name": "歌賦山變電站 Gough Hill Substation",
+   "type": "power",
+   "x": 2517.4,
+   "y": 562.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f19",
+   "name": "山頂 The Peak",
+   "type": "mtr",
+   "x": 2012.8,
+   "y": 1198.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f20",
+   "name": "西摩臺5號變壓站 Seymour Terrace 5 Substation",
+   "type": "power",
+   "x": 2030.9,
+   "y": 2307.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f21",
+   "name": "上環市政大廈東變壓站 Urban Council Sheung Wan Complex East Substation",
+   "type": "power",
+   "x": 2008.0,
+   "y": 2883.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f22",
+   "name": "上環 Sheung Wan",
+   "type": "mtr",
+   "x": 2253.3,
+   "y": 2903.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f23",
+   "name": "COSCO Tower",
+   "type": "carpark",
+   "x": 2280.9,
+   "y": 2829.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f24",
+   "name": "荷李活道三十二號變壓站 Hollywood Road 32 Substation",
+   "type": "power",
+   "x": 2309.9,
+   "y": 2414.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f25",
+   "name": "中環（香港站） Central (Hong Kong Station)",
+   "type": "bus",
+   "x": 2676.0,
+   "y": 2866.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f26",
+   "name": "中環 (林士街) Central (Rumsey Street)",
+   "type": "bus",
+   "x": 2468.2,
+   "y": 2933.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f27",
+   "name": "林士街多層停車場 Rumsey Street Multi-Storey Car Park",
+   "type": "carpark",
+   "x": 2340.3,
+   "y": 3002.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f28",
+   "name": "中環 Central",
+   "type": "ferry",
+   "x": 2666.5,
+   "y": 3109.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f29",
+   "name": "香港 Hong Kong",
+   "type": "ferry",
+   "x": 2299.2,
+   "y": 3157.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f30",
+   "name": "中環 (港澳碼頭) Central (Macau Ferry)",
+   "type": "bus",
+   "x": 2001.3,
+   "y": 3116.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f31",
+   "name": "西九碼頭 WestK Quay",
+   "type": "ferry",
+   "x": 2900.9,
+   "y": 4352.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f32",
+   "name": "西九龍政府合署 West Kowloon Government Offices",
+   "type": "carpark",
+   "x": 3388.9,
+   "y": 5773.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f33",
+   "name": "九龍站 Kowloon Station",
+   "type": "bus",
+   "x": 3364.4,
+   "y": 4978.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f34",
+   "name": "圓方 Elements",
+   "type": "bus",
+   "x": 3311.5,
+   "y": 4810.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f35",
+   "name": "九龍站停車場 Kowloon Station Carpark",
+   "type": "carpark",
+   "x": 3274.7,
+   "y": 5056.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f36",
+   "name": "九龍 Kowloon",
+   "type": "mtr",
+   "x": 3194.2,
+   "y": 4941.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f37",
+   "name": "南停車場 South Carpark",
+   "type": "carpark",
+   "x": 3215.3,
+   "y": 4790.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f38",
+   "name": "中環 Central",
+   "type": "ferry",
+   "x": 3045.7,
+   "y": 3000.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f39",
+   "name": "中環碼頭 Central (Ferry Piers)",
+   "type": "bus",
+   "x": 3016.3,
+   "y": 2865.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f40",
+   "name": "中環 Central",
+   "type": "ferry",
+   "x": 2882.1,
+   "y": 3057.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f41",
+   "name": "中環（交易廣場） Central (Exchange Square)",
+   "type": "bus",
+   "x": 2802.6,
+   "y": 2624.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f42",
+   "name": "香港 Hong Kong",
+   "type": "mtr",
+   "x": 2833.0,
+   "y": 2697.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f43",
+   "name": "中環 Central",
+   "type": "mtr",
+   "x": 2881.7,
+   "y": 2389.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f44",
+   "name": "大會堂停車場 City Hall Car Park",
+   "type": "carpark",
+   "x": 3240.4,
+   "y": 2401.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f45",
+   "name": "天星停車場 Star Ferry Car Park",
+   "type": "carpark",
+   "x": 3067.1,
+   "y": 2478.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f46",
+   "name": "中環 Central",
+   "type": "ferry",
+   "x": 3165.7,
+   "y": 2959.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f47",
+   "name": "Lippo Sun Plaza",
+   "type": "carpark",
+   "x": 4020.7,
+   "y": 4069.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f48",
+   "name": "柯士甸 Austin",
+   "type": "mtr",
+   "x": 3709.5,
+   "y": 4864.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f49",
+   "name": "香港西九龍 Hong Kong West Kowloon",
+   "type": "mtr",
+   "x": 3536.9,
+   "y": 4803.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f50",
+   "name": "油麻地 Yau Ma Tei",
+   "type": "mtr",
+   "x": 4131.2,
+   "y": 5811.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f51",
+   "name": "MTR station",
+   "type": "mtr",
+   "x": 4255.0,
+   "y": 4209.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f52",
+   "name": "K11 Musea",
+   "type": "mall",
+   "x": 4542.7,
+   "y": 3767.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f53",
+   "name": "One Peking",
+   "type": "mall",
+   "x": 4055.5,
+   "y": 3956.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f54",
+   "name": "Pacific Place",
+   "type": "mall",
+   "x": 3535.2,
+   "y": 1875.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f55",
+   "name": "Soundwill Plaza II Midtown",
+   "type": "mall",
+   "x": 5282.3,
+   "y": 2067.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f56",
+   "name": "The Capital",
+   "type": "mall",
+   "x": 4629.1,
+   "y": 4358.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f57",
+   "name": "Queensway Plaza",
+   "type": "mall",
+   "x": 3521.8,
+   "y": 2050.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f58",
+   "name": "WORFU",
+   "type": "mall",
+   "x": 6767.3,
+   "y": 3518.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f59",
+   "name": "Western Police Station",
+   "type": "police",
+   "x": 1024.3,
+   "y": 3027.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f60",
+   "name": "Victoria Homantin International Nursery",
+   "type": "school",
+   "x": 5016.7,
+   "y": 5935.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f61",
+   "name": "Infinitus Plaza (Shopping Arcade)",
+   "type": "mall",
+   "x": 2374.1,
+   "y": 2888.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f62",
+   "name": "香港日本人學校",
+   "type": "school",
+   "x": 6189.8,
+   "y": 179.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f63",
+   "name": "Tsim Sha Tsui Centre",
+   "type": "mall",
+   "x": 4854.0,
+   "y": 4142.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f64",
+   "name": "LAFORET",
+   "type": "mall",
+   "x": 5577.9,
+   "y": 2294.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f65",
+   "name": "Hong Kong Adventist Hospital",
+   "type": "hospital",
+   "x": 5522.5,
+   "y": 350.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f66",
+   "name": "Tung Wah Eastern Hospital",
+   "type": "hospital",
+   "x": 6185.5,
+   "y": 1664.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f67",
+   "name": "Silvercord",
+   "type": "mall",
+   "x": 3991.6,
+   "y": 4102.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f68",
+   "name": "HKMA David Li Kwok Po College",
+   "type": "school",
+   "x": 3410.6,
+   "y": 5946.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f69",
+   "name": "The Peak Galleria",
+   "type": "mall",
+   "x": 1988.9,
+   "y": 1107.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f70",
+   "name": "Victoria Belcher Kindergarten",
+   "type": "school",
+   "x": 349.0,
+   "y": 2789.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f71",
+   "name": "Central Police Station",
+   "type": "police",
+   "x": 1939.1,
+   "y": 3130.9,
+   "conf": 0.99
+  },
+  {
+   "id": "f72",
+   "name": "東華三院羅裕積小學",
+   "type": "school",
+   "x": 4171.1,
+   "y": 5964.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f73",
+   "name": "Kong Wan Fire Station",
+   "type": "fire",
+   "x": 4365.8,
+   "y": 2226.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f74",
+   "name": "天主教新民書院",
+   "type": "school",
+   "x": 4264.9,
+   "y": 5582.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f75",
+   "name": "聖士提反堂幼稚園",
+   "type": "school",
+   "x": 794.6,
+   "y": 2727.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f76",
+   "name": "寶血幼稚園",
+   "type": "school",
+   "x": 5868.3,
+   "y": 578.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f77",
+   "name": "German Swiss International School",
+   "type": "school",
+   "x": 620.1,
+   "y": 20.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f78",
+   "name": "Ma Tau Chung Government Primary School",
+   "type": "school",
+   "x": 5901.7,
+   "y": 4665.4,
+   "conf": 0.99
+  },
+  {
+   "id": "f79",
+   "name": "Canossa Hospital",
+   "type": "hospital",
+   "x": 2415.6,
+   "y": 1874.6,
+   "conf": 0.99
+  },
+  {
+   "id": "f80",
+   "name": "The Prince Philip Dental Hospital",
+   "type": "hospital",
+   "x": 1388.4,
+   "y": 2874.4,
+   "conf": 0.99
+  },
+  {
+   "id": "f81",
+   "name": "Jewish Community Centre",
+   "type": "community",
+   "x": 1918.5,
+   "y": 2398.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f82",
+   "name": "Lai Chack Middle School",
+   "type": "school",
+   "x": 3876.0,
+   "y": 4558.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f83",
+   "name": "Hong Kong Sanatorium & Hospital",
+   "type": "hospital",
+   "x": 5403.6,
+   "y": 1018.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f84",
+   "name": "聖公會聖三一堂中學",
+   "type": "school",
+   "x": 5090.1,
+   "y": 5588.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f85",
+   "name": "Jordan Road Government Primary School",
+   "type": "school",
+   "x": 3926.8,
+   "y": 5094.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f86",
+   "name": "St. Paul's Hospital",
+   "type": "hospital",
+   "x": 5942.3,
+   "y": 2012.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f87",
+   "name": "Raimondi College Primary Section",
+   "type": "school",
+   "x": 4711.8,
+   "y": 1441.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f88",
+   "name": "北角福恩護老院",
+   "type": "elderly",
+   "x": 6792.2,
+   "y": 3348.6,
+   "conf": 0.98
+  },
+  {
+   "id": "f89",
+   "name": "King's College",
+   "type": "school",
+   "x": 996.5,
+   "y": 2673.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f90",
+   "name": "Fairchild Kindergarten",
+   "type": "school",
+   "x": 605.4,
+   "y": 2961.0,
+   "conf": 0.98
+  },
+  {
+   "id": "f91",
+   "name": "Wan Chai Division Police Station",
+   "type": "police",
+   "x": 3909.8,
+   "y": 2023.6,
+   "conf": 0.98
+  },
+  {
+   "id": "f92",
+   "name": "Small World Christian Kindergarten",
+   "type": "school",
+   "x": 3343.9,
+   "y": 1577.6,
+   "conf": 0.98
+  },
+  {
+   "id": "f93",
+   "name": "聖公會聖馬太堂幼稚園 St. Matthew's Church Kindergarten",
+   "type": "school",
+   "x": 1723.3,
+   "y": 2826.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f94",
+   "name": "Caritas Community Centre",
+   "type": "community",
+   "x": 2424.5,
+   "y": 2104.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f95",
+   "name": "YMCA Hong Kong Christian International Kindergarten",
+   "type": "school",
+   "x": 4175.9,
+   "y": 3858.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f96",
+   "name": "Pods Kindergarten and Pods Preschool Tin Hau Campus",
+   "type": "school",
+   "x": 6328.8,
+   "y": 2399.6,
+   "conf": 0.98
+  },
+  {
+   "id": "f97",
+   "name": "Hillside International Kindergarten",
+   "type": "school",
+   "x": 5088.8,
+   "y": 641.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f98",
+   "name": "聖雅各福群會社區中心",
+   "type": "community",
+   "x": 4436.6,
+   "y": 1446.5,
+   "conf": 0.98
+  },
+  {
+   "id": "f99",
+   "name": "Khalsa Diwan Kindergarten",
+   "type": "school",
+   "x": 6373.7,
+   "y": 2758.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f100",
+   "name": "Sir Ellis Kadoorie Primary School",
+   "type": "school",
+   "x": 6083.1,
+   "y": 1821.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f101",
+   "name": "St. James' Primary School",
+   "type": "school",
+   "x": 4420.3,
+   "y": 1356.6,
+   "conf": 0.98
+  },
+  {
+   "id": "f102",
+   "name": "Yau Tsim Mong Multicultural Activity Centre",
+   "type": "community",
+   "x": 3935.5,
+   "y": 5227.5,
+   "conf": 0.98
+  },
+  {
+   "id": "f103",
+   "name": "油麻地警署（舊址）",
+   "type": "police",
+   "x": 3886.6,
+   "y": 5458.3,
+   "conf": 0.97
+  },
+  {
+   "id": "f104",
+   "name": "康馨護老院",
+   "type": "elderly",
+   "x": 5908.9,
+   "y": 2083.2,
+   "conf": 0.97
+  },
+  {
+   "id": "f105",
+   "name": "禮頓山社區會堂",
+   "type": "community",
+   "x": 5390.6,
+   "y": 1707.0,
+   "conf": 0.97
+  },
+  {
+   "id": "f106",
+   "name": "Cypress Care Home",
+   "type": "elderly",
+   "x": 6231.4,
+   "y": 2727.9,
+   "conf": 0.97
+  },
+  {
+   "id": "f107",
+   "name": "Peak Sub-Division Police Station",
+   "type": "police",
+   "x": 2517.2,
+   "y": 445.9,
+   "conf": 0.96
+  },
+  {
+   "id": "f108",
+   "name": "伊院通 - 伊利沙伯醫院",
+   "type": "hospital",
+   "x": 4510.0,
+   "y": 5343.6,
+   "conf": 0.96
+  },
+  {
+   "id": "f109",
+   "name": "上環消防局",
+   "type": "fire",
+   "x": 1802.4,
+   "y": 3141.0,
+   "conf": 0.96
+  },
+  {
+   "id": "f110",
+   "name": "伊利沙伯醫院日間醫療中心五樓",
+   "type": "hospital",
+   "x": 3655.0,
+   "y": 5279.5,
+   "conf": 0.96
+  },
+  {
+   "id": "f111",
+   "name": "鐘聲慈善社陳守仁長者鄰舎中心",
+   "type": "elderly",
+   "x": 6085.0,
+   "y": 5856.2,
+   "conf": 0.95
+  },
+  {
+   "id": "f112",
+   "name": "仁和居 Ninna Home",
+   "type": "elderly",
+   "x": 4213.5,
+   "y": 1963.7,
+   "conf": 0.95
+  },
+  {
+   "id": "f113",
+   "name": "Africa Center Hong Kong",
+   "type": "community",
+   "x": 4065.8,
+   "y": 4786.0,
+   "conf": 0.94
+  },
+  {
+   "id": "f114",
+   "name": "消防处总部大楼",
+   "type": "fire",
+   "x": 5094.5,
+   "y": 4415.0,
+   "conf": 0.94
+  },
+  {
+   "id": "f115",
+   "name": "友鄰舍社區服務中心",
+   "type": "community",
+   "x": 2942.4,
+   "y": 1928.7,
+   "conf": 0.93
+  },
+  {
+   "id": "f116",
+   "name": "綠山居護老院",
+   "type": "elderly",
+   "x": 5138.3,
+   "y": 2167.5,
+   "conf": 0.93
+  },
+  {
+   "id": "f117",
+   "name": "Home Affairs Department Causeway Bay Community Centre",
+   "type": "community",
+   "x": 6246.9,
+   "y": 3111.3,
+   "conf": 0.92
+  },
+  {
+   "id": "f118",
+   "name": "Ventria Residence 曦蕓居",
+   "type": "elderly",
+   "x": 5629.2,
+   "y": 1324.0,
+   "conf": 0.91
+  },
+  {
+   "id": "f119",
+   "name": "德安護老之家",
+   "type": "elderly",
+   "x": 327.9,
+   "y": 2876.5,
+   "conf": 0.9
+  },
+  {
+   "id": "f120",
+   "name": "Central Fire Station",
+   "type": "fire",
+   "x": 3175.4,
+   "y": 1983.4,
+   "conf": 0.9
+  },
+  {
+   "id": "f121",
+   "name": "恩情護老中心 - 上環",
+   "type": "elderly",
+   "x": 1347.0,
+   "y": 2950.8,
+   "conf": 0.89
+  },
+  {
+   "id": "f122",
+   "name": "寶安康護理院",
+   "type": "elderly",
+   "x": 817.8,
+   "y": 2894.7,
+   "conf": 0.88
+  },
+  {
+   "id": "f123",
+   "name": "頌恩護理院",
+   "type": "elderly",
+   "x": 2389.0,
+   "y": 2183.4,
+   "conf": 0.88
+  },
+  {
+   "id": "f124",
+   "name": "Tsim Sha Tsui Fire Station",
+   "type": "fire",
+   "x": 3827.5,
+   "y": 4537.1,
+   "conf": 0.86
+  },
+  {
+   "id": "f125",
+   "name": "栢景護理中心",
+   "type": "elderly",
+   "x": 1137.2,
+   "y": 2906.3,
+   "conf": 0.86
+  },
+  {
+   "id": "f126",
+   "name": "東方護老院",
+   "type": "elderly",
+   "x": 1690.0,
+   "y": 2976.3,
+   "conf": 0.82
+  },
+  {
+   "id": "f127",
+   "name": "匯恩護老院",
+   "type": "elderly",
+   "x": 2080.4,
+   "y": 2683.1,
+   "conf": 0.8
+  }
+ ]
+}

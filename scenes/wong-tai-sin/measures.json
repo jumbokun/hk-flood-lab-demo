@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "scene": "wong-tai-sin",
+ "origin": {
+  "e0": 835000,
+  "n0": 819000
+ },
+ "saved": "2026-10-30T11:02:04+01:00",
+ "measures": [
+  {
+   "kind": "drain",
+   "pts": [
+    {
+     "x": 3085,
+     "y": 3705
+    }
+   ],
+   "radius": 40,
+   "factor": 0,
+   "key": "wts2023_intake_temple",
+   "name": "黄大仙祠山溪进水口被山泥堵塞",
+   "name_en": "Wong Tai Sin Temple stream intake blocked by debris",
+   "role": "temporary",
+   "events": [
+    "rainstorm-2023"
+   ],
+   "from_h": 6,
+   "src": "发展局答复（民建联约晤，2023-10）：法藏寺及黄大仙祠两处进水口在大雨期间被塌陷的山泥阻塞，雨水随山势涌往沙田坳道及黄大仙中心北馆",
+   "note": "排水系数 0 = 该处箱涵进水口与路边集水沟不收水；时间窗从 7 日 22:00（暴雨开始，模拟第 6 小时）起直到事件结束。位置为模型中山溪进入箱涵的明渠格（黄大仙祠后）。"
+  },
+  {
+   "kind": "drain",
+   "pts": [
+    {
+     "x": 2855,
+     "y": 3945
+    }
+   ],
+   "radius": 40,
+   "factor": 0,
+   "key": "wts2023_intake_fatjong",
+   "name": "法藏寺（沙田坳道）山溪进水口被山泥堵塞",
+   "name_en": "Fat Jong Temple (Shatin Pass Road) stream intake blocked by debris",
+   "role": "temporary",
+   "events": [
+    "rainstorm-2023"
+   ],
+   "from_h": 6,
+   "src": "发展局答复（民建联约晤，2023-10）：法藏寺及黄大仙祠两处进水口在大雨期间被塌陷的山泥阻塞",
+   "note": "模型中法藏寺上游山溪的径流在沙田坳道旁此处进入渠务署管网；法藏寺本身在上游 400 m（137 mPD）。"
+  }
+ ]
+}

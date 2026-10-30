@@ -1,0 +1,52 @@
+[
+ {
+  "id": "mangkhut-2018",
+  "kind": "typhoon",
+  "name_zh": "超强台风山竹（2018-09-16）",
+  "name_en": "Super Typhoon Mangkhut (16 Sep 2018)",
+  "window": {
+   "start": "2018-09-16T00:00",
+   "end": "2018-09-17T00:00"
+  }
+ },
+ {
+  "id": "hato-2017",
+  "kind": "typhoon",
+  "name_zh": "强台风天鸽（2017-08-23）",
+  "name_en": "Severe Typhoon Hato (23 Aug 2017)",
+  "window": {
+   "start": "2017-08-23T00:00",
+   "end": "2017-08-24T00:00"
+  }
+ },
+ {
+  "id": "rainstorm-2023",
+  "kind": "rainstorm",
+  "name_zh": "黑色暴雨（2023-09-07/08）",
+  "name_en": "Extreme rainstorm (7-8 Sep 2023)",
+  "window": {
+   "start": "2023-09-07T16:00",
+   "end": "2023-09-08T16:00"
+  }
+ },
+ {
+  "id": "wanda-1962",
+  "kind": "typhoon",
+  "name_zh": "台风温黛（1962-09-01）",
+  "name_en": "Typhoon Wanda (1 Sep 1962)",
+  "window": {
+   "start": "1962-09-01T00:00",
+   "end": "1962-09-02T00:00"
+  }
+ },
+ {
+  "id": "dubhe-1000",
+  "kind": "fictional",
+  "name_zh": "虚构：超强台风「天枢」千年一遇复合事件（2032-09-14）",
+  "name_en": "Fictional: Super Typhoon Dubhe, 1-in-1000-year compound event (14 Sep 2032)",
+  "window": {
+   "start": "2032-09-14T00:00",
+   "end": "2032-09-15T12:00"
+  }
+ }
+]

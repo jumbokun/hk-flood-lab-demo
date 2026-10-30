@@ -1,0 +1,106 @@
+{
+ "id": "hk-overview",
+ "name_zh": "全港概览",
+ "name_en": "Territory overview",
+ "blurb_zh": "50 米网格的全港粗略模拟，仅模拟风暴潮推进（不含降雨，50 m 网格无法可靠表达地表汇流）。",
+ "blurb_en": "Coarse 50 m territory-wide run showing the storm tide only (rainfall disabled: 50 m cells cannot resolve overland flow).",
+ "origin": {
+  "e0": 800000,
+  "n0": 800000
+ },
+ "width_m": 63750,
+ "height_m": 48000,
+ "res": 50,
+ "cols": 1275,
+ "rows": 960,
+ "lonlat_bbox": [
+  113.82531239265866,
+  22.138010287540578,
+  114.44409596615421,
+  22.571633275815447
+ ],
+ "gauge": "QUB",
+ "tide_scale": 1.0,
+ "tide_lag_min": 0,
+ "rain_mult": {
+  "rainstorm-2023": 0.0,
+  "mangkhut-2018": 0.0,
+  "hato-2017": 0.0,
+  "wanda-1962": 0.0,
+  "dubhe-1000": 0.0
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "维多利亚港 Victoria Harbour",
+   "x": 35559.6,
+   "y": 16788.4
+  },
+  {
+   "name": "吐露港 Tolo Harbour",
+   "x": 38648.6,
+   "y": 33398.9
+  },
+  {
+   "name": "大澳 Tai O",
+   "x": 3604.4,
+   "y": 12393.2
+  }
+ ],
+ "gauges": [
+  {
+   "code": "QUB",
+   "name": "Quarry Bay 鲗鱼涌",
+   "x": 40021.7,
+   "y": 16910.7
+  },
+  {
+   "code": "TPK",
+   "name": "Tai Po Kau 大埔滘",
+   "x": 37042.7,
+   "y": 33675.6
+  },
+  {
+   "code": "TBT",
+   "name": "Tsim Bei Tsui 尖鼻咀",
+   "x": 19507.2,
+   "y": 38612.4
+  },
+  {
+   "code": "SPW",
+   "name": "Shek Pik 石壁",
+   "x": 7144.3,
+   "y": 9097.4
+  },
+  {
+   "code": "TMW",
+   "name": "Tai Miu Wan 大庙湾",
+   "x": 47927.5,
+   "y": 14467.3
+  },
+  {
+   "code": "WAG",
+   "name": "Waglan Island 横澜岛",
+   "x": 49275.3,
+   "y": 4945.3
+  }
+ ],
+ "validation": {},
+ "dem_stats": {
+  "rows": 960,
+  "cols": 1275,
+  "zmin": 0.5,
+  "zmax": 953.0,
+  "sea_fraction": 0.6303635620915032,
+  "land_below_4mpd_fraction": 0.04586073137577774,
+  "exposed_shore_cells": 13182,
+  "source": "LandsD 5 m DTM"
+ },
+ "textures": {
+  "zoom": 13,
+  "tex_w": 3602,
+  "tex_h": 2712,
+  "m_per_px": 17.69850083287063,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ }
+}

@@ -1,0 +1,1240 @@
+{
+ "id": "hk-island-east",
+ "name_zh": "港岛东：杏花邨·柴湾·筲箕湾·鲤鱼门",
+ "name_en": "Eastern HK Island: Heng Fa Chuen / Chai Wan / Shau Kei Wan / Lei Yue Mun",
+ "blurb_zh": "2018 年山竹风暴潮淹没杏花邨停车场、鲤鱼门三家村；2023 年黑雨筲箕湾、柴湾严重水浸。",
+ "blurb_en": "Mangkhut (2018) storm surge flooded Heng Fa Chuen car parks and Lei Yue Mun; the Sept 2023 rainstorm inundated Shau Kei Wan and Chai Wan.",
+ "origin": {
+  "e0": 839500,
+  "n0": 813000
+ },
+ "width_m": 5500,
+ "height_m": 4500,
+ "res": 10,
+ "cols": 550,
+ "rows": 450,
+ "lonlat_bbox": [
+  114.20822983867507,
+  22.255785307479968,
+  114.26161297706138,
+  22.296404084168042
+ ],
+ "gauge": "QUB",
+ "tide_scale": 1.0,
+ "tide_lag_min": 0,
+ "rain_mult": {
+  "rainstorm-2023": 1.3,
+  "mangkhut-2018": 1.0,
+  "hato-2017": 1.0,
+  "wanda-1962": 1.0,
+  "dubhe-1000": 1.25
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "杏花邨 Heng Fa Chuen",
+   "x": 3119.1,
+   "y": 2405.5
+  },
+  {
+   "name": "鲤鱼门 Lei Yue Mun",
+   "x": 3015.8,
+   "y": 3236.0
+  },
+  {
+   "name": "筲箕湾 Shau Kei Wan",
+   "x": 2036.9,
+   "y": 2626.6
+  },
+  {
+   "name": "柴湾 Chai Wan",
+   "x": 2965.2,
+   "y": 910.5
+  },
+  {
+   "name": "小西湾 Siu Sai Wan",
+   "x": 4305.1,
+   "y": 911.1
+  }
+ ],
+ "gauges": [
+  {
+   "code": "QUB",
+   "name": "Quarry Bay 鲗鱼涌",
+   "x": 521.7,
+   "y": 3910.7
+  }
+ ],
+ "validation": {
+  "mangkhut-2018": [
+   {
+    "id": "hfc",
+    "grade": "B",
+    "basis": "天文台：海水涌入屋邨及地下停车场；HK01 图辑：地库停车场多辆汽车没顶 → ≥ 1.5 m",
+    "zh": "杏花邨地下停车场",
+    "en": "Heng Fa Chuen basement car parks",
+    "lon": 114.24123,
+    "lat": 22.27767,
+    "depth": 1.5,
+    "cls": "severe",
+    "ug": "hfc_cp",
+    "src": "HKO TC report 2018: sea water entered the estate & underground car parks; HK01 2018-09-16 photo report: cars in the basement car park fully submerged (沒頂) -> depth >= 1.5 m",
+    "note_zh": "越浪主导：海堤顶高于静水位，越浪源项（EurOtop）落在堤顶格；报道的 1.2 m 发生在地下停车场——v0.4 起以手工数字化的地下停车场（楼面与深度为估计值）作为下沉汇，验证值取车库内水深 = 流入体积 / 楼面面积",
+    "note_en": "Wave-overtopping dominated: crest above the still-water level, EurOtop source applied on the crest cell; the reported 1.2 m was in the underground car parks, which the DTM does not contain - the model gives promenade / ground-level depths",
+    "x": 3400.5,
+    "y": 2424.5
+   },
+   {
+    "id": "lym",
+    "grade": "B",
+    "basis": "TVB 2018-09-15 标题「鲤鱼门三家村水浸及腰」；天文台：严重水浸、疏散",
+    "zh": "鲤鱼门三家村",
+    "en": "Lei Yue Mun (Sam Ka Tsuen)",
+    "lon": 114.23629,
+    "lat": 22.29166,
+    "depth": 1.0,
+    "cls": "severe",
+    "src": "HKO: serious flooding, residents evacuated; TVB 2018-09-15 headline: Sam Ka Tsuen flooded waist-deep (水浸及腰)",
+    "x": 2925.0,
+    "y": 3935.0,
+    "snapped_m": 51.0
+   },
+   {
+    "id": "ssw",
+    "grade": "C",
+    "basis": "天文台：海滨受淹、海岸设施损毁，无深度",
+    "zh": "小西湾海滨",
+    "en": "Siu Sai Wan promenade",
+    "lon": 114.252,
+    "lat": 22.265,
+    "depth": 0.5,
+    "cls": "moderate",
+    "src": "HKO: inundation & coastal damage",
+    "note_zh": "越浪主导（对 Hs 敏感）",
+    "note_en": "Wave-overtopping dominated (sensitive to Hs)",
+    "x": 4595.0,
+    "y": 1075.0,
+    "snapped_m": 99.0
+   },
+   {
+    "id": "skw",
+    "grade": "C",
+    "basis": "新闻：水浸，无深度",
+    "zh": "筲箕湾避风塘一带",
+    "en": "Shau Kei Wan typhoon shelter",
+    "lon": 114.227,
+    "lat": 22.2825,
+    "depth": 0.3,
+    "cls": "moderate",
+    "src": "press",
+    "x": 1935.0,
+    "y": 2985.0,
+    "snapped_m": 26.0
+   }
+  ],
+  "hato-2017": [
+   {
+    "id": "lym",
+    "grade": "B",
+    "basis": "天文台/新闻：海水及膝至及腰；2024 年报道居民忆述「超过 1 米」",
+    "zh": "鲤鱼门三家村",
+    "en": "Lei Yue Mun (Sam Ka Tsuen)",
+    "lon": 114.23629,
+    "lat": 22.29166,
+    "depth": 1.0,
+    "cls": "severe",
+    "src": "HKO/press: knee-to-waist deep sea water; residents of Ma Wan / Ma Pui villages recalled flooding over 1 m (press 2024)",
+    "x": 2925.0,
+    "y": 3935.0,
+    "snapped_m": 51.0
+   },
+   {
+    "id": "hfc",
+    "grade": "B",
+    "basis": "HK01 2025 回顾：2017 年天鸽杏花邨地下停车场「几乎被水注满」、数十辆车报废 → 约 2 m",
+    "zh": "杏花邨地下停车场",
+    "en": "Heng Fa Chuen basement car park",
+    "lon": 114.24123,
+    "lat": 22.27767,
+    "depth": 2.0,
+    "cls": "severe",
+    "ug": "hfc_cp",
+    "src": "HK01 2025-09 retrospective: in Hato (2017) a Heng Fa Chuen basement car park was almost filled with water, dozens of cars written off -> ~2 m",
+    "note_zh": "越浪主导（对 Hs 敏感）；海滨步道当时约 0.4 m（新闻）",
+    "note_en": "Wave-overtopping dominated (sensitive to Hs); the promenade itself was about 0.4 m (press)",
+    "x": 3400.5,
+    "y": 2424.5
+   }
+  ],
+  "rainstorm-2023": [
+   {
+    "id": "skw",
+    "grade": "C",
+    "basis": "新闻影片：东大街约及膝，未给数字；渠务署 2023-10 记录亦列东大街 62–74 号",
+    "zh": "筲箕湾东大街",
+    "en": "Shau Kei Wan Main Street East",
+    "lon": 114.227,
+    "lat": 22.28,
+    "depth": 0.5,
+    "cls": "moderate",
+    "src": "press",
+    "x": 1933.9,
+    "y": 2681.9
+   },
+   {
+    "id": "cwr",
+    "grade": "B",
+    "basis": "新闻：巴士被淹、乘客被困 → 约 1 m 以上",
+    "zh": "柴湾道 / 兴华邨",
+    "en": "Chai Wan Road / Hing Wah Estate",
+    "lon": 114.236,
+    "lat": 22.263,
+    "depth": 1.0,
+    "cls": "severe",
+    "src": "press: bus submerged, passengers trapped",
+    "x": 2862.1,
+    "y": 799.8
+   },
+   {
+    "id": "cwm",
+    "grade": "C",
+    "basis": "新闻：环翠道水浸，无深度",
+    "zh": "柴湾环翠道",
+    "en": "Wan Tsui Road, Chai Wan",
+    "lon": 114.239,
+    "lat": 22.265,
+    "depth": 0.5,
+    "cls": "moderate",
+    "src": "press",
+    "x": 3171.2,
+    "y": 1021.4
+   },
+   {
+    "id": "cwmb",
+    "grade": "B",
+    "basis": "RTHK / 英文虎报 2023-09-08：环翠邨地下停车场数十辆车几乎没顶 → 约 1.5 m；9 月 14 日红雨再淹",
+    "zh": "环翠邨地下停车场",
+    "en": "Wan Tsui Estate underground car park",
+    "lon": 114.239,
+    "lat": 22.265,
+    "depth": 1.5,
+    "cls": "severe",
+    "ug": "cwm_cp",
+    "src": "RTHK 2023-09-08: underground car park at Wan Tsui Estate flooded, dozens of vehicles almost completely submerged",
+    "note_zh": "地库水深 = 流入体积 / 估计楼面 7,500 m²",
+    "note_en": "Basement depth = inflow volume / estimated 7,500 m2 floor",
+    "x": 3171.2,
+    "y": 1021.4
+   },
+   {
+    "id": "swh",
+    "grade": "C",
+    "basis": "新闻：西湾河水浸，无深度",
+    "zh": "西湾河",
+    "en": "Sai Wan Ho",
+    "lon": 114.221,
+    "lat": 22.283,
+    "depth": 0.3,
+    "cls": "minor",
+    "src": "press",
+    "x": 1445.0,
+    "y": 3035.0,
+    "snapped_m": 131.0
+   },
+   {
+    "id": "hfc",
+    "grade": "C",
+    "basis": "新闻：轻微积水，无深度",
+    "zh": "杏花邨",
+    "en": "Heng Fa Chuen",
+    "lon": 114.24123,
+    "lat": 22.27767,
+    "depth": 0.2,
+    "cls": "minor",
+    "src": "press",
+    "x": 3400.5,
+    "y": 2424.5
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 450,
+  "cols": 550,
+  "zmin": 1.2013391256332397,
+  "zmax": 530.2504272460938,
+  "sea_fraction": 0.383220202020202,
+  "land_below_4mpd_fraction": 0.03737889199688182,
+  "exposed_shore_cells": 1019,
+  "cedd_coverage": 0.6085333333333334,
+  "shore_cells": 1491,
+  "sinks_filled": 412,
+  "water_polygons": 10,
+  "tidal_cells_added": 0,
+  "max_z": 6.0,
+  "dsd_conduits": 5166,
+  "dsd_trunks": 1445,
+  "dsd_trunk_cells": 2986,
+  "dsd_chains": 91,
+  "dsd_catchment_km2": 1.36,
+  "channel_cells": 5407,
+  "by_class": {
+   "stream/stream": 1620,
+   "canal/drain": 543,
+   "canal/canal": 349,
+   "river/river": 0
+  },
+  "network_s": 2.1,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 10,
+   "buildings_rasterised": 2630,
+   "threshold_counts": {
+    "0.15": 62,
+    "0.3": 208,
+    "0.5": 103,
+    "1.0": 2257
+   },
+   "raised_cells": 2832,
+   "cell_spread_p50_m": 3.81,
+   "cell_spread_p90_m": 6.9,
+   "s": 9.6
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 2630,
+  "mean_height": 31.452965779467682,
+  "footprint_fraction": 0.09755555555555556
+ },
+ "textures": {
+  "zoom": 16,
+  "tex_w": 2488,
+  "tex_h": 2036,
+  "m_per_px": 2.210610932475884,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "康怡花園俱樂部停車場 Kornhill Recreation Club Car Park",
+   "type": "carpark",
+   "x": 623.1,
+   "y": 2725.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "南豐新邨停車場 Nan Fung Sun Chuen Car Park",
+   "type": "carpark",
+   "x": 610.7,
+   "y": 2931.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "HK Aqua Plaza",
+   "type": "carpark",
+   "x": 511.8,
+   "y": 3071.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "濠豐大廈 Oxford House",
+   "type": "carpark",
+   "x": 531.0,
+   "y": 3460.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "FWD Tower",
+   "type": "carpark",
+   "x": 316.0,
+   "y": 3471.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f5",
+   "name": "港鐵鰂魚涌配電站 MTR Quarry Bay Substation",
+   "type": "power",
+   "x": 526.7,
+   "y": 3859.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f6",
+   "name": "鰂魚涌 Quarry Bay",
+   "type": "mtr",
+   "x": 77.8,
+   "y": 3585.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f7",
+   "name": "太古城中心停車場 Cityplaza Carpark",
+   "type": "carpark",
+   "x": 938.2,
+   "y": 3424.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f8",
+   "name": "康怡廣場 Kornhill Plaza",
+   "type": "carpark",
+   "x": 858.3,
+   "y": 3145.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f9",
+   "name": "太古 Tai Koo",
+   "type": "mtr",
+   "x": 833.3,
+   "y": 3195.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f10",
+   "name": "太古城第七期 Taikoo Shing Stage VII",
+   "type": "carpark",
+   "x": 793.7,
+   "y": 3525.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f11",
+   "name": "太古電站 Taikoo Station Building",
+   "type": "power",
+   "x": 710.5,
+   "y": 3322.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f12",
+   "name": "東熹苑多層停車場 Tung Hei Court Multi-storey Car Park",
+   "type": "carpark",
+   "x": 1139.0,
+   "y": 2707.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f13",
+   "name": "太古城第八期 Taikoo Shing Stage VIII",
+   "type": "carpark",
+   "x": 1087.6,
+   "y": 3526.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f14",
+   "name": "太古城第九A期 Taikoo Shing Stage IXA",
+   "type": "carpark",
+   "x": 1215.5,
+   "y": 3526.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f15",
+   "name": "西灣河變壓站 Sai Wan Ho Substation",
+   "type": "power",
+   "x": 1242.5,
+   "y": 3064.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f16",
+   "name": "西灣河 Sai Wan Ho",
+   "type": "mtr",
+   "x": 1448.3,
+   "y": 2862.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f17",
+   "name": "西灣河渡輪碼頭 Sai Wan Ho Ferry Pier",
+   "type": "ferry",
+   "x": 1633.7,
+   "y": 3387.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f18",
+   "name": "嘉亨灣 Grand Promenade",
+   "type": "bus",
+   "x": 1693.5,
+   "y": 3222.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f19",
+   "name": "愛東停車場 Oi Tung Car Park",
+   "type": "carpark",
+   "x": 1918.5,
+   "y": 2756.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f20",
+   "name": "筲箕灣避風塘一號梯台 Shau Kei Wan Typhoon Shelter Landing Number 1",
+   "type": "ferry",
+   "x": 1759.3,
+   "y": 3110.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f21",
+   "name": "油塘（崇德圍） Yau Tong (Shung Tak Wai)",
+   "type": "bus",
+   "x": 2677.3,
+   "y": 4252.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f22",
+   "name": "康翠臺 Greenwood Terrace",
+   "type": "bus",
+   "x": 2763.0,
+   "y": 1182.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f23",
+   "name": "祥利街變電站 Cheung Lee Street Substation",
+   "type": "power",
+   "x": 2793.5,
+   "y": 1109.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f24",
+   "name": "興華(1)邨停車場 Hing Wah (1) Estate Car Park",
+   "type": "carpark",
+   "x": 2770.3,
+   "y": 844.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f25",
+   "name": "興華邨 Hing Wah Estate",
+   "type": "bus",
+   "x": 2544.0,
+   "y": 928.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f26",
+   "name": "柏架電力站 Parker Substation",
+   "type": "power",
+   "x": 2361.0,
+   "y": 1994.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f27",
+   "name": "筲箕灣 Shau Kei Wan",
+   "type": "mtr",
+   "x": 2129.5,
+   "y": 2588.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f28",
+   "name": "筲箕灣 Shau Kei Wan",
+   "type": "bus",
+   "x": 2057.8,
+   "y": 2480.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f29",
+   "name": "筲箕灣分區電力站 Shaukeiwan Zone Substation",
+   "type": "power",
+   "x": 1805.5,
+   "y": 2522.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f30",
+   "name": "耀東邨二號停車場 Yiu Tung Estate Car Park No.2",
+   "type": "carpark",
+   "x": 1734.3,
+   "y": 2380.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f31",
+   "name": "耀東邨 Yiu Tung Estate",
+   "type": "bus",
+   "x": 1515.0,
+   "y": 2436.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f32",
+   "name": "歌連臣角火葬場西變電站 Cape Collinson Crematorium W Substation",
+   "type": "power",
+   "x": 2223.0,
+   "y": 252.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f33",
+   "name": "柴灣（東） Chai Wan (East)",
+   "type": "bus",
+   "x": 3833.2,
+   "y": 1204.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f34",
+   "name": "小西灣邨巴士總站 Siu Sai Wan Estate Bus Terminus",
+   "type": "bus",
+   "x": 4213.8,
+   "y": 803.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f35",
+   "name": "杏花邨 Heng Fa Chuen",
+   "type": "mtr",
+   "x": 3249.3,
+   "y": 2310.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f36",
+   "name": "小巴站 Minibus Station",
+   "type": "bus",
+   "x": 3387.7,
+   "y": 2179.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f37",
+   "name": "杏花邨電站 Heng Fa Chuen Station Building",
+   "type": "power",
+   "x": 3456.9,
+   "y": 1883.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f38",
+   "name": "柴灣站 Chai Wan Station",
+   "type": "bus",
+   "x": 2983.3,
+   "y": 1013.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f39",
+   "name": "柴灣 Chai Wan",
+   "type": "mtr",
+   "x": 2969.7,
+   "y": 960.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f40",
+   "name": "鯉魚門梯台 Lei Yue Mun Landing",
+   "type": "ferry",
+   "x": 3009.8,
+   "y": 3545.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f41",
+   "name": "三家村碼頭 Sam Ka Tsuen Pier",
+   "type": "ferry",
+   "x": 2909.1,
+   "y": 3877.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f42",
+   "name": "Island Resort Mall",
+   "type": "mall",
+   "x": 4379.9,
+   "y": 1154.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f43",
+   "name": "Shau Ki Wan Plaza 筲箕灣天悅廣場",
+   "type": "mall",
+   "x": 1870.9,
+   "y": 2450.6,
+   "conf": 0.99
+  },
+  {
+   "id": "f44",
+   "name": "Paradise Mall",
+   "type": "mall",
+   "x": 3285.6,
+   "y": 2298.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f45",
+   "name": "培僑小學",
+   "type": "school",
+   "x": 4315.2,
+   "y": 925.4,
+   "conf": 0.99
+  },
+  {
+   "id": "f46",
+   "name": "Kornhill Plaza",
+   "type": "mall",
+   "x": 797.3,
+   "y": 3206.6,
+   "conf": 0.99
+  },
+  {
+   "id": "f47",
+   "name": "聖公會柴灣聖米迦勒小學",
+   "type": "school",
+   "x": 3614.3,
+   "y": 1074.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f48",
+   "name": "Pamela Youde Nethersole Eastern Hospital",
+   "type": "hospital",
+   "x": 2876.8,
+   "y": 1527.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f49",
+   "name": "Hing Wah Plaza",
+   "type": "mall",
+   "x": 2829.9,
+   "y": 732.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f50",
+   "name": "Taikoo Primary School",
+   "type": "school",
+   "x": 677.4,
+   "y": 3119.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f51",
+   "name": "Manly Plaza",
+   "type": "mall",
+   "x": 361.4,
+   "y": 3260.5,
+   "conf": 0.98
+  },
+  {
+   "id": "f52",
+   "name": "東區警區 Eastern Police District",
+   "type": "police",
+   "x": 84.7,
+   "y": 3995.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f53",
+   "name": "Chong Gene Hang College",
+   "type": "school",
+   "x": 2981.8,
+   "y": 1358.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f54",
+   "name": "救世軍中原慈善基金學校",
+   "type": "school",
+   "x": 3014.4,
+   "y": 692.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f55",
+   "name": "Carmel School - Elsa High School Campus",
+   "type": "school",
+   "x": 2211.9,
+   "y": 2295.8,
+   "conf": 0.97
+  },
+  {
+   "id": "f56",
+   "name": "愛秩序灣官立小學",
+   "type": "school",
+   "x": 2102.0,
+   "y": 2958.7,
+   "conf": 0.97
+  },
+  {
+   "id": "f57",
+   "name": "小西灣郵政局",
+   "type": "mall",
+   "x": 4136.3,
+   "y": 873.7,
+   "conf": 0.97
+  },
+  {
+   "id": "f58",
+   "name": "St. Mark's School",
+   "type": "school",
+   "x": 1890.7,
+   "y": 2875.6,
+   "conf": 0.97
+  },
+  {
+   "id": "f59",
+   "name": "迦南幼稚園 ( 小西灣 )",
+   "type": "school",
+   "x": 4491.9,
+   "y": 655.5,
+   "conf": 0.97
+  },
+  {
+   "id": "f60",
+   "name": "MAGART International Kindergarten",
+   "type": "school",
+   "x": 755.7,
+   "y": 2803.4,
+   "conf": 0.97
+  },
+  {
+   "id": "f61",
+   "name": "Domain Mall",
+   "type": "mall",
+   "x": 3141.4,
+   "y": 4499.6,
+   "conf": 0.97
+  },
+  {
+   "id": "f62",
+   "name": "永利中心購物商場",
+   "type": "mall",
+   "x": 3106.3,
+   "y": 867.7,
+   "conf": 0.96
+  },
+  {
+   "id": "f63",
+   "name": "天主教明我幼稚園",
+   "type": "school",
+   "x": 1446.2,
+   "y": 2778.5,
+   "conf": 0.96
+  },
+  {
+   "id": "f64",
+   "name": "啟思幼稚園",
+   "type": "school",
+   "x": 3014.2,
+   "y": 2450.3,
+   "conf": 0.96
+  },
+  {
+   "id": "f65",
+   "name": "路德會聖十架學校 Holy Cross Lutheran School",
+   "type": "school",
+   "x": 2367.9,
+   "y": 2100.7,
+   "conf": 0.96
+  },
+  {
+   "id": "f66",
+   "name": "Hamilton Hill International Kindergarten",
+   "type": "school",
+   "x": 749.3,
+   "y": 3353.8,
+   "conf": 0.96
+  },
+  {
+   "id": "f67",
+   "name": "西灣河消防局",
+   "type": "fire",
+   "x": 1171.3,
+   "y": 3005.8,
+   "conf": 0.96
+  },
+  {
+   "id": "f68",
+   "name": "小西灣社區會堂",
+   "type": "community",
+   "x": 4220.1,
+   "y": 891.9,
+   "conf": 0.95
+  },
+  {
+   "id": "f69",
+   "name": "Lei Yue Mun Methodist Kindergarten",
+   "type": "school",
+   "x": 3265.9,
+   "y": 4260.1,
+   "conf": 0.95
+  },
+  {
+   "id": "f70",
+   "name": "Shau Kei Wan Centre 筲箕灣中心",
+   "type": "mall",
+   "x": 2200.1,
+   "y": 2347.3,
+   "conf": 0.95
+  },
+  {
+   "id": "f71",
+   "name": "寶血女子中學",
+   "type": "school",
+   "x": 3786.8,
+   "y": 991.9,
+   "conf": 0.95
+  },
+  {
+   "id": "f72",
+   "name": "柴灣消防局",
+   "type": "fire",
+   "x": 3617.1,
+   "y": 1208.3,
+   "conf": 0.95
+  },
+  {
+   "id": "f73",
+   "name": "Chai Wan Division Police Station",
+   "type": "police",
+   "x": 2822.2,
+   "y": 1401.0,
+   "conf": 0.95
+  },
+  {
+   "id": "f74",
+   "name": "太古城中心",
+   "type": "mall",
+   "x": 3021.5,
+   "y": 1037.6,
+   "conf": 0.94
+  },
+  {
+   "id": "f75",
+   "name": "Marine Regional Headquarters",
+   "type": "police",
+   "x": 1783.5,
+   "y": 3271.6,
+   "conf": 0.94
+  },
+  {
+   "id": "f76",
+   "name": "Tai On Building Shopping Mall",
+   "type": "mall",
+   "x": 1408.3,
+   "y": 2996.1,
+   "conf": 0.94
+  },
+  {
+   "id": "f77",
+   "name": "筲箕灣消防局",
+   "type": "fire",
+   "x": 2417.5,
+   "y": 1957.2,
+   "conf": 0.93
+  },
+  {
+   "id": "f78",
+   "name": "愛秩序灣社區會堂",
+   "type": "community",
+   "x": 1751.0,
+   "y": 2895.3,
+   "conf": 0.93
+  },
+  {
+   "id": "f79",
+   "name": "Chaiwan Eastern Hospital",
+   "type": "hospital",
+   "x": 266.8,
+   "y": 3638.5,
+   "conf": 0.91
+  },
+  {
+   "id": "f80",
+   "name": "Buddhist Chung Wah Kornhill Primary School",
+   "type": "school",
+   "x": 596.7,
+   "y": 2801.1,
+   "conf": 0.89
+  },
+  {
+   "id": "f81",
+   "name": "Inno Secondary School",
+   "type": "school",
+   "x": 2871.8,
+   "y": 4215.8,
+   "conf": 0.89
+  },
+  {
+   "id": "f82",
+   "name": "Wesley College",
+   "type": "school",
+   "x": 4435.4,
+   "y": 924.9,
+   "conf": 0.88
+  },
+  {
+   "id": "f83",
+   "name": "翠灣護老院",
+   "type": "elderly",
+   "x": 3312.3,
+   "y": 1343.7,
+   "conf": 0.88
+  },
+  {
+   "id": "f84",
+   "name": "翠灣護老院",
+   "type": "elderly",
+   "x": 2552.8,
+   "y": 1209.4,
+   "conf": 0.88
+  },
+  {
+   "id": "f85",
+   "name": "啟信學校",
+   "type": "school",
+   "x": 1359.7,
+   "y": 3110.3,
+   "conf": 0.87
+  },
+  {
+   "id": "f86",
+   "name": "HKUGA Primary School",
+   "type": "school",
+   "x": 3240.9,
+   "y": 1076.5,
+   "conf": 0.87
+  },
+  {
+   "id": "f87",
+   "name": "Shau Kei Wan East Government Secondary School",
+   "type": "school",
+   "x": 2475.0,
+   "y": 1861.8,
+   "conf": 0.86
+  },
+  {
+   "id": "f88",
+   "name": "Hong Kong Sanatorium Hospital A Kung Ngam",
+   "type": "hospital",
+   "x": 2517.1,
+   "y": 2977.3,
+   "conf": 0.82
+  },
+  {
+   "id": "f89",
+   "name": "Chaiwan Hospital",
+   "type": "hospital",
+   "x": 4191.7,
+   "y": 955.5,
+   "conf": 0.8
+  },
+  {
+   "id": "f90",
+   "name": "交通意外及筲箕灣報案中心",
+   "type": "police",
+   "x": 1238.9,
+   "y": 3110.1,
+   "conf": 0.78
+  },
+  {
+   "id": "f91",
+   "name": "養和醫院",
+   "type": "hospital",
+   "x": 3030.8,
+   "y": 1388.8,
+   "conf": 0.74
+  },
+  {
+   "id": "f92",
+   "name": "Quarry Bay Vehicle Pound",
+   "type": "police",
+   "x": 527.2,
+   "y": 3690.3,
+   "conf": 0.65
+  },
+  {
+   "id": "f93",
+   "name": "Sai Wan Ho Bless Home for the Elderly",
+   "type": "elderly",
+   "x": 1494.4,
+   "y": 2829.9,
+   "conf": 0.62
+  },
+  {
+   "id": "f94",
+   "name": "潤德護老院",
+   "type": "elderly",
+   "x": 2867.0,
+   "y": 638.4,
+   "conf": 0.57
+  },
+  {
+   "id": "f95",
+   "name": "康福護老之家有限公司",
+   "type": "elderly",
+   "x": 2262.0,
+   "y": 2680.1,
+   "conf": 0.49
+  },
+  {
+   "id": "hfc_cp",
+   "name": "杏花邨地下停车场 Heng Fa Chuen basement car park",
+   "type": "underground",
+   "x": 3425.0,
+   "y": 2385.0,
+   "ug": {
+    "area": 30000,
+    "cap": 3.0,
+    "cells": [
+     131242,
+     138389,
+     137289
+    ],
+    "entrances": 3,
+    "src": "HKO TC report 2018: sea water entered the estate and underground car parks (plural); press: cars submerged. Floor area from ~1,200 private car spaces (Eastern DC paper DFMC 19/2011: 400 spaces = about a third of the estate) x 25 m2 per space incl. aisles",
+    "note_zh": "楼面面积与可用深度为估计值；入口放在报道位置 150 m 内最低的街道格",
+    "note_en": "Floor area and usable depth are estimates; entrance on the lowest street cell within 150 m of the reported spot"
+   }
+  },
+  {
+   "id": "cwm_cp",
+   "name": "环翠邨地下停车场 Wan Tsui Estate underground car park",
+   "type": "underground",
+   "x": 3275.0,
+   "y": 1115.0,
+   "ug": {
+    "area": 7500,
+    "cap": 3.0,
+    "cells": [
+     61377,
+     54780
+    ],
+    "entrances": 2,
+    "src": "RTHK 2023-09-08 / 09-14 and The Standard: underground car park at Wan Tsui Estate flooded in the black rainstorm, dozens of vehicles almost completely submerged; flooded again on 14 Sept",
+    "note_zh": "约 300 个车位 × 25 m² 的估计楼面",
+    "note_en": "Estimated floor: ~300 spaces x 25 m2"
+   }
+  }
+ ],
+ "defences": [
+  {
+   "id": "lym_seawall",
+   "zh": "鲤鱼门三家村石筑海堤",
+   "en": "Lei Yue Mun (Sam Ka Tsuen) rock seawall",
+   "x": 2964.0,
+   "y": 3845.0,
+   "height_m": 1.0,
+   "built": "2018-06",
+   "in_dtm": true,
+   "cells": [
+    221954,
+    221955,
+    221403,
+    221406,
+    220852,
+    220857,
+    220308,
+    219759,
+    219210,
+    218629,
+    218661,
+    218080,
+    218112,
+    217531,
+    217562,
+    216982,
+    217011,
+    216433,
+    215884,
+    215892,
+    215910,
+    215335,
+    215341,
+    215360,
+    214786,
+    214791,
+    214237,
+    214242,
+    213688,
+    213693,
+    213139,
+    213144,
+    213155,
+    213156,
+    212590,
+    212595,
+    212605,
+    212041,
+    212046,
+    211492,
+    211497,
+    210943,
+    210948,
+    210394,
+    210398,
+    209845,
+    209849,
+    209853,
+    209296,
+    208747,
+    208748,
+    208201,
+    207099,
+    207100,
+    206549,
+    205997,
+    205998,
+    205447,
+    204348,
+    203797,
+    202696,
+    202145,
+    201595,
+    201044,
+    200494,
+    199944
+   ],
+   "src": "CEDD: rock seawall and gabion wall built within 9 months of Hato (press 2018 / 2024); crest height not published, 1.0 m assumed"
+  },
+  {
+   "id": "hfc_wavewall",
+   "zh": "杏花邨沿岸挡浪墙及挡水设施（350 m，2026）",
+   "en": "Heng Fa Chuen wave wall and flood facilities (350 m, 2026)",
+   "x": 3397.4,
+   "y": 2427.8,
+   "height_m": 1.2,
+   "built": "2026-12",
+   "in_dtm": false,
+   "cells": [
+    145526,
+    145527,
+    144978,
+    144429,
+    143880,
+    143881,
+    143332,
+    143333,
+    142784,
+    142236,
+    141687,
+    140588,
+    140038,
+    138389,
+    137839,
+    135640,
+    133441,
+    131242,
+    124645,
+    120797,
+    120248
+   ],
+   "src": "Sing Tao 2025-03: 350 m wave wall and flood facilities, target completion 2026; height not published, 1.2 m assumed"
+  }
+ ]
+}

@@ -1,0 +1,1044 @@
+{
+ "id": "tseung-kwan-o",
+ "name_zh": "将军澳南·日出康城",
+ "name_en": "Tseung Kwan O South / LOHAS Park",
+ "blurb_zh": "山竹期间将军澳南海滨长廊与地下停车场被海水淹没。",
+ "blurb_en": "During Mangkhut sea water poured over the TKO South promenade into basement car parks.",
+ "origin": {
+  "e0": 843500,
+  "n0": 815500
+ },
+ "width_m": 4500,
+ "height_m": 5000,
+ "res": 10,
+ "cols": 450,
+ "rows": 500,
+ "lonlat_bbox": [
+  114.24704739826109,
+  22.278349789823064,
+  114.2907480467656,
+  22.323478024301984
+ ],
+ "gauge": "QUB",
+ "tide_scale": 1.05,
+ "tide_lag_min": -10,
+ "rain_mult": {
+  "rainstorm-2023": 1.15,
+  "dubhe-1000": 1.15
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "日出康城 LOHAS Park",
+   "x": 2261.2,
+   "y": 1955.7
+  },
+  {
+   "name": "将军澳南 TKO South",
+   "x": 1539.5,
+   "y": 2619.7
+  },
+  {
+   "name": "调景岭 Tiu Keng Leng",
+   "x": 509.0,
+   "y": 2840.6
+  },
+  {
+   "name": "坑口 Hang Hau",
+   "x": 1847.8,
+   "y": 4059.4
+  }
+ ],
+ "gauges": [],
+ "validation": {
+  "mangkhut-2018": [
+   {
+    "id": "tkos",
+    "grade": "C",
+    "basis": "渠务署答复：越堤浪经海滨公园涌入唐贤街、唐俊街、至善街，无深度",
+    "zh": "将军澳南海滨长廊",
+    "en": "TKO South waterfront promenade",
+    "lon": 114.262,
+    "lat": 22.302,
+    "depth": 0.8,
+    "cls": "moderate",
+    "src": "HKO: sea water entered estates & car parks in TKO south",
+    "x": 1515.0,
+    "y": 2545.0,
+    "snapped_m": 79.0
+   },
+   {
+    "id": "lohas",
+    "grade": "B",
+    "basis": "新闻：车辆没顶 → ≥ 1 m",
+    "zh": "日出康城停车场",
+    "en": "LOHAS Park car park",
+    "lon": 114.269,
+    "lat": 22.296,
+    "depth": 1.0,
+    "cls": "severe",
+    "ug": "lohas_cp",
+    "src": "press: submerged vehicles",
+    "note_zh": "地下停车场：v0.4 起作为下沉汇（楼面与深度为估计值），验证值为车库内水深",
+    "note_en": "Underground car park: not represented in the DTM",
+    "x": 2215.0,
+    "y": 2065.0,
+    "snapped_m": 119.0
+   }
+  ],
+  "hato-2017": [
+   {
+    "id": "tkos",
+    "grade": "C",
+    "basis": "新闻：轻微，无深度",
+    "zh": "将军澳南海滨",
+    "en": "TKO South promenade",
+    "lon": 114.262,
+    "lat": 22.302,
+    "depth": 0.2,
+    "cls": "minor",
+    "src": "press",
+    "x": 1515.0,
+    "y": 2545.0,
+    "snapped_m": 79.0
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 500,
+  "cols": 450,
+  "zmin": 1.2013391256332397,
+  "zmax": 341.1728210449219,
+  "sea_fraction": 0.23881777777777777,
+  "land_below_4mpd_fraction": 0.020768862471243564,
+  "exposed_shore_cells": 1099,
+  "cedd_coverage": 0.7561333333333333,
+  "shore_cells": 1253,
+  "sinks_filled": 610,
+  "water_polygons": 14,
+  "tidal_cells_added": 0,
+  "max_z": 6.0,
+  "dsd_conduits": 2814,
+  "dsd_trunks": 1830,
+  "dsd_trunk_cells": 4121,
+  "dsd_chains": 51,
+  "dsd_catchment_km2": 0.79,
+  "channel_cells": 6430,
+  "by_class": {
+   "stream/stream": 631,
+   "canal/drain": 1581,
+   "canal/canal": 0,
+   "river/river": 110
+  },
+  "network_s": 1.7,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 10,
+   "buildings_rasterised": 3541,
+   "threshold_counts": {
+    "0.15": 25,
+    "0.3": 64,
+    "0.5": 78,
+    "1.0": 3374
+   },
+   "raised_cells": 4185,
+   "cell_spread_p50_m": 2.45,
+   "cell_spread_p90_m": 5.67,
+   "s": 10.0
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 3541,
+  "mean_height": 23.46085851454391,
+  "footprint_fraction": 0.12163555555555555
+ },
+ "textures": {
+  "zoom": 16,
+  "tex_w": 2036,
+  "tex_h": 2262,
+  "m_per_px": 2.2102161100196462,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "調景嶺 Tiu Keng Leng",
+   "type": "mtr",
+   "x": 547.2,
+   "y": 2849.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "調景嶺站 Tiu Keng Leng Station",
+   "type": "bus",
+   "x": 524.8,
+   "y": 2954.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "彩明商場停車場 Choi Ming Shopping Centre Car Park",
+   "type": "carpark",
+   "x": 546.7,
+   "y": 3205.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "彩明苑多層停車場 Choi Ming Court Multi-storey Car Park",
+   "type": "carpark",
+   "x": 849.5,
+   "y": 3344.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "翠善街停車場 Chui Shin Street Car Park",
+   "type": "carpark",
+   "x": 829.8,
+   "y": 2927.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f5",
+   "name": "翠嶺路變電站 Chui Ling Road Substation",
+   "type": "power",
+   "x": 751.7,
+   "y": 2906.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f6",
+   "name": "將軍澳南梯台 Tseung Kwan O South Landing",
+   "type": "ferry",
+   "x": 1445.0,
+   "y": 2530.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f7",
+   "name": "將軍澳市中心變電站 Tseung Kwan O Town Centre Substation",
+   "type": "power",
+   "x": 1111.9,
+   "y": 3466.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f8",
+   "name": "尚德總站 Sheung Tak Bus Terminus",
+   "type": "bus",
+   "x": 1287.9,
+   "y": 3641.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f9",
+   "name": "將軍澳公共運輸交匯處 Tseung Kwan O Public Transport Interchange",
+   "type": "bus",
+   "x": 1380.8,
+   "y": 3343.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f10",
+   "name": "將軍澳 Tseung Kwan O",
+   "type": "mtr",
+   "x": 1324.8,
+   "y": 3213.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f11",
+   "name": "寶盈花園多層停車場 Bauhinia Garden Multi-Storey Car Park",
+   "type": "carpark",
+   "x": 1567.6,
+   "y": 3223.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f12",
+   "name": "富康花園多層停車場 Beverly Garden Multi-storey Car Park",
+   "type": "carpark",
+   "x": 1594.0,
+   "y": 3568.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f13",
+   "name": "坑口 Hang Hau",
+   "type": "mtr",
+   "x": 1814.6,
+   "y": 4013.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f14",
+   "name": "將軍澳饋電站 Tseung Kwan O Infeed Sub-station",
+   "type": "power",
+   "x": 1745.2,
+   "y": 3458.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f15",
+   "name": "翠林 Tsui Lam",
+   "type": "bus",
+   "x": 234.2,
+   "y": 4905.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f16",
+   "name": "Tsui Lam Estate Car Park A",
+   "type": "carpark",
+   "x": 250.3,
+   "y": 4893.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f17",
+   "name": "康盛花園巴士總站 Hong Sing Garden Bus Terminus",
+   "type": "bus",
+   "x": 722.4,
+   "y": 4442.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f18",
+   "name": "都會豪庭停車場 The Metropolis Car Park",
+   "type": "carpark",
+   "x": 1042.3,
+   "y": 4829.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f19",
+   "name": "叠翠軒停車場 The Pinnacle Car Park",
+   "type": "carpark",
+   "x": 1200.9,
+   "y": 4703.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f20",
+   "name": "新都城第2期停車場 Metro City Phase 2 Car Park",
+   "type": "carpark",
+   "x": 1254.1,
+   "y": 4856.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f21",
+   "name": "寶林 Po Lam",
+   "type": "bus",
+   "x": 1100.6,
+   "y": 4988.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f22",
+   "name": "寶琳 Po Lam",
+   "type": "mtr",
+   "x": 1114.2,
+   "y": 4886.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f23",
+   "name": "景林邨多層停車場 King Lam Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 1498.8,
+   "y": 4703.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f24",
+   "name": "駿日街變電站 Chun Yat Street Substation",
+   "type": "power",
+   "x": 2381.8,
+   "y": 728.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f25",
+   "name": "將軍澳工業邨 Tseung Kwan O Industrial Estate",
+   "type": "bus",
+   "x": 2394.5,
+   "y": 548.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f26",
+   "name": "康城 LOHAS Park",
+   "type": "mtr",
+   "x": 2235.7,
+   "y": 1906.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f27",
+   "name": "康城站公共運輸交匯處 LOHAS Park Station Public Transport Interchange",
+   "type": "bus",
+   "x": 2216.9,
+   "y": 1970.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f28",
+   "name": "環保大道變電站 Wan Po Road Substation",
+   "type": "power",
+   "x": 2618.1,
+   "y": 2008.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f29",
+   "name": "清水灣 Clear Water Bay",
+   "type": "bus",
+   "x": 4119.8,
+   "y": 978.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f30",
+   "name": "百勝角路公眾停車場 Pak Shing Kok Road Public Car Park",
+   "type": "carpark",
+   "x": 2648.7,
+   "y": 2844.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f31",
+   "name": "和明苑多層停車場 Wo Ming Court Multi-storey Car Park",
+   "type": "carpark",
+   "x": 1991.4,
+   "y": 4144.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f32",
+   "name": "厚德變電站 Hau Tak Substation",
+   "type": "power",
+   "x": 2019.2,
+   "y": 4249.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f33",
+   "name": "明德邨多層停車場 Ming Tak Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 2237.5,
+   "y": 4239.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f34",
+   "name": "寶寧路停車場 Po Ning Road Car Park",
+   "type": "carpark",
+   "x": 2451.8,
+   "y": 4221.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f35",
+   "name": "坑口（北） Hang Hau (North)",
+   "type": "bus",
+   "x": 2274.7,
+   "y": 4370.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f36",
+   "name": "ESF Abacus International Kindergarten",
+   "type": "school",
+   "x": 2868.3,
+   "y": 4197.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f37",
+   "name": "TKO Plaza",
+   "type": "mall",
+   "x": 1547.7,
+   "y": 3409.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f38",
+   "name": "Nan Fung Plaza",
+   "type": "mall",
+   "x": 1747.9,
+   "y": 4021.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f39",
+   "name": "張沛松紀念中學",
+   "type": "school",
+   "x": 1180.0,
+   "y": 4599.2,
+   "conf": 0.99
+  },
+  {
+   "id": "f40",
+   "name": "Park Central",
+   "type": "mall",
+   "x": 1041.4,
+   "y": 3212.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f41",
+   "name": "King Lam Catholic Primary School",
+   "type": "school",
+   "x": 1359.0,
+   "y": 4651.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f42",
+   "name": "Tsui Lam Shopping Centre",
+   "type": "mall",
+   "x": 221.6,
+   "y": 4929.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f43",
+   "name": "華永樓 (靈實司務道寧養院)",
+   "type": "elderly",
+   "x": 922.5,
+   "y": 4096.9,
+   "conf": 0.99
+  },
+  {
+   "id": "f44",
+   "name": "Tseung Kwan O Hospital",
+   "type": "hospital",
+   "x": 2327.4,
+   "y": 4429.1,
+   "conf": 0.99
+  },
+  {
+   "id": "f45",
+   "name": "仁濟醫院陳耀星小學",
+   "type": "school",
+   "x": 2099.5,
+   "y": 4109.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f46",
+   "name": "Deborah English Kindergarten",
+   "type": "school",
+   "x": 1506.9,
+   "y": 3549.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f47",
+   "name": "保良局馮晴紀念小學",
+   "type": "school",
+   "x": 1699.5,
+   "y": 4077.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f48",
+   "name": "Beverly Anglo-Chinese Kindergarten",
+   "type": "school",
+   "x": 710.6,
+   "y": 4606.5,
+   "conf": 0.98
+  },
+  {
+   "id": "f49",
+   "name": "仁安醫院分科診所",
+   "type": "hospital",
+   "x": 1031.8,
+   "y": 4991.5,
+   "conf": 0.98
+  },
+  {
+   "id": "f50",
+   "name": "將軍澳官立小學",
+   "type": "school",
+   "x": 1682.1,
+   "y": 4413.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f51",
+   "name": "新都城中心一期 醫療用品",
+   "type": "mall",
+   "x": 1061.9,
+   "y": 4777.2,
+   "conf": 0.98
+  },
+  {
+   "id": "f52",
+   "name": "基督教宣道會香港區聯會將軍澳宣道幼稚園",
+   "type": "school",
+   "x": 2034.1,
+   "y": 4434.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f53",
+   "name": "Choi Ming Shopping Centre",
+   "type": "mall",
+   "x": 558.7,
+   "y": 3092.7,
+   "conf": 0.97
+  },
+  {
+   "id": "f54",
+   "name": "Lou Pichoun Tseung Kwan O French International Kindergarten ",
+   "type": "school",
+   "x": 1174.4,
+   "y": 2745.9,
+   "conf": 0.97
+  },
+  {
+   "id": "f55",
+   "name": "Metro City Plaza 2",
+   "type": "mall",
+   "x": 1137.3,
+   "y": 4949.0,
+   "conf": 0.97
+  },
+  {
+   "id": "f56",
+   "name": "Haven of Hope Hospital",
+   "type": "hospital",
+   "x": 969.6,
+   "y": 3986.8,
+   "conf": 0.97
+  },
+  {
+   "id": "f57",
+   "name": "香海正覺蓮社佛教正覺中學",
+   "type": "school",
+   "x": 242.4,
+   "y": 3171.6,
+   "conf": 0.96
+  },
+  {
+   "id": "f58",
+   "name": "將軍澳警署",
+   "type": "police",
+   "x": 1264.5,
+   "y": 4902.3,
+   "conf": 0.96
+  },
+  {
+   "id": "f59",
+   "name": "Papillons Square",
+   "type": "mall",
+   "x": 1528.7,
+   "y": 2766.9,
+   "conf": 0.94
+  },
+  {
+   "id": "f60",
+   "name": "Tseung Kwan O Catholic Primary School",
+   "type": "school",
+   "x": 1084.2,
+   "y": 3339.0,
+   "conf": 0.94
+  },
+  {
+   "id": "f61",
+   "name": "East Point City",
+   "type": "mall",
+   "x": 1885.0,
+   "y": 4247.0,
+   "conf": 0.93
+  },
+  {
+   "id": "f62",
+   "name": "Tseung Kwan O Methodist Primary School",
+   "type": "school",
+   "x": 1525.3,
+   "y": 2968.5,
+   "conf": 0.93
+  },
+  {
+   "id": "f63",
+   "name": "港澳信義會明道小學",
+   "type": "school",
+   "x": 681.1,
+   "y": 3234.4,
+   "conf": 0.92
+  },
+  {
+   "id": "f64",
+   "name": "銀線灣廣場",
+   "type": "mall",
+   "x": 2546.5,
+   "y": 4700.7,
+   "conf": 0.92
+  },
+  {
+   "id": "f65",
+   "name": "博愛醫院陳國威小學",
+   "type": "school",
+   "x": 1116.9,
+   "y": 3842.5,
+   "conf": 0.91
+  },
+  {
+   "id": "f66",
+   "name": "The LOHAS 康城",
+   "type": "mall",
+   "x": 2339.4,
+   "y": 1880.4,
+   "conf": 0.91
+  },
+  {
+   "id": "f67",
+   "name": "天主教聖安德肋小學",
+   "type": "school",
+   "x": 182.1,
+   "y": 2879.3,
+   "conf": 0.91
+  },
+  {
+   "id": "f68",
+   "name": "Tseung Kwan O  Hospital",
+   "type": "hospital",
+   "x": 1515.4,
+   "y": 3500.3,
+   "conf": 0.91
+  },
+  {
+   "id": "f69",
+   "name": "港澳信義會小學",
+   "type": "school",
+   "x": 2011.7,
+   "y": 4568.0,
+   "conf": 0.9
+  },
+  {
+   "id": "f70",
+   "name": "Sheung Tak Shopping Center",
+   "type": "mall",
+   "x": 1236.6,
+   "y": 3589.5,
+   "conf": 0.89
+  },
+  {
+   "id": "f71",
+   "name": "Haven of Hope Woo Ping Care and Attention Home",
+   "type": "elderly",
+   "x": 2099.8,
+   "y": 4207.3,
+   "conf": 0.88
+  },
+  {
+   "id": "f72",
+   "name": "Fire and Ambulance Services Academy",
+   "type": "fire",
+   "x": 2803.0,
+   "y": 3094.6,
+   "conf": 0.86
+  },
+  {
+   "id": "f73",
+   "name": "舊調景嶺警署",
+   "type": "police",
+   "x": 504.2,
+   "y": 3423.0,
+   "conf": 0.81
+  },
+  {
+   "id": "f74",
+   "name": "將軍澳醫院 病人及社區關係部",
+   "type": "hospital",
+   "x": 1648.7,
+   "y": 4508.9,
+   "conf": 0.72
+  },
+  {
+   "id": "lohas_cp",
+   "name": "日出康城地下停车场 LOHAS Park basement car park",
+   "type": "underground",
+   "x": 2165.0,
+   "y": 2065.0,
+   "ug": {
+    "area": 10000,
+    "cap": 3.0,
+    "cells": [
+     92916,
+     93367
+    ],
+    "entrances": 2,
+    "src": "press 2018: submerged vehicles in the LOHAS Park car park",
+    "note_zh": "楼面面积与可用深度为估计值",
+    "note_en": "Floor area and usable depth are estimates"
+   }
+  },
+  {
+   "id": "tkos_cp",
+   "name": "将军澳南屋苑地下停车场 TKO South estate basement car parks",
+   "type": "underground",
+   "x": 1675.0,
+   "y": 2565.0,
+   "ug": {
+    "area": 8000,
+    "cap": 3.0,
+    "cells": [
+     115367,
+     113999,
+     114000
+    ],
+    "entrances": 3,
+    "src": "HKO TC report 2018: sea water entered estates and car parks in TKO South",
+    "note_zh": "楼面面积与可用深度为估计值",
+    "note_en": "Floor area and usable depth are estimates"
+   }
+  }
+ ],
+ "defences": [
+  {
+   "id": "tko_wavewall",
+   "zh": "将军澳海滨公园挡浪墙（600 m，1.1 m）",
+   "en": "TKO Waterfront Park wave wall (600 m, 1.1 m)",
+   "x": 1539.5,
+   "y": 2619.7,
+   "height_m": 1.1,
+   "built": "2019-12",
+   "in_dtm": true,
+   "cells": [
+    128433,
+    127532,
+    126631,
+    126180,
+    125279,
+    124378,
+    123477,
+    123489,
+    123038,
+    122576,
+    122588,
+    122137,
+    121675,
+    121687,
+    121236,
+    120774,
+    120786,
+    120335,
+    119873,
+    119884,
+    119434,
+    118972,
+    118983,
+    118533,
+    118071,
+    118082,
+    117632,
+    117170,
+    117181,
+    116682,
+    116684,
+    116685,
+    116731,
+    116236,
+    116269,
+    116280,
+    115787,
+    115818,
+    115830,
+    115337,
+    115367,
+    115379,
+    114879,
+    114887,
+    114915,
+    114929,
+    114424,
+    114429,
+    114437,
+    114438,
+    114439,
+    114440,
+    114441,
+    114452,
+    114453,
+    114454,
+    114455,
+    114456,
+    114457,
+    114458,
+    114459,
+    114460,
+    114461,
+    114462,
+    114463,
+    114478,
+    113967,
+    113968,
+    113969,
+    113972,
+    113976,
+    113977,
+    113978,
+    113998,
+    113999,
+    114000,
+    114027,
+    113543,
+    113544,
+    113545,
+    113546,
+    113547,
+    113577,
+    113126,
+    112676,
+    112225,
+    111775,
+    111324,
+    110874,
+    110423,
+    109973,
+    109523,
+    109072,
+    108622,
+    108172,
+    107722,
+    107272,
+    106822,
+    106372,
+    105922,
+    105472,
+    105022,
+    104572,
+    104122,
+    103672,
+    103223
+   ],
+   "src": "CEDD reply to Sai Kung DC 2025: 600 m long, 1.1 m high wave wall completed in 2019"
+  },
+  {
+   "id": "tko_floodwall",
+   "zh": "将军澳南内陆挡水墙（1.3 m，2026）",
+   "en": "TKO South inland flood wall (1.3 m, 2026)",
+   "x": 1539.5,
+   "y": 2619.7,
+   "height_m": 1.3,
+   "built": "2026-12",
+   "in_dtm": false,
+   "cells": [
+    128433,
+    127532,
+    126631,
+    126180,
+    125279,
+    124378,
+    123477,
+    123489,
+    123038,
+    122576,
+    122588,
+    122137,
+    121675,
+    121687,
+    121236,
+    120774,
+    120786,
+    120335,
+    119873,
+    119884,
+    119434,
+    118972,
+    118983,
+    118533,
+    118071,
+    118082,
+    117632,
+    117170,
+    117181,
+    116682,
+    116684,
+    116685,
+    116731,
+    116236,
+    116269,
+    116280,
+    115787,
+    115818,
+    115830,
+    115337,
+    115367,
+    115379,
+    114879,
+    114887,
+    114915,
+    114929,
+    114424,
+    114429,
+    114437,
+    114438,
+    114439,
+    114440,
+    114441,
+    114452,
+    114453,
+    114454,
+    114455,
+    114456,
+    114457,
+    114458,
+    114459,
+    114460,
+    114461,
+    114462,
+    114463,
+    114478,
+    113967,
+    113968,
+    113969,
+    113972,
+    113976,
+    113977,
+    113978,
+    113998,
+    113999,
+    114000,
+    114027,
+    113543,
+    113544,
+    113545,
+    113546,
+    113547,
+    113577,
+    113126,
+    112676,
+    112225,
+    111775,
+    111324,
+    110874,
+    110423,
+    109973,
+    109523,
+    109072,
+    108622,
+    108172,
+    107722,
+    107272,
+    106822,
+    106372,
+    105922,
+    105472,
+    105022,
+    104572,
+    104122,
+    103672,
+    103223
+   ],
+   "src": "CEDD reply to Sai Kung DC 2025: about 1.3 m flood wall further inland, under construction, due 2026 (placed on the shoreline cells here as an approximation)"
+  }
+ ]
+}

@@ -1,0 +1,1046 @@
+{
+ "id": "sha-tin",
+ "name_zh": "沙田·城门河",
+ "name_en": "Sha Tin / Shing Mun River",
+ "blurb_zh": "1962 年温黛吐露港风暴潮重创沙田；2018 年山竹城门河单车径、曾大屋水浸。",
+ "blurb_en": "Wanda (1962) devastated Sha Tin via a Tolo Harbour surge; Mangkhut flooded the Shing Mun River cycle track and Tsang Tai Uk.",
+ "origin": {
+  "e0": 835500,
+  "n0": 824500
+ },
+ "width_m": 6000,
+ "height_m": 6000,
+ "res": 10,
+ "cols": 600,
+ "rows": 600,
+ "lonlat_bbox": [
+  114.16941804936106,
+  22.359640157226604,
+  114.22769026325763,
+  22.413815443802985
+ ],
+ "gauge": "TPK",
+ "tide_scale": 1.05,
+ "tide_lag_min": 10,
+ "rain_mult": {
+  "rainstorm-2023": 0.85,
+  "dubhe-1000": 1.0
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "沙田市中心 Sha Tin Centre",
+   "x": 1913.8,
+   "y": 2365.3
+  },
+  {
+   "name": "曾大屋 Tsang Tai Uk",
+   "x": 2737.7,
+   "y": 1811.7
+  },
+  {
+   "name": "大围 Tai Wai",
+   "x": 986.9,
+   "y": 1479.4
+  },
+  {
+   "name": "马鞍山 Ma On Shan",
+   "x": 5722.8,
+   "y": 6684.8
+  }
+ ],
+ "gauges": [],
+ "validation": {
+  "mangkhut-2018": [
+   {
+    "id": "ttu",
+    "grade": "B",
+    "basis": "沙田区议会文件 STDC 93/2018：渠务署记旧村停车场水深 1 m 以上、警方记旧村最高水位约 1.5 m，议员称「水深超过 1 米」；均非测量",
+    "zh": "沙田曾大屋旧村停车场",
+    "en": "Tsang Tai Uk old village car park, Sha Tin",
+    "lon": 114.1952,
+    "lat": 22.37693,
+    "nosnap": true,
+    "note_zh": "取样点是围屋东侧的旧村停车场低洼处（DTM 5.1–5.3 mPD，四周道路 5.8–6.1），不是 6.0 mPD 的围屋本身。沙田区议会 STDC 93/2018：渠务署称曾大屋旧村是低洼地，雨水不能直接排入附近排水系统，先入蓄洪池再由泵房抽走；议员称当日乡公所对出的渠务署水泵已停运；渠务署记停车场水深 1 m 以上、警方记旧村最高水位约 1.5 m。沙田没有验潮站（渠务署以大埔滘 4.54 mPD 为准；沙田最高十分钟平均风速仅 58 km/h，风壅水 < 0.15 m，模型取 +5% 约 4.65 mPD），河水淹不到 5.1 mPD 的停车场：水来自本地降雨 + 泵停运（v0.8 起作为临时措施建模）",
+    "note_en": "Sample point: the low pocket of the old-village car park east of the walled house (DTM 5.1-5.3 mPD, surrounding roads 5.8-6.1), not the 6.0 mPD walled compound. Sha Tin DC paper STDC 93/2018: DSD states the old village is a low-lying spot whose runoff cannot drain directly into the local system but collects in a storage pond and is pumped out; the councillor reported the DSD pump outside the village office had stopped; DSD logged over 1 m in the car park, the Police about 1.5 m. Sha Tin has no tide gauge (DSD refers to Tai Po Kau 4.54 mPD; peak 10-min wind at Sha Tin only 58 km/h, set-up < 0.15 m, model +5% ~ 4.65 mPD): the river cannot reach the 5.1 mPD car park, the water is local rain with the pump down (modelled as a temporary measure from v0.8)",
+    "depth": 1.0,
+    "cls": "severe",
+    "src": "HKO: serious flooding, evacuations",
+    "x": 2655.3,
+    "y": 1914.7
+   },
+   {
+    "id": "smr",
+    "grade": "C",
+    "basis": "天文台：单车径与行人隧道被海水淹浸，无深度",
+    "zh": "城门河单车径（沙田）",
+    "en": "Shing Mun River cycle track",
+    "lon": 114.19704,
+    "lat": 22.38669,
+    "nosnap": true,
+    "berm": 3.5,
+    "depth": 0.7,
+    "cls": "moderate",
+    "src": "HKO: inundated cycle tracks & subways",
+    "note_zh": "城门河西岸（沙田公园以北）。单车径阶地不在数据里：CEDD LiDAR 在河道走廊无回波、LandsD 填成 5.27 mPD 平面，10 m 格与 1 m 分位数都没有阶地。按沙田区议会文件 ST 2018/094（河堤即单车径约 3–6 mPD、河边长廊 2.6 mPD 以上）取阶地 3.5 mPD：模拟值 = 模型在此处的河道峰值水位 − 3.5，即只检验沙田的潮位推算，不是地表水动力。v0.8 前此点误放在西侧 300 m 外的明渠旁",
+    "note_en": "West bank north of Sha Tin Park. The cycle-track berm is absent from the data (no LiDAR returns over the river corridor, LandsD fill at a flat 5.27 mPD, neither the 10 m cell nor the 1 m quantiles hold it). Berm taken as 3.5 mPD from Sha Tin DC paper ST 2018/094 (cycle-track embankment about 3-6 mPD, promenade 2.6 mPD or above): sim = peak modelled river level here minus 3.5, i.e. a test of the Sha Tin tide estimate, not of surface hydraulics. Before v0.8 the point sat 300 m west beside a nullah",
+    "x": 2844.7,
+    "y": 2995.5
+   }
+  ],
+  "hato-2017": [
+   {
+    "id": "smr",
+    "grade": "C",
+    "basis": "新闻：河畔水浸，无深度",
+    "zh": "城门河畔（沙田）",
+    "en": "Shing Mun River promenade",
+    "lon": 114.19704,
+    "lat": 22.38669,
+    "nosnap": true,
+    "berm": 3.5,
+    "depth": 0.3,
+    "cls": "minor",
+    "src": "press",
+    "note_zh": "与山竹同一取样点（西岸单车径阶地 3.5 mPD，模拟值 = 河道峰值水位 − 3.5）",
+    "note_en": "Same sample point as Mangkhut (west-bank cycle-track berm 3.5 mPD; sim = peak river level minus 3.5)",
+    "x": 2844.7,
+    "y": 2995.5
+   }
+  ],
+  "rainstorm-2023": [
+   {
+    "id": "twai",
+    "grade": "C",
+    "basis": "新闻：大围水浸，无深度",
+    "zh": "大围",
+    "en": "Tai Wai",
+    "lon": 114.179,
+    "lat": 22.373,
+    "depth": 0.3,
+    "cls": "minor",
+    "src": "press",
+    "x": 986.9,
+    "y": 1479.4
+   }
+  ],
+  "wanda-1962": [
+   {
+    "id": "stn",
+    "grade": "D",
+    "basis": "历史记述（沙田灾情严重、吐露港增水约 5 m CD），深度为推估",
+    "zh": "沙田旧墟 / 沙田机场（已填海重建）",
+    "en": "Old Sha Tin village & airfield (since reclaimed)",
+    "lon": 114.19,
+    "lat": 22.38,
+    "depth": 2.5,
+    "cls": "severe",
+    "src": "HKO: damage particularly severe at Sha Tin; surge ~5 m CD in Tolo Harbour",
+    "x": 2119.7,
+    "y": 2254.6
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 600,
+  "cols": 600,
+  "zmin": 1.2411290407180786,
+  "zmax": 564.634033203125,
+  "sea_fraction": 0.03844722222222222,
+  "land_below_4mpd_fraction": 0.0028339578055171176,
+  "exposed_shore_cells": 187,
+  "cedd_coverage": 0.9629166666666666,
+  "shore_cells": 191,
+  "sinks_filled": 1623,
+  "water_polygons": 28,
+  "tidal_cells_added": 9388,
+  "max_z": 6.0,
+  "dsd_conduits": 5465,
+  "dsd_trunks": 2259,
+  "dsd_trunk_cells": 6193,
+  "dsd_chains": 195,
+  "dsd_catchment_km2": 2.61,
+  "channel_cells": 12690,
+  "by_class": {
+   "stream/stream": 4035,
+   "canal/drain": 786,
+   "canal/canal": 982,
+   "river/river": 1141
+  },
+  "network_s": 3.4,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 10,
+   "buildings_rasterised": 8267,
+   "threshold_counts": {
+    "0.15": 71,
+    "0.3": 350,
+    "0.5": 160,
+    "1.0": 7686
+   },
+   "raised_cells": 8776,
+   "cell_spread_p50_m": 3.78,
+   "cell_spread_p90_m": 6.65,
+   "s": 19.5
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 8267,
+  "mean_height": 17.69600822547478,
+  "footprint_fraction": 0.13021388888888888
+ },
+ "textures": {
+  "zoom": 16,
+  "tex_w": 2716,
+  "tex_h": 2716,
+  "m_per_px": 2.2091310751104567,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "美田邨 Mei Tin Estate",
+   "type": "bus",
+   "x": 129.4,
+   "y": 1837.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "美田邨多層停車場 Mei Tin Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 245.3,
+   "y": 1806.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "美松苑多層停車場 Mei Chung Court Multi-storey Car Park",
+   "type": "carpark",
+   "x": 410.2,
+   "y": 2356.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "美林邨多層停車場 Mei Lam Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 650.2,
+   "y": 2037.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "美林 Mei Lam",
+   "type": "bus",
+   "x": 584.5,
+   "y": 2001.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f5",
+   "name": "富嘉花園多層停車場 Grandway Garden Multi-storey Car Park",
+   "type": "carpark",
+   "x": 893.5,
+   "y": 1589.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f6",
+   "name": "積運街支站 Chik Wan Street Substation",
+   "type": "power",
+   "x": 736.4,
+   "y": 1427.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f7",
+   "name": "大圍鐵路變電站 Tai Wai Substation",
+   "type": "power",
+   "x": 582.2,
+   "y": 1243.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f8",
+   "name": "顯和里變電站 Hin Wo Lane Sub-station",
+   "type": "power",
+   "x": 661.7,
+   "y": 808.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f9",
+   "name": "顯徑 Hin Keng",
+   "type": "bus",
+   "x": 177.3,
+   "y": 341.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f10",
+   "name": "顯徑邨多層停車場 Hin Keng Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 291.3,
+   "y": 470.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f11",
+   "name": "嘉田苑停車場 Ka Tin Court Multi-storey Car Park",
+   "type": "carpark",
+   "x": 412.5,
+   "y": 64.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f12",
+   "name": "顯徑小巴總站 Hin Keng Minibus Terminus",
+   "type": "bus",
+   "x": 486.4,
+   "y": 303.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f13",
+   "name": "嘉徑苑停車場 Ka Keng Court Carpark",
+   "type": "carpark",
+   "x": 533.1,
+   "y": 578.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f14",
+   "name": "顯徑 Hin Keng",
+   "type": "mtr",
+   "x": 142.4,
+   "y": 475.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f15",
+   "name": "地龍口A變壓站 Beacon Hill Building A Substation",
+   "type": "power",
+   "x": 31.1,
+   "y": 235.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f16",
+   "name": "大圍 Tai Wai",
+   "type": "mtr",
+   "x": 943.3,
+   "y": 1476.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f17",
+   "name": "大圍站 Tai Wai Station",
+   "type": "bus",
+   "x": 1033.1,
+   "y": 1443.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f18",
+   "name": "新翠 Sun Chui",
+   "type": "bus",
+   "x": 1158.4,
+   "y": 905.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f19",
+   "name": "新翠邨停車場 Sun Chui Estate Car Park",
+   "type": "carpark",
+   "x": 1131.0,
+   "y": 1263.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f20",
+   "name": "Golden Lion Garden Phase 2 Car Park",
+   "type": "carpark",
+   "x": 1251.1,
+   "y": 892.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f21",
+   "name": "新翠邨停車場 Sun Chui Estate Car Park",
+   "type": "carpark",
+   "x": 1388.9,
+   "y": 1091.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f22",
+   "name": "新田圍 Sun Tin Wai",
+   "type": "bus",
+   "x": 1718.5,
+   "y": 1244.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f23",
+   "name": "秦石邨多層停車場 Chun Shek Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 1764.0,
+   "y": 1546.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f24",
+   "name": "秦石 Chun Shek",
+   "type": "bus",
+   "x": 1817.8,
+   "y": 1473.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f25",
+   "name": "秦石停車場 Chun Shek Car Park",
+   "type": "carpark",
+   "x": 1833.9,
+   "y": 1322.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f26",
+   "name": "郭得勝中學變電站 Kwok Tak Seng Secondary School Substation",
+   "type": "power",
+   "x": 1851.3,
+   "y": 1428.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f27",
+   "name": "水泉澳（上） Shui Chuen O (Upper)",
+   "type": "bus",
+   "x": 2973.4,
+   "y": 959.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f28",
+   "name": "博康邨多層停車場 Pok Hong Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 2449.7,
+   "y": 1751.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f29",
+   "name": "沙角邨停車場 Sha Kok Estate Car Park",
+   "type": "carpark",
+   "x": 2543.9,
+   "y": 2024.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f30",
+   "name": "沙田圍 Sha Tin Wai",
+   "type": "mtr",
+   "x": 2632.7,
+   "y": 1925.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f31",
+   "name": "博康 Pok Hong",
+   "type": "bus",
+   "x": 2679.7,
+   "y": 1946.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f32",
+   "name": "沙角購物中心變電站 Sha Kok Shopping Ctr Substation",
+   "type": "power",
+   "x": 2636.6,
+   "y": 2011.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f33",
+   "name": "火炭 Fo Tan",
+   "type": "mtr",
+   "x": 2958.7,
+   "y": 3942.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f34",
+   "name": "培基小學變電站 Stewards Pooi Kei Primary School Substation",
+   "type": "power",
+   "x": 2926.4,
+   "y": 4464.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f35",
+   "name": "火炭變電站 Fo Tan Substation",
+   "type": "power",
+   "x": 2921.1,
+   "y": 4136.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f36",
+   "name": "小炭變電站 Siu Tan Sub-station",
+   "type": "power",
+   "x": 3178.6,
+   "y": 2326.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f37",
+   "name": "插桅杆村變電站 Chap Wai Kon Village Substation",
+   "type": "power",
+   "x": 3603.4,
+   "y": 2037.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f38",
+   "name": "第一城 City One",
+   "type": "mtr",
+   "x": 3514.4,
+   "y": 2574.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f39",
+   "name": "馬場 Racecourse",
+   "type": "mtr",
+   "x": 3447.8,
+   "y": 4522.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f40",
+   "name": "沙田 Sha Tin",
+   "type": "mtr",
+   "x": 1887.6,
+   "y": 2596.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f41",
+   "name": "車公廟 Che Kung Temple",
+   "type": "mtr",
+   "x": 1719.8,
+   "y": 1674.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f42",
+   "name": "大水坑 Tai Shui Hang",
+   "type": "mtr",
+   "x": 5498.1,
+   "y": 5423.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f43",
+   "name": "沙田77區梯台 Sha Tin Area 77 Landing",
+   "type": "ferry",
+   "x": 5343.2,
+   "y": 5689.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f44",
+   "name": "大水坑梯台 Tai Shui Hang Landing",
+   "type": "ferry",
+   "x": 5141.4,
+   "y": 5295.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f45",
+   "name": "大學 University",
+   "type": "mtr",
+   "x": 4189.3,
+   "y": 5972.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f46",
+   "name": "石門 Shek Mun",
+   "type": "mtr",
+   "x": 4006.9,
+   "y": 3103.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f47",
+   "name": "Fortune City One Plus",
+   "type": "mall",
+   "x": 3433.0,
+   "y": 3051.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f48",
+   "name": "Homesquare",
+   "type": "mall",
+   "x": 1895.3,
+   "y": 2835.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f49",
+   "name": "Sha Tin College",
+   "type": "school",
+   "x": 1944.8,
+   "y": 3681.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f50",
+   "name": "New Town Plaza Phase 1",
+   "type": "mall",
+   "x": 1979.0,
+   "y": 2448.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f51",
+   "name": "Union Hospital",
+   "type": "hospital",
+   "x": 604.1,
+   "y": 107.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f52",
+   "name": "Prince of Wales Hospital",
+   "type": "hospital",
+   "x": 3370.0,
+   "y": 2192.1,
+   "conf": 0.99
+  },
+  {
+   "id": "f53",
+   "name": "Shatin Tsung Tsin Secondary School",
+   "type": "school",
+   "x": 573.5,
+   "y": 1156.4,
+   "conf": 0.99
+  },
+  {
+   "id": "f54",
+   "name": "Kam Tai Shopping Centre",
+   "type": "mall",
+   "x": 5384.9,
+   "y": 5441.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f55",
+   "name": "Jubilee Square",
+   "type": "mall",
+   "x": 3104.5,
+   "y": 4084.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f56",
+   "name": "Ma On Shan Tsung Tsin Secondary School",
+   "type": "school",
+   "x": 5433.9,
+   "y": 5094.6,
+   "conf": 0.99
+  },
+  {
+   "id": "f57",
+   "name": "SKH Lam Kau Mow Secondary School",
+   "type": "school",
+   "x": 3591.4,
+   "y": 2750.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f58",
+   "name": "David Exodus Kindergarten",
+   "type": "school",
+   "x": 852.3,
+   "y": 342.3,
+   "conf": 0.98
+  },
+  {
+   "id": "f59",
+   "name": "Creative Kindergarten",
+   "type": "school",
+   "x": 4760.7,
+   "y": 2600.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f60",
+   "name": "東華三院蔡榮星小學 TWGHs Tsoi Wing Sing Primary School",
+   "type": "school",
+   "x": 860.2,
+   "y": 2069.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f61",
+   "name": "Plaza Ascot",
+   "type": "mall",
+   "x": 3288.6,
+   "y": 4350.2,
+   "conf": 0.98
+  },
+  {
+   "id": "f62",
+   "name": "浸信會沙田圍呂明才小學",
+   "type": "school",
+   "x": 2929.7,
+   "y": 2400.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f63",
+   "name": "Immaculate Heart of Mary College",
+   "type": "school",
+   "x": 2320.6,
+   "y": 1811.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f64",
+   "name": "Wo Che Plaza",
+   "type": "mall",
+   "x": 2653.1,
+   "y": 3134.1,
+   "conf": 0.98
+  },
+  {
+   "id": "f65",
+   "name": "Shatin Galleria",
+   "type": "mall",
+   "x": 2466.8,
+   "y": 4161.0,
+   "conf": 0.98
+  },
+  {
+   "id": "f66",
+   "name": "東華三院馬陳景霞幼稚園",
+   "type": "school",
+   "x": 1056.8,
+   "y": 1105.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f67",
+   "name": "Pui Kiu Kindergarten and International Nursery",
+   "type": "school",
+   "x": 3039.9,
+   "y": 2835.0,
+   "conf": 0.98
+  },
+  {
+   "id": "f68",
+   "name": "Shatin Hilton Plaza",
+   "type": "mall",
+   "x": 1802.3,
+   "y": 2223.9,
+   "conf": 0.97
+  },
+  {
+   "id": "f69",
+   "name": "Sha Tin Police Station",
+   "type": "police",
+   "x": 2365.5,
+   "y": 3017.2,
+   "conf": 0.97
+  },
+  {
+   "id": "f70",
+   "name": "TWGHs Mrs. Fung Wong Fung Ting College",
+   "type": "school",
+   "x": 2416.9,
+   "y": 2786.1,
+   "conf": 0.97
+  },
+  {
+   "id": "f71",
+   "name": "沙田警署",
+   "type": "police",
+   "x": 2429.0,
+   "y": 2648.9,
+   "conf": 0.97
+  },
+  {
+   "id": "f72",
+   "name": "Kings Wing Plaza 2",
+   "type": "mall",
+   "x": 4016.5,
+   "y": 3239.5,
+   "conf": 0.97
+  },
+  {
+   "id": "f73",
+   "name": "東華三院冼次雲小學",
+   "type": "school",
+   "x": 1061.5,
+   "y": 1750.4,
+   "conf": 0.97
+  },
+  {
+   "id": "f74",
+   "name": "真理浸信會恩典幼稚園",
+   "type": "school",
+   "x": 2814.9,
+   "y": 2209.7,
+   "conf": 0.96
+  },
+  {
+   "id": "f75",
+   "name": "沙田消防總局",
+   "type": "fire",
+   "x": 3157.6,
+   "y": 3494.5,
+   "conf": 0.96
+  },
+  {
+   "id": "f76",
+   "name": "保良局朱正賢小學",
+   "type": "school",
+   "x": 2513.1,
+   "y": 1770.9,
+   "conf": 0.96
+  },
+  {
+   "id": "f77",
+   "name": "沙角商場",
+   "type": "mall",
+   "x": 2535.5,
+   "y": 2012.8,
+   "conf": 0.96
+  },
+  {
+   "id": "f78",
+   "name": "香港浸會大學附屬學校王錦輝中小學",
+   "type": "school",
+   "x": 4190.6,
+   "y": 3171.9,
+   "conf": 0.96
+  },
+  {
+   "id": "f79",
+   "name": "循理會美林小學",
+   "type": "school",
+   "x": 487.0,
+   "y": 2207.5,
+   "conf": 0.96
+  },
+  {
+   "id": "f80",
+   "name": "Lek Yuen Plaza",
+   "type": "mall",
+   "x": 2249.1,
+   "y": 2762.2,
+   "conf": 0.96
+  },
+  {
+   "id": "f81",
+   "name": "嘉德麗中英文幼稚園",
+   "type": "school",
+   "x": 3687.7,
+   "y": 2886.4,
+   "conf": 0.96
+  },
+  {
+   "id": "f82",
+   "name": "Ng Yuk Secondary School",
+   "type": "school",
+   "x": 1195.5,
+   "y": 1420.7,
+   "conf": 0.95
+  },
+  {
+   "id": "f83",
+   "name": "Joyful World International Nursery & Kindergarten",
+   "type": "school",
+   "x": 3099.3,
+   "y": 4081.9,
+   "conf": 0.95
+  },
+  {
+   "id": "f84",
+   "name": "九龍城浸信會禧年小學",
+   "type": "school",
+   "x": 1304.5,
+   "y": 1019.7,
+   "conf": 0.95
+  },
+  {
+   "id": "f85",
+   "name": "Yang Memorial Methodist Social Service Shatin Integrated Cen",
+   "type": "community",
+   "x": 3669.1,
+   "y": 2375.7,
+   "conf": 0.94
+  },
+  {
+   "id": "f86",
+   "name": "Community Creativity Learning Centre",
+   "type": "community",
+   "x": 4879.7,
+   "y": 2366.9,
+   "conf": 0.94
+  },
+  {
+   "id": "f87",
+   "name": "沙田循道衛理中學",
+   "type": "school",
+   "x": 1737.2,
+   "y": 1308.4,
+   "conf": 0.94
+  },
+  {
+   "id": "f88",
+   "name": "基督教香港信義會睿信學校",
+   "type": "school",
+   "x": 2657.4,
+   "y": 1740.8,
+   "conf": 0.94
+  },
+  {
+   "id": "f89",
+   "name": "路德會梁鉅鏐小學",
+   "type": "school",
+   "x": 3742.2,
+   "y": 3597.4,
+   "conf": 0.94
+  },
+  {
+   "id": "f90",
+   "name": "圓洲角社區會堂",
+   "type": "community",
+   "x": 3637.4,
+   "y": 2208.1,
+   "conf": 0.9
+  },
+  {
+   "id": "f91",
+   "name": "耆康會群芳念慈護理安老院",
+   "type": "elderly",
+   "x": 3379.4,
+   "y": 2525.2,
+   "conf": 0.9
+  },
+  {
+   "id": "f92",
+   "name": "The Salvation Army Bradbury Home of Loving Kindness",
+   "type": "elderly",
+   "x": 1173.0,
+   "y": 2281.7,
+   "conf": 0.86
+  },
+  {
+   "id": "f93",
+   "name": "Bradbury Hospice",
+   "type": "elderly",
+   "x": 4710.7,
+   "y": 4305.7,
+   "conf": 0.84
+  },
+  {
+   "id": "f94",
+   "name": "威爾士親王醫院急症室",
+   "type": "hospital",
+   "x": 3249.4,
+   "y": 2192.9,
+   "conf": 0.81
+  },
+  {
+   "id": "f95",
+   "name": "上水北區醫院",
+   "type": "hospital",
+   "x": 2112.4,
+   "y": 4464.8,
+   "conf": 0.8
+  },
+  {
+   "id": "f96",
+   "name": "Tin Sum Fire Station",
+   "type": "fire",
+   "x": 697.9,
+   "y": 752.6,
+   "conf": 0.75
+  },
+  {
+   "id": "f97",
+   "name": "Shatin Hospital",
+   "type": "hospital",
+   "x": 4463.4,
+   "y": 4256.1,
+   "conf": 0.75
+  },
+  {
+   "id": "f98",
+   "name": "香港中文大學醫院",
+   "type": "hospital",
+   "x": 3176.1,
+   "y": 4324.0,
+   "conf": 0.75
+  },
+  {
+   "id": "f99",
+   "name": "香港中文大學醫院",
+   "type": "hospital",
+   "x": 4297.7,
+   "y": 5960.0,
+   "conf": 0.73
+  },
+  {
+   "id": "f100",
+   "name": "威爾斯親王醫院 物理治療 7 號房",
+   "type": "hospital",
+   "x": 4720.9,
+   "y": 2303.4,
+   "conf": 0.7
+  },
+  {
+   "id": "f101",
+   "name": "Jiayi Care and Services Elderly Home",
+   "type": "elderly",
+   "x": 919.8,
+   "y": 1907.9,
+   "conf": 0.58
+  },
+  {
+   "id": "f102",
+   "name": "Cheshire Home",
+   "type": "elderly",
+   "x": 4878.2,
+   "y": 4364.7,
+   "conf": 0.41
+  },
+  {
+   "id": "smr_sub",
+   "name": "城门河畔行人隧道 Shing Mun River promenade subway",
+   "type": "underground",
+   "x": 2835.0,
+   "y": 2985.0,
+   "ug": {
+    "area": 600,
+    "cap": 2.5,
+    "cells": [
+     179083,
+     188081
+    ],
+    "entrances": 2,
+    "src": "HKO TC reports 2017/2018: cycle tracks and subways along the Shing Mun River inundated",
+    "note_zh": "楼面面积与可用深度为估计值",
+    "note_en": "Floor area and usable depth are estimates"
+   }
+  }
+ ],
+ "defences": []
+}

@@ -1,0 +1,1162 @@
+{
+ "id": "wong-tai-sin",
+ "name_zh": "黄大仙·九龙东",
+ "name_en": "Wong Tai Sin / Kowloon East",
+ "blurb_zh": "2023 年 9 月 7 日黑雨：黄大仙港铁站及商场、龙翔道被洪水冲入。",
+ "blurb_en": "7 Sept 2023 black rainstorm: floodwater poured into Wong Tai Sin MTR station, Temple Mall and Lung Cheung Road.",
+ "origin": {
+  "e0": 835000,
+  "n0": 819000
+ },
+ "width_m": 6000,
+ "height_m": 6000,
+ "res": 10,
+ "cols": 600,
+ "rows": 600,
+ "lonlat_bbox": [
+  114.16456801555276,
+  22.309971688082495,
+  114.22281767702374,
+  22.364149069727052
+ ],
+ "gauge": "QUB",
+ "tide_scale": 1.0,
+ "tide_lag_min": 0,
+ "rain_mult": {
+  "rainstorm-2023": 0.95,
+  "dubhe-1000": 1.05
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "黄大仙 Wong Tai Sin",
+   "x": 2980.7,
+   "y": 3491.3
+  },
+  {
+   "name": "钻石山 Diamond Hill",
+   "x": 3856.3,
+   "y": 3325.3
+  },
+  {
+   "name": "新蒲岗 San Po Kong",
+   "x": 3547.3,
+   "y": 2882.4
+  },
+  {
+   "name": "启德 Kai Tak",
+   "x": 3650.5,
+   "y": 1664.3
+  }
+ ],
+ "gauges": [],
+ "validation": {
+  "rainstorm-2023": [
+   {
+    "id": "wts",
+    "grade": "B",
+    "basis": "新闻影片：车站入口楼梯成瀑布、广场约及腰",
+    "zh": "黄大仙港铁站 / 黄大仙中心北馆",
+    "en": "Wong Tai Sin MTR station / Temple Mall North",
+    "lon": 114.1935,
+    "lat": 22.3415,
+    "depth": 1.0,
+    "cls": "severe",
+    "src": "press: water poured into station concourse and mall basement",
+    "note_zh": "街面水深；车站/地库内更深",
+    "note_en": "Street depth; deeper inside the station/basement",
+    "x": 2980.7,
+    "y": 3491.3
+   },
+   {
+    "id": "wtsb",
+    "grade": "B",
+    "basis": "领展新闻稿：北馆地下低层水深一度高达 2.9 米（业主声明，非测量）",
+    "zh": "黄大仙中心北馆地下低层",
+    "en": "Temple Mall North lower ground floor",
+    "lon": 114.1935,
+    "lat": 22.3415,
+    "depth": 2.9,
+    "cls": "severe",
+    "ug": "wts_mtr",
+    "src": "Link REIT news release (Nov 2023): the lower ground floor of Temple Mall North was flooded up to 2.9 m during the black rainstorm of 8 Sept 2023",
+    "note_zh": "地库水深 = 流入体积 / 估计楼面 5,000 m²（车站大堂 + 商场地库合并计）",
+    "note_en": "Basement depth = inflow volume / estimated 5,000 m2 floor (station concourse + mall basement combined)",
+    "x": 2980.7,
+    "y": 3491.3
+   },
+   {
+    "id": "lcr",
+    "grade": "C",
+    "basis": "新闻：龙翔道水浸，无深度",
+    "zh": "龙翔道（黄大仙段）",
+    "en": "Lung Cheung Road at Wong Tai Sin",
+    "lon": 114.196,
+    "lat": 22.343,
+    "depth": 0.5,
+    "cls": "moderate",
+    "src": "press",
+    "x": 3238.2,
+    "y": 3657.5
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 600,
+  "cols": 600,
+  "zmin": 1.204765796661377,
+  "zmax": 584.1917114257812,
+  "sea_fraction": 0.03892222222222222,
+  "land_below_4mpd_fraction": 0.018627813681399354,
+  "exposed_shore_cells": 344,
+  "cedd_coverage": 0.9541277777777778,
+  "shore_cells": 712,
+  "sinks_filled": 1238,
+  "water_polygons": 60,
+  "tidal_cells_added": 0,
+  "max_z": 6.0,
+  "dsd_conduits": 19574,
+  "dsd_trunks": 5964,
+  "dsd_trunk_cells": 13374,
+  "dsd_chains": 248,
+  "dsd_catchment_km2": 2.29,
+  "channel_cells": 17573,
+  "by_class": {
+   "stream/stream": 1893,
+   "canal/drain": 2617,
+   "canal/canal": 779,
+   "river/river": 471
+  },
+  "network_s": 8.1,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 10,
+   "buildings_rasterised": 12154,
+   "threshold_counts": {
+    "0.15": 331,
+    "0.3": 545,
+    "0.5": 568,
+    "1.0": 10710
+   },
+   "raised_cells": 7565,
+   "cell_spread_p50_m": 1.53,
+   "cell_spread_p90_m": 6.75,
+   "s": 18.0
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 12154,
+  "mean_height": 24.315114365640937,
+  "footprint_fraction": 0.2534527777777778
+ },
+ "textures": {
+  "zoom": 16,
+  "tex_w": 2715,
+  "tex_h": 2715,
+  "m_per_px": 2.2099447513812156,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "富榮花園多層停車場 Charming Garden Multi-storey Car Park",
+   "type": "carpark",
+   "x": 103.3,
+   "y": 499.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "果欄轉運中心",
+   "type": "carpark",
+   "x": 202.0,
+   "y": 147.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "Eternal East Bus 永東直巴",
+   "type": "bus",
+   "x": 487.6,
+   "y": 433.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "新填地街234-236變電站 Reclamation Street 234-236 Substation",
+   "type": "power",
+   "x": 459.8,
+   "y": 350.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "油麻地 Yau Ma Tei",
+   "type": "mtr",
+   "x": 631.2,
+   "y": 311.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f5",
+   "name": "咸美頓街變電站 Hamilton Street Substation",
+   "type": "power",
+   "x": 667.4,
+   "y": 535.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f6",
+   "name": "上海街265變電站 Shanghai Street 265 Substation",
+   "type": "power",
+   "x": 535.7,
+   "y": 27.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f7",
+   "name": "油麻地變電站 Yaumati Substation",
+   "type": "power",
+   "x": 712.9,
+   "y": 288.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f8",
+   "name": "L3 Carpark",
+   "type": "carpark",
+   "x": 1229.0,
+   "y": 0.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f9",
+   "name": "Parc Palais Minibus Station",
+   "type": "bus",
+   "x": 1245.2,
+   "y": 119.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f10",
+   "name": "愛民 Oi Man",
+   "type": "bus",
+   "x": 1398.8,
+   "y": 268.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f11",
+   "name": "高山道變電站 Ko Shan Road Substation",
+   "type": "power",
+   "x": 2179.4,
+   "y": 299.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f12",
+   "name": "馬頭圍變電站 Ma Tau Wai Substation",
+   "type": "power",
+   "x": 2323.5,
+   "y": 537.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f13",
+   "name": "馬頭圍道176變電站Ma Tau Wai Road 176 Substation",
+   "type": "power",
+   "x": 2354.8,
+   "y": 219.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f14",
+   "name": "Peninsula Square",
+   "type": "carpark",
+   "x": 2595.6,
+   "y": 147.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f15",
+   "name": "九龍90號永久碼頭 Kowloon Permanent Pier No.90",
+   "type": "ferry",
+   "x": 2829.2,
+   "y": 41.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f16",
+   "name": "反轉天橋底四號場 Fly the Flyover 04",
+   "type": "carpark",
+   "x": 5188.8,
+   "y": 519.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f17",
+   "name": "綠景 NEO",
+   "type": "carpark",
+   "x": 5341.4,
+   "y": 458.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f18",
+   "name": "天輝工業大廈停車場 Draco Industrial Building Car Park",
+   "type": "carpark",
+   "x": 5489.4,
+   "y": 470.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f19",
+   "name": "勵業街變電站 Lai Yip Street Substation",
+   "type": "power",
+   "x": 5522.0,
+   "y": 471.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f20",
+   "name": "創紀之城第3期停車場 Millennium City 3 Car Park",
+   "type": "carpark",
+   "x": 5675.1,
+   "y": 520.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f21",
+   "name": "訊科中心停車場 Infotech Centre Car Park",
+   "type": "carpark",
+   "x": 5668.8,
+   "y": 371.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f22",
+   "name": "創紀之城1期停車場 Millennium City 1 Car Park",
+   "type": "carpark",
+   "x": 5852.1,
+   "y": 372.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f23",
+   "name": "偉業街變電站 Wai Yip Street Substation",
+   "type": "power",
+   "x": 5856.6,
+   "y": 21.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f24",
+   "name": "顯徑 Hin Keng",
+   "type": "bus",
+   "x": 677.3,
+   "y": 5841.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f25",
+   "name": "顯徑邨多層停車場 Hin Keng Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 791.3,
+   "y": 5970.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f26",
+   "name": "嘉田苑停車場 Ka Tin Court Multi-storey Car Park",
+   "type": "carpark",
+   "x": 912.5,
+   "y": 5564.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f27",
+   "name": "顯徑小巴總站 Hin Keng Minibus Terminus",
+   "type": "bus",
+   "x": 986.4,
+   "y": 5803.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f28",
+   "name": "顯徑 Hin Keng",
+   "type": "mtr",
+   "x": 642.4,
+   "y": 5975.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f29",
+   "name": "地龍口A變壓站 Beacon Hill Building A Substation",
+   "type": "power",
+   "x": 531.1,
+   "y": 5735.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f30",
+   "name": "南山邨上落貨區",
+   "type": "carpark",
+   "x": 642.4,
+   "y": 2578.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f31",
+   "name": "大坑東 Tai Hang Tung",
+   "type": "bus",
+   "x": 654.1,
+   "y": 2395.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f32",
+   "name": "石硤尾 Shek Kip Mei",
+   "type": "mtr",
+   "x": 443.3,
+   "y": 2435.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f33",
+   "name": "瑞田樓停車場 Shui Tin House Car Parking",
+   "type": "carpark",
+   "x": 389.8,
+   "y": 2814.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f34",
+   "name": "白田 Pak Tin",
+   "type": "bus",
+   "x": 123.1,
+   "y": 2930.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f35",
+   "name": "太子 Prince Edward",
+   "type": "mtr",
+   "x": 384.8,
+   "y": 1603.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f36",
+   "name": "旺角 Mong Kok",
+   "type": "mtr",
+   "x": 493.9,
+   "y": 1034.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f37",
+   "name": "旺角（金雞廣場） Mong Kok (Golden Era Plaza)",
+   "type": "bus",
+   "x": 751.2,
+   "y": 941.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f38",
+   "name": "旺角東站 Mong Kok East Station",
+   "type": "bus",
+   "x": 780.1,
+   "y": 1364.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f39",
+   "name": "旺角東 Mong Kok East",
+   "type": "mtr",
+   "x": 833.0,
+   "y": 1345.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f40",
+   "name": "九龍塘 Kowloon Tong",
+   "type": "mtr",
+   "x": 1163.4,
+   "y": 2993.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f41",
+   "name": "九龍塘（又一城） Kowloon Tong (Festival Walk)",
+   "type": "bus",
+   "x": 1096.6,
+   "y": 2958.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f42",
+   "name": "樂富 Lok Fu",
+   "type": "mtr",
+   "x": 2335.1,
+   "y": 3106.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f43",
+   "name": "土瓜灣 To Kwa Wan",
+   "type": "mtr",
+   "x": 2377.9,
+   "y": 764.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f44",
+   "name": "宋皇臺 Sung Wong Toi",
+   "type": "mtr",
+   "x": 2754.4,
+   "y": 1760.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f45",
+   "name": "九龍城渡輪碼頭 Kowloon City Ferry Pier",
+   "type": "ferry",
+   "x": 3073.3,
+   "y": 867.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f46",
+   "name": "黃大仙 Wong Tai Sin",
+   "type": "mtr",
+   "x": 3034.1,
+   "y": 3511.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f47",
+   "name": "啟德 Kai Tak",
+   "type": "mtr",
+   "x": 3593.9,
+   "y": 2281.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f48",
+   "name": "Pioneer Centre",
+   "type": "mall",
+   "x": 455.1,
+   "y": 1376.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f49",
+   "name": "MegaBox",
+   "type": "mall",
+   "x": 4526.5,
+   "y": 1072.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f50",
+   "name": "Tsz Wan Shan Shopping Centre",
+   "type": "mall",
+   "x": 3708.7,
+   "y": 4209.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f51",
+   "name": "Argyle Centre",
+   "type": "mall",
+   "x": 514.3,
+   "y": 1098.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f52",
+   "name": "Evangel Hospital",
+   "type": "hospital",
+   "x": 2304.9,
+   "y": 1694.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f53",
+   "name": "St. Catherine's International Kindergarten",
+   "type": "school",
+   "x": 1391.5,
+   "y": 2787.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f54",
+   "name": "Victoria Homantin International Nursery",
+   "type": "school",
+   "x": 1516.7,
+   "y": 435.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f55",
+   "name": "St. Francis of Assisi's English Primary School",
+   "type": "school",
+   "x": 210.1,
+   "y": 2330.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f56",
+   "name": "Creative Kindergarten",
+   "type": "school",
+   "x": 1315.2,
+   "y": 2619.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f57",
+   "name": "Kellett School",
+   "type": "school",
+   "x": 4345.5,
+   "y": 1619.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f58",
+   "name": "九龍塘宣道小學",
+   "type": "school",
+   "x": 1516.7,
+   "y": 2242.2,
+   "conf": 0.99
+  },
+  {
+   "id": "f59",
+   "name": "Pui Ching Primary School",
+   "type": "school",
+   "x": 1170.8,
+   "y": 888.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f60",
+   "name": "Norwegian Missionary Society Lutheran Kindergarten",
+   "type": "school",
+   "x": 960.3,
+   "y": 2681.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f61",
+   "name": "Union Hospital",
+   "type": "hospital",
+   "x": 1104.1,
+   "y": 5607.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f62",
+   "name": "東華三院羅裕積小學",
+   "type": "school",
+   "x": 671.1,
+   "y": 464.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f63",
+   "name": "九龍塘天主教華德學校",
+   "type": "school",
+   "x": 2248.6,
+   "y": 2712.1,
+   "conf": 0.99
+  },
+  {
+   "id": "f64",
+   "name": "天主教新民書院",
+   "type": "school",
+   "x": 764.9,
+   "y": 82.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f65",
+   "name": "Ngau Chi Wan Civic Centre",
+   "type": "community",
+   "x": 4552.2,
+   "y": 2714.9,
+   "conf": 0.99
+  },
+  {
+   "id": "f66",
+   "name": "S.K.H. Tsoi Kung Po Secondary School",
+   "type": "school",
+   "x": 1639.2,
+   "y": 541.1,
+   "conf": 0.99
+  },
+  {
+   "id": "f67",
+   "name": "Kwong Wah Hospital Audiology",
+   "type": "hospital",
+   "x": 842.8,
+   "y": 590.1,
+   "conf": 0.99
+  },
+  {
+   "id": "f68",
+   "name": "St. Joseph's Anglo-Chinese Primary School",
+   "type": "school",
+   "x": 4741.1,
+   "y": 2321.6,
+   "conf": 0.99
+  },
+  {
+   "id": "f69",
+   "name": "York International Kindergarten",
+   "type": "school",
+   "x": 1293.8,
+   "y": 2392.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f70",
+   "name": "醫院管理局 Hospital Authority",
+   "type": "hospital",
+   "x": 1920.5,
+   "y": 1587.8,
+   "conf": 0.99
+  },
+  {
+   "id": "f71",
+   "name": "HKTA Wun Tsuen School 香港道教聯合會雲泉學校",
+   "type": "school",
+   "x": 5480.2,
+   "y": 1056.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f72",
+   "name": "Bishop Walsh Primary School",
+   "type": "school",
+   "x": 2376.8,
+   "y": 2751.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f73",
+   "name": "聖公會聖十架小學",
+   "type": "school",
+   "x": 4029.5,
+   "y": 2467.0,
+   "conf": 0.99
+  },
+  {
+   "id": "f74",
+   "name": "Mikiki",
+   "type": "mall",
+   "x": 3353.9,
+   "y": 2616.2,
+   "conf": 0.99
+  },
+  {
+   "id": "f75",
+   "name": "Stewards Pooi Tun Secondary School",
+   "type": "school",
+   "x": 4495.6,
+   "y": 3343.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f76",
+   "name": "Metro Centre II",
+   "type": "mall",
+   "x": 4774.5,
+   "y": 1669.3,
+   "conf": 0.99
+  },
+  {
+   "id": "f77",
+   "name": "Hong Kong Baptist Hospital",
+   "type": "hospital",
+   "x": 1591.0,
+   "y": 3295.9,
+   "conf": 0.99
+  },
+  {
+   "id": "f78",
+   "name": "聖公會聖三一堂中學",
+   "type": "school",
+   "x": 1590.1,
+   "y": 88.5,
+   "conf": 0.99
+  },
+  {
+   "id": "f79",
+   "name": "Baptist Oasis English Kindergarten",
+   "type": "school",
+   "x": 199.7,
+   "y": 3305.2,
+   "conf": 0.99
+  },
+  {
+   "id": "f80",
+   "name": "Oi Man Plaza",
+   "type": "mall",
+   "x": 1389.9,
+   "y": 340.9,
+   "conf": 0.99
+  },
+  {
+   "id": "f81",
+   "name": "Lok Fu Place",
+   "type": "mall",
+   "x": 2336.7,
+   "y": 3138.6,
+   "conf": 0.99
+  },
+  {
+   "id": "f82",
+   "name": "Kowloon City Plaza",
+   "type": "mall",
+   "x": 2425.8,
+   "y": 2312.1,
+   "conf": 0.99
+  },
+  {
+   "id": "f83",
+   "name": "旺角消防局",
+   "type": "fire",
+   "x": 23.3,
+   "y": 1511.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f84",
+   "name": "David Exodus Kindergarten",
+   "type": "school",
+   "x": 1352.3,
+   "y": 5842.3,
+   "conf": 0.98
+  },
+  {
+   "id": "f85",
+   "name": "St. Teresa's Hospital",
+   "type": "hospital",
+   "x": 2084.1,
+   "y": 1806.2,
+   "conf": 0.98
+  },
+  {
+   "id": "f86",
+   "name": "Telford Gardens Kindergarten",
+   "type": "school",
+   "x": 4910.1,
+   "y": 1598.2,
+   "conf": 0.98
+  },
+  {
+   "id": "f87",
+   "name": "浸信會天虹小學",
+   "type": "school",
+   "x": 2606.8,
+   "y": 3849.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f88",
+   "name": "First Assembly of God Primary School & Kindergarten",
+   "type": "school",
+   "x": 947.5,
+   "y": 1169.3,
+   "conf": 0.98
+  },
+  {
+   "id": "f89",
+   "name": "九龍醫院S座",
+   "type": "hospital",
+   "x": 1772.5,
+   "y": 1533.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f90",
+   "name": "Emax",
+   "type": "mall",
+   "x": 4063.2,
+   "y": 1542.6,
+   "conf": 0.98
+  },
+  {
+   "id": "f91",
+   "name": "Gala Place",
+   "type": "mall",
+   "x": 678.8,
+   "y": 567.2,
+   "conf": 0.98
+  },
+  {
+   "id": "f92",
+   "name": "黃大仙消防局",
+   "type": "fire",
+   "x": 3322.2,
+   "y": 3642.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f93",
+   "name": "Ching Long Shopping Centre",
+   "type": "mall",
+   "x": 3954.6,
+   "y": 2379.0,
+   "conf": 0.98
+  },
+  {
+   "id": "f94",
+   "name": "Hong Kong Children's Hospital",
+   "type": "hospital",
+   "x": 4595.2,
+   "y": 624.9,
+   "conf": 0.98
+  },
+  {
+   "id": "f95",
+   "name": "老舍護老院",
+   "type": "elderly",
+   "x": 374.5,
+   "y": 1894.5,
+   "conf": 0.98
+  },
+  {
+   "id": "f96",
+   "name": "環球護老院",
+   "type": "elderly",
+   "x": 970.7,
+   "y": 1838.5,
+   "conf": 0.97
+  },
+  {
+   "id": "f97",
+   "name": "九龍城警署",
+   "type": "police",
+   "x": 2095.8,
+   "y": 1607.5,
+   "conf": 0.97
+  },
+  {
+   "id": "f98",
+   "name": "明愛九龍社區中心",
+   "type": "community",
+   "x": 1369.2,
+   "y": 1756.7,
+   "conf": 0.97
+  },
+  {
+   "id": "f99",
+   "name": "香港華人基督教聯會廣蔭頣養院-綜合安老服務",
+   "type": "elderly",
+   "x": 5884.1,
+   "y": 955.7,
+   "conf": 0.97
+  },
+  {
+   "id": "f100",
+   "name": "Kowloon Bay Health Centre & Alice Ho Miu Ling Nethersole Nur",
+   "type": "elderly",
+   "x": 4355.1,
+   "y": 2062.6,
+   "conf": 0.97
+  },
+  {
+   "id": "f101",
+   "name": "黄大仙警署",
+   "type": "police",
+   "x": 3270.9,
+   "y": 3235.8,
+   "conf": 0.96
+  },
+  {
+   "id": "f102",
+   "name": "Mongkok Police Station",
+   "type": "police",
+   "x": 460.0,
+   "y": 1585.5,
+   "conf": 0.96
+  },
+  {
+   "id": "f103",
+   "name": "Yau Ma Tei Police Station",
+   "type": "police",
+   "x": 154.3,
+   "y": 32.0,
+   "conf": 0.96
+  },
+  {
+   "id": "f104",
+   "name": "鐘聲慈善社陳守仁長者鄰舎中心",
+   "type": "elderly",
+   "x": 2585.0,
+   "y": 356.2,
+   "conf": 0.95
+  },
+  {
+   "id": "f105",
+   "name": "Sheng Kung Hui Nursing Home",
+   "type": "elderly",
+   "x": 3411.6,
+   "y": 3334.0,
+   "conf": 0.95
+  },
+  {
+   "id": "f106",
+   "name": "Hung Hom Division Police Station",
+   "type": "police",
+   "x": 1358.1,
+   "y": 593.0,
+   "conf": 0.95
+  },
+  {
+   "id": "f107",
+   "name": "黃大仙社區中心",
+   "type": "community",
+   "x": 3073.9,
+   "y": 3423.5,
+   "conf": 0.94
+  },
+  {
+   "id": "f108",
+   "name": "彩雲社區中心",
+   "type": "community",
+   "x": 5047.1,
+   "y": 2787.4,
+   "conf": 0.94
+  },
+  {
+   "id": "f109",
+   "name": "旺角社區會堂",
+   "type": "community",
+   "x": 362.3,
+   "y": 948.9,
+   "conf": 0.94
+  },
+  {
+   "id": "f110",
+   "name": "Ngau Chi Wan Fire Station",
+   "type": "fire",
+   "x": 4526.8,
+   "y": 2730.5,
+   "conf": 0.92
+  },
+  {
+   "id": "f111",
+   "name": "Tai Hang Tung Community Centre",
+   "type": "community",
+   "x": 591.0,
+   "y": 2278.2,
+   "conf": 0.91
+  },
+  {
+   "id": "f112",
+   "name": "溫暖護老院",
+   "type": "elderly",
+   "x": 206.0,
+   "y": 2154.0,
+   "conf": 0.91
+  },
+  {
+   "id": "f113",
+   "name": "Oasis Nursing Home",
+   "type": "elderly",
+   "x": 3707.9,
+   "y": 4022.0,
+   "conf": 0.9
+  },
+  {
+   "id": "f114",
+   "name": "石硤尾消防局",
+   "type": "fire",
+   "x": 239.3,
+   "y": 3211.1,
+   "conf": 0.9
+  },
+  {
+   "id": "f115",
+   "name": "China Coast Community",
+   "type": "elderly",
+   "x": 1296.6,
+   "y": 2559.9,
+   "conf": 0.88
+  },
+  {
+   "id": "f116",
+   "name": "「我陪你」服務 With You Services",
+   "type": "elderly",
+   "x": 4712.6,
+   "y": 2422.0,
+   "conf": 0.85
+  },
+  {
+   "id": "f117",
+   "name": "優居護老院",
+   "type": "elderly",
+   "x": 551.6,
+   "y": 1612.1,
+   "conf": 0.84
+  },
+  {
+   "id": "f118",
+   "name": "聖若瑟安老院",
+   "type": "elderly",
+   "x": 4749.6,
+   "y": 2716.3,
+   "conf": 0.82
+  },
+  {
+   "id": "f119",
+   "name": "志蓮護理安老院",
+   "type": "elderly",
+   "x": 4236.6,
+   "y": 3366.5,
+   "conf": 0.8
+  },
+  {
+   "id": "f120",
+   "name": "頤和園護老集團",
+   "type": "elderly",
+   "x": 1261.9,
+   "y": 1105.6,
+   "conf": 0.78
+  },
+  {
+   "id": "f121",
+   "name": "Ma Tau Chung Fire Station",
+   "type": "fire",
+   "x": 2467.3,
+   "y": 1620.4,
+   "conf": 0.77
+  },
+  {
+   "id": "wts_mtr",
+   "name": "黄大仙站大堂 / 黄大仙中心北馆地库 Wong Tai Sin station concourse / Temple Mall North basement",
+   "type": "underground",
+   "x": 3065.0,
+   "y": 3515.0,
+   "ug": {
+    "area": 5000,
+    "cap": 3.5,
+    "cells": [
+     210906,
+     211505,
+     210905,
+     211504,
+     210305,
+     210904
+    ],
+    "entrances": 6,
+    "src": "press 2023: water poured into the station concourse; Link REIT: Temple Mall North lower ground floor flooded up to 2.9 m",
+    "note_zh": "楼面面积与可用深度为估计值",
+    "note_en": "Floor area and usable depth are estimates"
+   }
+  }
+ ],
+ "defences": []
+}

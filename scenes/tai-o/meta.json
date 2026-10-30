@@ -1,0 +1,185 @@
+{
+ "id": "tai-o",
+ "name_zh": "大澳",
+ "name_en": "Tai O",
+ "blurb_zh": "天鸽（2017）与山竹（2018）两度淹没大澳棚屋区，水深逾一米。",
+ "blurb_en": "Hato (2017) and Mangkhut (2018) both flooded the Tai O stilt-house village by more than a metre.",
+ "origin": {
+  "e0": 802000,
+  "n0": 811000
+ },
+ "width_m": 4000,
+ "height_m": 3500,
+ "res": 5,
+ "cols": 800,
+ "rows": 700,
+ "lonlat_bbox": [
+  113.84446543653848,
+  22.23738734395812,
+  113.88320020995018,
+  22.269068934221487
+ ],
+ "gauge": "SPW",
+ "tide_scale": 1.0,
+ "tide_lag_min": 0,
+ "rain_mult": {
+  "rainstorm-2023": 0.25,
+  "dubhe-1000": 0.8
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "大澳 Tai O",
+   "x": 1811.6,
+   "y": 1891.1
+  }
+ ],
+ "gauges": [],
+ "validation": {
+  "mangkhut-2018": [
+   {
+    "id": "taio",
+    "grade": "B",
+    "basis": "天文台：严重水浸、疏散；新闻照片及腰",
+    "zh": "大澳棚屋区",
+    "en": "Tai O stilt houses",
+    "lon": 113.862,
+    "lat": 22.2545,
+    "depth": 1.5,
+    "cls": "severe",
+    "src": "HKO: serious flooding, evacuations",
+    "x": 1811.6,
+    "y": 1891.1
+   }
+  ],
+  "hato-2017": [
+   {
+    "id": "taio",
+    "grade": "B",
+    "basis": "新闻：数十年最严重；离岛区议会文件：水位超过 3.7 m CD、低洼单层民居被浸过屋顶",
+    "zh": "大澳棚屋区",
+    "en": "Tai O stilt houses",
+    "lon": 113.862,
+    "lat": 22.2545,
+    "depth": 1.8,
+    "cls": "severe",
+    "src": "press: worst flooding in decades; Islands DC paper: sea level exceeded 3.7 m CD, single-storey houses in the low-lying part flooded over the roof",
+    "x": 1811.6,
+    "y": 1891.1
+   }
+  ],
+  "rainstorm-2023": [
+   {
+    "id": "taio",
+    "grade": "D",
+    "basis": "按机场/长洲雨量推断无水浸，没有大澳的直接报道",
+    "zh": "大澳",
+    "en": "Tai O",
+    "lon": 113.862,
+    "lat": 22.2545,
+    "depth": 0.0,
+    "cls": "none",
+    "src": "little rain on western Lantau",
+    "x": 1811.6,
+    "y": 1891.1
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 700,
+  "cols": 800,
+  "zmin": 1.2002290487289429,
+  "zmax": 451.2383728027344,
+  "sea_fraction": 0.38028035714285713,
+  "land_below_4mpd_fraction": 0.10565837662768014,
+  "exposed_shore_cells": 1290,
+  "cedd_coverage": 0.601275,
+  "shore_cells": 1818,
+  "sinks_filled": 762,
+  "water_polygons": 3,
+  "tidal_cells_added": 0,
+  "max_z": 6.0,
+  "dsd_conduits": 226,
+  "dsd_trunks": 30,
+  "dsd_trunk_cells": 135,
+  "dsd_chains": 22,
+  "dsd_catchment_km2": 0.8,
+  "channel_cells": 8093,
+  "by_class": {
+   "stream/stream": 7426,
+   "canal/drain": 0,
+   "canal/canal": 0,
+   "river/river": 564
+  },
+  "network_s": 1.8,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 5,
+   "buildings_rasterised": 726,
+   "threshold_counts": {
+    "0.3": 3,
+    "0.5": 9,
+    "1.0": 714
+   },
+   "raised_cells": 9715,
+   "cell_spread_p50_m": 2.19,
+   "cell_spread_p90_m": 3.66,
+   "s": 5.4
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 726,
+  "mean_height": 11.987878787878788,
+  "footprint_fraction": 0.008616071428571428
+ },
+ "textures": {
+  "zoom": 17,
+  "tex_w": 3618,
+  "tex_h": 3166,
+  "m_per_px": 1.105583195135434,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "大澳 Tai O",
+   "type": "ferry",
+   "x": 1705.4,
+   "y": 1677.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "大澳巴士總站 Tai O Bus Terminus",
+   "type": "bus",
+   "x": 1889.4,
+   "y": 1669.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "大澳變電站 Tai O Substation",
+   "type": "power",
+   "x": 1447.5,
+   "y": 2011.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "大澳四號泵房變電站 Tai O No.4 Pumping Station Substation",
+   "type": "power",
+   "x": 2176.4,
+   "y": 1929.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "大澳警署",
+   "type": "police",
+   "x": 931.5,
+   "y": 1728.3,
+   "conf": 0.76
+  }
+ ]
+}

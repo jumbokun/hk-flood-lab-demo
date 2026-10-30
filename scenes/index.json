@@ -1,0 +1,98 @@
+[
+ {
+  "id": "hk-island-east",
+  "name_zh": "港岛东：杏花邨·柴湾·筲箕湾·鲤鱼门",
+  "name_en": "Eastern HK Island: Heng Fa Chuen / Chai Wan / Shau Kei Wan / Lei Yue Mun",
+  "blurb_zh": "2018 年山竹风暴潮淹没杏花邨停车场、鲤鱼门三家村；2023 年黑雨筲箕湾、柴湾严重水浸。",
+  "blurb_en": "Mangkhut (2018) storm surge flooded Heng Fa Chuen car parks and Lei Yue Mun; the Sept 2023 rainstorm inundated Shau Kei Wan and Chai Wan.",
+  "res": 10,
+  "cols": 550,
+  "rows": 450,
+  "width_m": 5500,
+  "height_m": 4500
+ },
+ {
+  "id": "tseung-kwan-o",
+  "name_zh": "将军澳南·日出康城",
+  "name_en": "Tseung Kwan O South / LOHAS Park",
+  "blurb_zh": "山竹期间将军澳南海滨长廊与地下停车场被海水淹没。",
+  "blurb_en": "During Mangkhut sea water poured over the TKO South promenade into basement car parks.",
+  "res": 10,
+  "cols": 450,
+  "rows": 500,
+  "width_m": 4500,
+  "height_m": 5000
+ },
+ {
+  "id": "sha-tin",
+  "name_zh": "沙田·城门河",
+  "name_en": "Sha Tin / Shing Mun River",
+  "blurb_zh": "1962 年温黛吐露港风暴潮重创沙田；2018 年山竹城门河单车径、曾大屋水浸。",
+  "blurb_en": "Wanda (1962) devastated Sha Tin via a Tolo Harbour surge; Mangkhut flooded the Shing Mun River cycle track and Tsang Tai Uk.",
+  "res": 10,
+  "cols": 600,
+  "rows": 600,
+  "width_m": 6000,
+  "height_m": 6000
+ },
+ {
+  "id": "tai-po",
+  "name_zh": "大埔·大埔滘",
+  "name_en": "Tai Po / Tai Po Kau",
+  "blurb_zh": "大埔滘验潮站录得 1962 年 5.03 米、2018 年 4.71 米（海图基准面）的历史最高潮位。",
+  "blurb_en": "Tai Po Kau gauge recorded 5.03 m CD (1962) and 4.71 m CD (2018), the highest in Hong Kong.",
+  "res": 10,
+  "cols": 600,
+  "rows": 550,
+  "width_m": 6000,
+  "height_m": 5500
+ },
+ {
+  "id": "wong-tai-sin",
+  "name_zh": "黄大仙·九龙东",
+  "name_en": "Wong Tai Sin / Kowloon East",
+  "blurb_zh": "2023 年 9 月 7 日黑雨：黄大仙港铁站及商场、龙翔道被洪水冲入。",
+  "blurb_en": "7 Sept 2023 black rainstorm: floodwater poured into Wong Tai Sin MTR station, Temple Mall and Lung Cheung Road.",
+  "res": 10,
+  "cols": 600,
+  "rows": 600,
+  "width_m": 6000,
+  "height_m": 6000
+ },
+ {
+  "id": "victoria-harbour",
+  "name_zh": "维港核心：中环·湾仔·尖沙咀",
+  "name_en": "Victoria Harbour core: Central / Wan Chai / Tsim Sha Tsui",
+  "blurb_zh": "香港经济心脏；历史事件未大规模受淹，但千年一遇超强台风「天枢」情景下填海区面临考验。",
+  "blurb_en": "The economic heart of Hong Kong; spared in past events, but reclaimed land is tested in the fictional 1-in-1000-year Super Typhoon Dubhe.",
+  "res": 10,
+  "cols": 700,
+  "rows": 600,
+  "width_m": 7000,
+  "height_m": 6000
+ },
+ {
+  "id": "tai-o",
+  "name_zh": "大澳",
+  "name_en": "Tai O",
+  "blurb_zh": "天鸽（2017）与山竹（2018）两度淹没大澳棚屋区，水深逾一米。",
+  "blurb_en": "Hato (2017) and Mangkhut (2018) both flooded the Tai O stilt-house village by more than a metre.",
+  "res": 5,
+  "cols": 800,
+  "rows": 700,
+  "width_m": 4000,
+  "height_m": 3500
+ },
+ {
+  "id": "hk-overview",
+  "name_zh": "全港概览",
+  "name_en": "Territory overview",
+  "blurb_zh": "50 米网格的全港粗略模拟，仅模拟风暴潮推进（不含降雨，50 m 网格无法可靠表达地表汇流）。",
+  "blurb_en": "Coarse 50 m territory-wide run showing the storm tide only (rainfall disabled: 50 m cells cannot resolve overland flow).",
+  "res": 50,
+  "cols": 1275,
+  "rows": 960,
+  "width_m": 63750,
+  "height_m": 48000
+ }
+]

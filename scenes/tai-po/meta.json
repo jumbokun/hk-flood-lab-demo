@@ -1,0 +1,824 @@
+{
+ "id": "tai-po",
+ "name_zh": "大埔·大埔滘",
+ "name_en": "Tai Po / Tai Po Kau",
+ "blurb_zh": "大埔滘验潮站录得 1962 年 5.03 米、2018 年 4.71 米（海图基准面）的历史最高潮位。",
+ "blurb_en": "Tai Po Kau gauge recorded 5.03 m CD (1962) and 4.71 m CD (2018), the highest in Hong Kong.",
+ "origin": {
+  "e0": 833500,
+  "n0": 831500
+ },
+ "width_m": 6000,
+ "height_m": 5500,
+ "res": 10,
+ "cols": 600,
+ "rows": 550,
+ "lonlat_bbox": [
+  114.14998841032994,
+  22.422851698438,
+  114.2082784632846,
+  22.472518350188853
+ ],
+ "gauge": "TPK",
+ "tide_scale": 1.0,
+ "tide_lag_min": 0,
+ "rain_mult": {
+  "rainstorm-2023": 0.75,
+  "dubhe-1000": 0.95
+ },
+ "crs": "EPSG:2326 (HK1980 Grid); heights mPD",
+ "pois": [
+  {
+   "name": "大埔墟 Tai Po Market",
+   "x": 1854.5,
+   "y": 2784.6
+  },
+  {
+   "name": "大埔滘 Tai Po Kau",
+   "x": 3542.7,
+   "y": 2175.6
+  },
+  {
+   "name": "三门仔 Sam Mun Tsai",
+   "x": 5251.3,
+   "y": 3006.3
+  },
+  {
+   "name": "大埔中心 Tai Po Centre",
+   "x": 2369.2,
+   "y": 3006.1
+  }
+ ],
+ "gauges": [
+  {
+   "code": "TPK",
+   "name": "Tai Po Kau 大埔滘",
+   "x": 3542.7,
+   "y": 2175.6
+  }
+ ],
+ "validation": {
+  "mangkhut-2018": [
+   {
+    "id": "ltr",
+    "grade": "C",
+    "basis": "天文台：林村河畔单车径与行人隧道被淹，无深度",
+    "zh": "大埔林村河畔行人隧道",
+    "en": "Lam Tsuen River subway, Tai Po",
+    "lon": 114.168,
+    "lat": 22.4475,
+    "depth": 0.8,
+    "cls": "moderate",
+    "ug": "ltr_sub",
+    "src": "HKO: inundated subways",
+    "note_zh": "河畔下穿式行人隧道：v0.4 起作为下沉汇（容积为估计值），验证值为隧道内水深",
+    "note_en": "Riverside pedestrian subway: not in the DTM, the model only gives street-level depth",
+    "x": 1665.0,
+    "y": 2835.0,
+    "snapped_m": 217.0
+   }
+  ],
+  "wanda-1962": [
+   {
+    "id": "tpm",
+    "grade": "D",
+    "basis": "历史记述，深度为推估",
+    "zh": "大埔墟",
+    "en": "Tai Po Market",
+    "lon": 114.168,
+    "lat": 22.448,
+    "depth": 1.5,
+    "cls": "severe",
+    "src": "HKO: damage particularly severe at Tai Po",
+    "x": 1665.0,
+    "y": 2835.0,
+    "snapped_m": 196.0
+   }
+  ]
+ },
+ "dem_stats": {
+  "rows": 550,
+  "cols": 600,
+  "zmin": 1.2019742727279663,
+  "zmax": 471.8886413574219,
+  "sea_fraction": 0.16136666666666666,
+  "land_below_4mpd_fraction": 0.02239574488074031,
+  "exposed_shore_cells": 775,
+  "cedd_coverage": 0.8365878787878788,
+  "shore_cells": 1274,
+  "sinks_filled": 1383,
+  "water_polygons": 22,
+  "tidal_cells_added": 842,
+  "max_z": 6.0,
+  "dsd_conduits": 4284,
+  "dsd_trunks": 1633,
+  "dsd_trunk_cells": 4150,
+  "dsd_chains": 127,
+  "dsd_catchment_km2": 1.66,
+  "channel_cells": 16504,
+  "by_class": {
+   "stream/stream": 11475,
+   "canal/drain": 95,
+   "canal/canal": 703,
+   "river/river": 417
+  },
+  "network_s": 2.6,
+  "subgrid": {
+   "fine_m": 1.0,
+   "k": 10,
+   "buildings_rasterised": 10036,
+   "threshold_counts": {
+    "0.15": 30,
+    "0.3": 261,
+    "0.5": 125,
+    "1.0": 9620
+   },
+   "raised_cells": 6063,
+   "cell_spread_p50_m": 2.72,
+   "cell_spread_p90_m": 5.8,
+   "s": 15.6
+  },
+  "source": "CEDD 2020 LiDAR 0.5 m"
+ },
+ "buildings": {
+  "count": 10036,
+  "mean_height": 13.644121163810283,
+  "footprint_fraction": 0.11982424242424243
+ },
+ "textures": {
+  "zoom": 16,
+  "tex_w": 2717,
+  "tex_h": 2491,
+  "m_per_px": 2.208317997791682,
+  "attribution": "Map/imagery tiles (c) Lands Department, HKSAR Government (Hong Kong GeoData Store Map API)"
+ },
+ "facilities": [
+  {
+   "id": "f0",
+   "name": "新屋家 San Uk Ka",
+   "type": "bus",
+   "x": 1402.5,
+   "y": 1031.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f1",
+   "name": "白石角科城路 Pak Shek Kok Fo Shing Road",
+   "type": "bus",
+   "x": 5354.1,
+   "y": 963.5,
+   "conf": 1.0
+  },
+  {
+   "id": "f2",
+   "name": "大富街變電站 Dai Fu Street Substation",
+   "type": "power",
+   "x": 3560.8,
+   "y": 4215.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f3",
+   "name": "九巴大華街車廠 KMB Dai Wah Street Depot",
+   "type": "carpark",
+   "x": 3138.2,
+   "y": 3308.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f4",
+   "name": "城巴大埔泊車場 Citybus Tai Po Parking Site",
+   "type": "carpark",
+   "x": 3042.9,
+   "y": 3960.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f5",
+   "name": "鳳園 Fung Yuen",
+   "type": "bus",
+   "x": 3112.5,
+   "y": 4702.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f6",
+   "name": "廣福停車場",
+   "type": "carpark",
+   "x": 4089.9,
+   "y": 3568.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f7",
+   "name": "大埔工業邨巴士總站 Tai Po Industrial Estate Bus Terminus",
+   "type": "bus",
+   "x": 3895.6,
+   "y": 3840.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f8",
+   "name": "大盛街停車場 Dai Shing Street Car Park",
+   "type": "carpark",
+   "x": 3785.1,
+   "y": 3702.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f9",
+   "name": "大貴街變電站 Dai Kwai Street Substation",
+   "type": "power",
+   "x": 3970.3,
+   "y": 3487.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f10",
+   "name": "白石角變電站 Pak Shek Kok Substation",
+   "type": "power",
+   "x": 5238.7,
+   "y": 1293.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f11",
+   "name": "中華船廠電力變壓站",
+   "type": "power",
+   "x": 5691.7,
+   "y": 3941.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f12",
+   "name": "洞梓電櫃變電站 Tung Tsz Package Substation",
+   "type": "power",
+   "x": 5271.6,
+   "y": 5211.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f13",
+   "name": "香港教育大學 The Education University of HK",
+   "type": "bus",
+   "x": 4494.1,
+   "y": 4805.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f14",
+   "name": "富善邨 Fu Shin Estate",
+   "type": "bus",
+   "x": 2552.0,
+   "y": 3461.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f15",
+   "name": "明雅苑停車場 Ming Nga Court Car",
+   "type": "carpark",
+   "x": 2585.2,
+   "y": 3275.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f16",
+   "name": "大埔中心多層停車場 Tai Po Centre Multi-Storey Car Park",
+   "type": "carpark",
+   "x": 2176.2,
+   "y": 3417.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f17",
+   "name": "廣福邨 Kwong Fuk Estate",
+   "type": "carpark",
+   "x": 2496.7,
+   "y": 2828.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f18",
+   "name": "廣福 Kwong Fuk",
+   "type": "bus",
+   "x": 2520.6,
+   "y": 2851.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f19",
+   "name": "富善體育館停車場 Fu Shin Indoor Recreation Centre Car Park",
+   "type": "carpark",
+   "x": 2478.1,
+   "y": 3416.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f20",
+   "name": "那打素醫院 Nethersole Hospital",
+   "type": "bus",
+   "x": 2496.1,
+   "y": 4104.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f21",
+   "name": "富亨 Fu Heng",
+   "type": "bus",
+   "x": 2254.6,
+   "y": 3921.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f22",
+   "name": "富亨邨時租停車場 Fu Heng Estate Hourly Car Park",
+   "type": "carpark",
+   "x": 2177.8,
+   "y": 3975.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f23",
+   "name": "富亨邨月租停車場 Fu Heng Estate Monthly Car Park",
+   "type": "carpark",
+   "x": 2245.0,
+   "y": 4136.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f24",
+   "name": "大元邨多層停車場 Tai Yuen Estate Multi-storey Car Park",
+   "type": "carpark",
+   "x": 2058.7,
+   "y": 3547.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f25",
+   "name": "貨車 Goods",
+   "type": "carpark",
+   "x": 1807.9,
+   "y": 3837.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f26",
+   "name": "食物環境衞生署運輸組大埔車房 FEHD Transport Section Tai Po Depot",
+   "type": "carpark",
+   "x": 1967.0,
+   "y": 3858.4,
+   "conf": 1.0
+  },
+  {
+   "id": "f27",
+   "name": "大埔中心 Tai Po Central",
+   "type": "bus",
+   "x": 1970.5,
+   "y": 3355.1,
+   "conf": 1.0
+  },
+  {
+   "id": "f28",
+   "name": "大埔官立中學B變壓站 Tai Po Government Secondary School 'B' Substation",
+   "type": "power",
+   "x": 1918.4,
+   "y": 3204.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f29",
+   "name": "富‧盈門 The Golden Gate",
+   "type": "carpark",
+   "x": 1825.8,
+   "y": 2992.3,
+   "conf": 1.0
+  },
+  {
+   "id": "f30",
+   "name": "大埔墟 Tai Po Market",
+   "type": "mtr",
+   "x": 2125.7,
+   "y": 2413.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f31",
+   "name": "三角地變電站 Tai Po Kiosk Substation",
+   "type": "power",
+   "x": 1578.2,
+   "y": 2861.6,
+   "conf": 1.0
+  },
+  {
+   "id": "f32",
+   "name": "康樂園G變電站 Hong Lok Yuen 'G' Substation",
+   "type": "power",
+   "x": 919.8,
+   "y": 4644.8,
+   "conf": 1.0
+  },
+  {
+   "id": "f33",
+   "name": "康樂園F變電站 Hong Lok Yuen 'F' Substation",
+   "type": "power",
+   "x": 1028.4,
+   "y": 4462.2,
+   "conf": 1.0
+  },
+  {
+   "id": "f34",
+   "name": "太和 Tai Wo",
+   "type": "mtr",
+   "x": 1144.4,
+   "y": 3117.0,
+   "conf": 1.0
+  },
+  {
+   "id": "f35",
+   "name": "汀角路變電站 Ting Kok Road Substation",
+   "type": "power",
+   "x": 1370.0,
+   "y": 3193.7,
+   "conf": 1.0
+  },
+  {
+   "id": "f36",
+   "name": "Uptown Plaza",
+   "type": "mall",
+   "x": 1995.3,
+   "y": 2302.9,
+   "conf": 1.0
+  },
+  {
+   "id": "f37",
+   "name": "Hong Kong and Kowloon Kaifong Women's Association Sun Fong C",
+   "type": "school",
+   "x": 2829.1,
+   "y": 3434.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f38",
+   "name": "Kau Yan College",
+   "type": "school",
+   "x": 2769.0,
+   "y": 3655.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f39",
+   "name": "Zebedee International Preschool and Nursery",
+   "type": "school",
+   "x": 1846.7,
+   "y": 2264.9,
+   "conf": 0.99
+  },
+  {
+   "id": "f40",
+   "name": "Tai Po Civic Centre",
+   "type": "community",
+   "x": 1862.6,
+   "y": 3206.7,
+   "conf": 0.99
+  },
+  {
+   "id": "f41",
+   "name": "Tai Po Old Market Public School",
+   "type": "school",
+   "x": 1763.7,
+   "y": 3186.2,
+   "conf": 0.98
+  },
+  {
+   "id": "f42",
+   "name": "Mink Anglo-Chinese Kindergarten",
+   "type": "school",
+   "x": 2367.4,
+   "y": 3458.4,
+   "conf": 0.98
+  },
+  {
+   "id": "f43",
+   "name": "大埔廣場",
+   "type": "mall",
+   "x": 2085.9,
+   "y": 3327.8,
+   "conf": 0.98
+  },
+  {
+   "id": "f44",
+   "name": "香港道教聯合會雲泉吳禮和紀念學校",
+   "type": "school",
+   "x": 1917.0,
+   "y": 3717.1,
+   "conf": 0.98
+  },
+  {
+   "id": "f45",
+   "name": "三水同鄉會禤景榮學校",
+   "type": "school",
+   "x": 2698.7,
+   "y": 3265.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f46",
+   "name": "Valtorta College",
+   "type": "school",
+   "x": 1853.1,
+   "y": 2507.7,
+   "conf": 0.98
+  },
+  {
+   "id": "f47",
+   "name": "Fu Shin Shopping Centre",
+   "type": "mall",
+   "x": 2542.4,
+   "y": 3447.4,
+   "conf": 0.97
+  },
+  {
+   "id": "f48",
+   "name": "林村公立黃福鑾紀念學校",
+   "type": "school",
+   "x": 1382.1,
+   "y": 3064.6,
+   "conf": 0.97
+  },
+  {
+   "id": "f49",
+   "name": "大埔警署",
+   "type": "police",
+   "x": 2354.9,
+   "y": 3263.7,
+   "conf": 0.97
+  },
+  {
+   "id": "f50",
+   "name": "太和街市",
+   "type": "mall",
+   "x": 1193.9,
+   "y": 3156.6,
+   "conf": 0.97
+  },
+  {
+   "id": "f51",
+   "name": "昌運中心商場",
+   "type": "mall",
+   "x": 1849.1,
+   "y": 3299.9,
+   "conf": 0.97
+  },
+  {
+   "id": "f52",
+   "name": "Tai Po Hospital",
+   "type": "hospital",
+   "x": 2552.4,
+   "y": 4249.1,
+   "conf": 0.97
+  },
+  {
+   "id": "f53",
+   "name": "大埔商會幼稚園",
+   "type": "school",
+   "x": 2095.6,
+   "y": 3787.4,
+   "conf": 0.97
+  },
+  {
+   "id": "f54",
+   "name": "神召會康樂中學",
+   "type": "school",
+   "x": 961.7,
+   "y": 3069.1,
+   "conf": 0.96
+  },
+  {
+   "id": "f55",
+   "name": "聖公會阮鄭夢芹銀禧小學",
+   "type": "school",
+   "x": 2287.3,
+   "y": 4052.9,
+   "conf": 0.96
+  },
+  {
+   "id": "f56",
+   "name": "新界婦孺福利會基督教銘恩小學",
+   "type": "school",
+   "x": 1727.9,
+   "y": 2716.0,
+   "conf": 0.96
+  },
+  {
+   "id": "f57",
+   "name": "Brightland International Kindergarten",
+   "type": "school",
+   "x": 1617.8,
+   "y": 1993.4,
+   "conf": 0.96
+  },
+  {
+   "id": "f58",
+   "name": "Bowie Anglo-Chinese Kindergarten",
+   "type": "school",
+   "x": 2112.8,
+   "y": 3241.0,
+   "conf": 0.96
+  },
+  {
+   "id": "f59",
+   "name": "大埔社區會堂",
+   "type": "community",
+   "x": 1637.4,
+   "y": 2644.9,
+   "conf": 0.96
+  },
+  {
+   "id": "f60",
+   "name": "Carmel Holy Word Secondary School",
+   "type": "school",
+   "x": 1064.3,
+   "y": 3347.1,
+   "conf": 0.96
+  },
+  {
+   "id": "f61",
+   "name": "保良局田家炳千禧小學",
+   "type": "school",
+   "x": 4758.5,
+   "y": 865.5,
+   "conf": 0.95
+  },
+  {
+   "id": "f62",
+   "name": "中華聖潔會靈風中學",
+   "type": "school",
+   "x": 2472.9,
+   "y": 3753.5,
+   "conf": 0.95
+  },
+  {
+   "id": "f63",
+   "name": "Plover Cove Garden Arcade",
+   "type": "mall",
+   "x": 1895.0,
+   "y": 2925.3,
+   "conf": 0.94
+  },
+  {
+   "id": "f64",
+   "name": "佛教大光中學",
+   "type": "school",
+   "x": 706.9,
+   "y": 2683.6,
+   "conf": 0.93
+  },
+  {
+   "id": "f65",
+   "name": "Taipo Natharsole Hospital",
+   "type": "hospital",
+   "x": 2577.5,
+   "y": 3917.8,
+   "conf": 0.91
+  },
+  {
+   "id": "f66",
+   "name": "大日子商場",
+   "type": "mall",
+   "x": 1672.5,
+   "y": 2663.8,
+   "conf": 0.9
+  },
+  {
+   "id": "f67",
+   "name": "香港教育大學賽馬會小學",
+   "type": "school",
+   "x": 4586.8,
+   "y": 5149.2,
+   "conf": 0.9
+  },
+  {
+   "id": "f68",
+   "name": "香港紅卍字會大埔卍慈中學",
+   "type": "school",
+   "x": 2195.3,
+   "y": 4202.6,
+   "conf": 0.9
+  },
+  {
+   "id": "f69",
+   "name": "康樂園（大埔）護理安老院",
+   "type": "elderly",
+   "x": 1567.9,
+   "y": 3457.6,
+   "conf": 0.9
+  },
+  {
+   "id": "f70",
+   "name": "大埔消防局",
+   "type": "fire",
+   "x": 1501.4,
+   "y": 3169.0,
+   "conf": 0.89
+  },
+  {
+   "id": "f71",
+   "name": "Taipo Market - Nt",
+   "type": "mall",
+   "x": 1617.8,
+   "y": 2493.8,
+   "conf": 0.89
+  },
+  {
+   "id": "f72",
+   "name": "大埔墟新達廣場",
+   "type": "mall",
+   "x": 1821.3,
+   "y": 2299.0,
+   "conf": 0.85
+  },
+  {
+   "id": "f73",
+   "name": "S.K.H. Yuen Chen Maun Chen Primary School",
+   "type": "school",
+   "x": 2393.6,
+   "y": 2715.2,
+   "conf": 0.85
+  },
+  {
+   "id": "f74",
+   "name": "OWNDAYS 新達廣場店 Uptown Plaza",
+   "type": "mall",
+   "x": 2534.9,
+   "y": 2053.7,
+   "conf": 0.85
+  },
+  {
+   "id": "f75",
+   "name": "Tai Po East Fire Station",
+   "type": "fire",
+   "x": 4116.0,
+   "y": 4352.5,
+   "conf": 0.77
+  },
+  {
+   "id": "f76",
+   "name": "寶湖動物醫院",
+   "type": "hospital",
+   "x": 1969.7,
+   "y": 2766.5,
+   "conf": 0.76
+  },
+  {
+   "id": "f77",
+   "name": "Taipo old Police Station",
+   "type": "police",
+   "x": 1941.0,
+   "y": 2651.7,
+   "conf": 0.71
+  },
+  {
+   "id": "f78",
+   "name": "Kwai Chung Hospital",
+   "type": "hospital",
+   "x": 163.8,
+   "y": 3443.4,
+   "conf": 0.71
+  },
+  {
+   "id": "f79",
+   "name": "浸信會醫院",
+   "type": "hospital",
+   "x": 2149.1,
+   "y": 4114.4,
+   "conf": 0.7
+  },
+  {
+   "id": "f80",
+   "name": "養和護老中心",
+   "type": "elderly",
+   "x": 1625.6,
+   "y": 2907.3,
+   "conf": 0.55
+  },
+  {
+   "id": "ltr_sub",
+   "name": "林村河畔行人隧道 Lam Tsuen River pedestrian subway",
+   "type": "underground",
+   "x": 1945.0,
+   "y": 2705.0,
+   "ug": {
+    "area": 300,
+    "cap": 2.5,
+    "cells": [
+     162194,
+     162191
+    ],
+    "entrances": 2,
+    "src": "HKO TC report 2018: subways by the Lam Tsuen River inundated",
+    "note_zh": "楼面面积与可用深度为估计值",
+    "note_en": "Floor area and usable depth are estimates"
+   }
+  }
+ ]
+}
