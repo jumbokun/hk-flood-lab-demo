@@ -21,7 +21,8 @@
   "cols": 450,
   "rows": 500,
   "width_m": 4500,
-  "height_m": 5000
+  "height_m": 5000,
+  "hidden": true
  },
  {
   "id": "sha-tin",
@@ -33,7 +34,8 @@
   "cols": 600,
   "rows": 600,
   "width_m": 6000,
-  "height_m": 6000
+  "height_m": 6000,
+  "hidden": true
  },
  {
   "id": "tai-po",
@@ -45,7 +47,8 @@
   "cols": 600,
   "rows": 550,
   "width_m": 6000,
-  "height_m": 5500
+  "height_m": 5500,
+  "hidden": true
  },
  {
   "id": "wong-tai-sin",
@@ -81,7 +84,8 @@
   "cols": 800,
   "rows": 700,
   "width_m": 4000,
-  "height_m": 3500
+  "height_m": 3500,
+  "hidden": true
  },
  {
   "id": "hk-overview",
@@ -93,6 +97,7 @@
   "cols": 1275,
   "rows": 960,
   "width_m": 63750,
-  "height_m": 48000
+  "height_m": 48000,
+  "hidden": true
  }
 ]
