@@ -1,0 +1,22 @@
+{
+ "key": "ab7913cfb6b2ca85",
+ "scene": "tseung-kwan-o",
+ "event": "rainstorm-2023",
+ "windowSec": 68400,
+ "W": 450,
+ "H": 500,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.4078764304462274,
+   "maxDepthSeen": 8.505653381347656,
+   "file": "f68400.bin",
+   "n_state": 900000,
+   "n_aux": 900000,
+   "n_conn": 0,
+   "bytes": 812614
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:05:47"
+}

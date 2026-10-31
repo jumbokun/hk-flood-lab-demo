@@ -1,0 +1,22 @@
+{
+ "key": "8b137df2fd408484",
+ "scene": "victoria-harbour",
+ "event": "wanda-1962",
+ "windowSec": 68400,
+ "W": 700,
+ "H": 600,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.5765641332395044,
+   "maxDepthSeen": 4.078256607055664,
+   "file": "f68400.bin",
+   "n_state": 1680000,
+   "n_aux": 1680000,
+   "n_conn": 0,
+   "bytes": 318265
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:23:09"
+}

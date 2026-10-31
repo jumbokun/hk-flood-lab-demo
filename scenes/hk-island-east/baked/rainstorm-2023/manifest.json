@@ -1,0 +1,22 @@
+{
+ "key": "cf609841cc65cc27",
+ "scene": "hk-island-east",
+ "event": "rainstorm-2023",
+ "windowSec": 68400,
+ "W": 550,
+ "H": 450,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.44000219693896647,
+   "maxDepthSeen": 7.2587056159973145,
+   "file": "f68400.bin",
+   "n_state": 990000,
+   "n_aux": 990000,
+   "n_conn": 0,
+   "bytes": 756997
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:02:59"
+}

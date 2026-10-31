@@ -1,0 +1,22 @@
+{
+ "key": "396bd32172a9a46d",
+ "scene": "hk-overview",
+ "event": "mangkhut-2018",
+ "windowSec": 64800,
+ "W": 1275,
+ "H": 960,
+ "frames": [
+  {
+   "t": 64800,
+   "dt": 2.999358169708285,
+   "maxDepthSeen": 3.7402851581573486,
+   "file": "f64800.bin",
+   "n_state": 4896000,
+   "n_aux": 4896000,
+   "n_conn": 0,
+   "bytes": 738430
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:33:04"
+}

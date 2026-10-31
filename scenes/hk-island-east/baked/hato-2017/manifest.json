@@ -1,0 +1,22 @@
+{
+ "key": "60a90aa2fcb6feea",
+ "scene": "hk-island-east",
+ "event": "hato-2017",
+ "windowSec": 72000,
+ "W": 550,
+ "H": 450,
+ "frames": [
+  {
+   "t": 72000,
+   "dt": 0.7085325973202633,
+   "maxDepthSeen": 2.5798866748809814,
+   "file": "f72000.bin",
+   "n_state": 990000,
+   "n_aux": 990000,
+   "n_conn": 0,
+   "bytes": 136199
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:02:25"
+}

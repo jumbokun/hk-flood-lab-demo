@@ -1,0 +1,22 @@
+{
+ "key": "d5e5f18ad3cb54e0",
+ "scene": "tai-po",
+ "event": "hato-2017",
+ "windowSec": 72000,
+ "W": 600,
+ "H": 550,
+ "frames": [
+  {
+   "t": 72000,
+   "dt": 0.6641524893236678,
+   "maxDepthSeen": 2.985518455505371,
+   "file": "f72000.bin",
+   "n_state": 1320000,
+   "n_aux": 1320000,
+   "n_conn": 0,
+   "bytes": 215697
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:12:54"
+}

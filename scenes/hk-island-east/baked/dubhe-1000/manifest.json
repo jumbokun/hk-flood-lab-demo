@@ -1,0 +1,22 @@
+{
+ "key": "d49d404766501b29",
+ "scene": "hk-island-east",
+ "event": "dubhe-1000",
+ "windowSec": 93600,
+ "W": 550,
+ "H": 450,
+ "frames": [
+  {
+   "t": 93600,
+   "dt": 0.4417917183582273,
+   "maxDepthSeen": 7.1971330642700195,
+   "file": "f93600.bin",
+   "n_state": 990000,
+   "n_aux": 990000,
+   "n_conn": 0,
+   "bytes": 864288
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:04:10"
+}

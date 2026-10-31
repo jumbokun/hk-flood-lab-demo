@@ -1,0 +1,22 @@
+{
+ "key": "96e0e82c053b8e2e",
+ "scene": "tai-po",
+ "event": "wanda-1962",
+ "windowSec": 68400,
+ "W": 600,
+ "H": 550,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.5817187906464657,
+   "maxDepthSeen": 4,
+   "file": "f68400.bin",
+   "n_state": 1320000,
+   "n_aux": 1320000,
+   "n_conn": 0,
+   "bytes": 263742
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:14:14"
+}

@@ -1,0 +1,22 @@
+{
+ "key": "73aa11d4a42ef55e",
+ "scene": "victoria-harbour",
+ "event": "hato-2017",
+ "windowSec": 72000,
+ "W": 700,
+ "H": 600,
+ "frames": [
+  {
+   "t": 72000,
+   "dt": 0.6560109094176728,
+   "maxDepthSeen": 3.069003105163574,
+   "file": "f72000.bin",
+   "n_state": 1680000,
+   "n_aux": 1680000,
+   "n_conn": 0,
+   "bytes": 221399
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:21:16"
+}

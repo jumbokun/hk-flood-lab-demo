@@ -1,0 +1,22 @@
+{
+ "key": "3573d71dbdaa8423",
+ "scene": "tseung-kwan-o",
+ "event": "mangkhut-2018",
+ "windowSec": 64800,
+ "W": 450,
+ "H": 500,
+ "frames": [
+  {
+   "t": 64800,
+   "dt": 0.5817187906464657,
+   "maxDepthSeen": 4,
+   "file": "f64800.bin",
+   "n_state": 900000,
+   "n_aux": 900000,
+   "n_conn": 0,
+   "bytes": 187746
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:04:37"
+}

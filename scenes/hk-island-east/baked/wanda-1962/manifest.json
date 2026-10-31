@@ -1,0 +1,22 @@
+{
+ "key": "0b7133a4cffac43e",
+ "scene": "hk-island-east",
+ "event": "wanda-1962",
+ "windowSec": 68400,
+ "W": 550,
+ "H": 450,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.5418154463977715,
+   "maxDepthSeen": 4.6654181480407715,
+   "file": "f68400.bin",
+   "n_state": 990000,
+   "n_aux": 990000,
+   "n_conn": 0,
+   "bytes": 159026
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:03:25"
+}

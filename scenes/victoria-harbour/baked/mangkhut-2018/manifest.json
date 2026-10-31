@@ -1,0 +1,22 @@
+{
+ "key": "953b3f654888051d",
+ "scene": "victoria-harbour",
+ "event": "mangkhut-2018",
+ "windowSec": 64800,
+ "W": 700,
+ "H": 600,
+ "frames": [
+  {
+   "t": 64800,
+   "dt": 0.5008380425020498,
+   "maxDepthSeen": 5.520908355712891,
+   "file": "f64800.bin",
+   "n_state": 1680000,
+   "n_aux": 1680000,
+   "n_conn": 0,
+   "bytes": 343506
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:20:38"
+}

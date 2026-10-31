@@ -1,0 +1,22 @@
+{
+ "key": "30c4142abaa57bc4",
+ "scene": "tseung-kwan-o",
+ "event": "wanda-1962",
+ "windowSec": 68400,
+ "W": 450,
+ "H": 500,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.5817187906464657,
+   "maxDepthSeen": 4,
+   "file": "f68400.bin",
+   "n_state": 900000,
+   "n_aux": 900000,
+   "n_conn": 0,
+   "bytes": 150435
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:06:16"
+}

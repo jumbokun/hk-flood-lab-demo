@@ -1,0 +1,22 @@
+{
+ "key": "d3bfb1497af6a9bd",
+ "scene": "wong-tai-sin",
+ "event": "mangkhut-2018",
+ "windowSec": 64800,
+ "W": 600,
+ "H": 600,
+ "frames": [
+  {
+   "t": 64800,
+   "dt": 0.5660255002834518,
+   "maxDepthSeen": 4.2449564933776855,
+   "file": "f64800.bin",
+   "n_state": 1440000,
+   "n_aux": 1440000,
+   "n_conn": 0,
+   "bytes": 234002
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:16:05"
+}

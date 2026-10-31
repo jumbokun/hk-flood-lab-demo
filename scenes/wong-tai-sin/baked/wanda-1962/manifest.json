@@ -1,0 +1,22 @@
+{
+ "key": "3bea48deff725448",
+ "scene": "wong-tai-sin",
+ "event": "wanda-1962",
+ "windowSec": 68400,
+ "W": 600,
+ "H": 600,
+ "frames": [
+  {
+   "t": 68400,
+   "dt": 0.5745408344961326,
+   "maxDepthSeen": 4.109550952911377,
+   "file": "f68400.bin",
+   "n_state": 1440000,
+   "n_aux": 1440000,
+   "n_conn": 0,
+   "bytes": 221909
+  }
+ ],
+ "stride": 0.0,
+ "baked": "2026-10-31T17:18:22"
+}
