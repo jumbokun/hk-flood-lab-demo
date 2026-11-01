@@ -1,5 +1,5 @@
 {
- "key": "73aa11d4a42ef55e",
+ "key": "9a50ee3bd49b0eff",
  "scene": "victoria-harbour",
  "event": "hato-2017",
  "windowSec": 72000,
@@ -8,13 +8,13 @@
  "frames": [
   {
    "t": 72000,
-   "dt": 0.6560099507598096,
-   "maxDepthSeen": 3.0690131187438965,
+   "dt": 0.6103101587430418,
+   "maxDepthSeen": 3.6013219356536865,
    "file": "f72000.bin",
    "n_state": 1680000,
    "n_aux": 1680000,
    "n_conn": 0,
-   "bytes": 221381
+   "bytes": 227576
   }
  ],
  "series": {
@@ -23,9 +23,9 @@
   "dt": 900,
   "n": 80,
   "q": 0.02,
-  "bytes": 265890,
+  "bytes": 258344,
   "fac": {}
  },
  "stride": 0.0,
- "baked": "2026-11-01T11:49:47"
+ "baked": "2026-11-01T13:11:13"
 }

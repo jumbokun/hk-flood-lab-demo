@@ -1,5 +1,5 @@
 {
- "key": "f9ea11fbe6ad8ec7",
+ "key": "30975f941101ec02",
  "scene": "tai-po",
  "event": "mangkhut-2018",
  "windowSec": 64800,
@@ -14,9 +14,9 @@
    "n_state": 1320000,
    "n_aux": 1320000,
    "n_conn": 0,
-   "bytes": 307955
+   "bytes": 311552
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:12:21"
+ "baked": "2026-11-01T13:25:32"
 }

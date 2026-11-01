@@ -1,5 +1,5 @@
 {
- "key": "613fd0ac2e112d10",
+ "key": "459e3d03dbfab56d",
  "scene": "tseung-kwan-o",
  "event": "hato-2017",
  "windowSec": 72000,
@@ -14,9 +14,9 @@
    "n_state": 900000,
    "n_aux": 900000,
    "n_conn": 0,
-   "bytes": 139590
+   "bytes": 141330
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:05:06"
+ "baked": "2026-11-01T13:16:45"
 }

@@ -1,5 +1,5 @@
 {
- "key": "96e0e82c053b8e2e",
+ "key": "1567a4239b2fde99",
  "scene": "tai-po",
  "event": "wanda-1962",
  "windowSec": 68400,
@@ -14,9 +14,9 @@
    "n_state": 1320000,
    "n_aux": 1320000,
    "n_conn": 0,
-   "bytes": 263742
+   "bytes": 267922
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:14:14"
+ "baked": "2026-11-01T13:27:49"
 }

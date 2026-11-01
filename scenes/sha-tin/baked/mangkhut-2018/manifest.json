@@ -1,5 +1,5 @@
 {
- "key": "54334bdd07647d3d",
+ "key": "abae115233e7b47a",
  "scene": "sha-tin",
  "event": "mangkhut-2018",
  "windowSec": 64800,
@@ -14,9 +14,9 @@
    "n_state": 1440000,
    "n_aux": 1440000,
    "n_conn": 0,
-   "bytes": 196223
+   "bytes": 200252
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:07:49"
+ "baked": "2026-11-01T13:20:04"
 }

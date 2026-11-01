@@ -1,5 +1,5 @@
 {
- "key": "51c29bc924200ce7",
+ "key": "ea7020a656312b7a",
  "scene": "tseung-kwan-o",
  "event": "dubhe-1000",
  "windowSec": 93600,
@@ -8,15 +8,15 @@
  "frames": [
   {
    "t": 93600,
-   "dt": 0.4098073348200224,
-   "maxDepthSeen": 8.422331809997559,
+   "dt": 0.4098036845975559,
+   "maxDepthSeen": 8.42248821258545,
    "file": "f93600.bin",
    "n_state": 900000,
    "n_aux": 900000,
    "n_conn": 0,
-   "bytes": 922980
+   "bytes": 914954
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:07:11"
+ "baked": "2026-11-01T13:19:17"
 }

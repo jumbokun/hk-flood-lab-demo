@@ -1,5 +1,5 @@
 {
- "key": "d5e5f18ad3cb54e0",
+ "key": "da855d6528b6c6ad",
  "scene": "tai-po",
  "event": "hato-2017",
  "windowSec": 72000,
@@ -14,9 +14,9 @@
    "n_state": 1320000,
    "n_aux": 1320000,
    "n_conn": 0,
-   "bytes": 215697
+   "bytes": 219243
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:12:54"
+ "baked": "2026-11-01T13:26:12"
 }

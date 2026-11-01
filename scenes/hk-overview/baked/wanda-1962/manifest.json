@@ -1,5 +1,5 @@
 {
- "key": "5209e7161ca9a3b2",
+ "key": "a7f2fb3929f64257",
  "scene": "hk-overview",
  "event": "wanda-1962",
  "windowSec": 68400,
@@ -8,15 +8,15 @@
  "frames": [
   {
    "t": 68400,
-   "dt": 3.014986614163358,
-   "maxDepthSeen": 3.6979165077209473,
+   "dt": 3.014986525529786,
+   "maxDepthSeen": 3.6979167461395264,
    "file": "f68400.bin",
    "n_state": 4896000,
    "n_aux": 4896000,
    "n_conn": 0,
-   "bytes": 595520
+   "bytes": 598887
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:33:55"
+ "baked": "2026-11-01T13:40:29"
 }

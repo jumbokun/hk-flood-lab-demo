@@ -1,5 +1,5 @@
 {
- "key": "10b221507a6dce36",
+ "key": "f6cd375fe80fead1",
  "scene": "hk-overview",
  "event": "hato-2017",
  "windowSec": 72000,
@@ -8,15 +8,15 @@
  "frames": [
   {
    "t": 72000,
-   "dt": 3.5446265018609497,
-   "maxDepthSeen": 2.5766336917877197,
+   "dt": 3.5446254936500186,
+   "maxDepthSeen": 2.5766353607177734,
    "file": "f72000.bin",
    "n_state": 4896000,
    "n_aux": 4896000,
    "n_conn": 0,
-   "bytes": 609820
+   "bytes": 613895
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:33:22"
+ "baked": "2026-11-01T13:39:46"
 }

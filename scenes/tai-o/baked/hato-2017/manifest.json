@@ -1,5 +1,5 @@
 {
- "key": "1d9a5dd3c0c15a19",
+ "key": "fb6a9abc8afe3b60",
  "scene": "tai-o",
  "event": "hato-2017",
  "windowSec": 72000,
@@ -8,15 +8,15 @@
  "frames": [
   {
    "t": 72000,
-   "dt": 0.34874469465153973,
-   "maxDepthSeen": 2.6736257076263428,
+   "dt": 0.34868173611687503,
+   "maxDepthSeen": 2.674720287322998,
    "file": "f72000.bin",
    "n_state": 2240000,
    "n_aux": 2240000,
    "n_conn": 0,
-   "bytes": 672916
+   "bytes": 670505
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:27:38"
+ "baked": "2026-11-01T13:32:44"
 }

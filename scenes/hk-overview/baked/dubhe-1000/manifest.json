@@ -1,5 +1,5 @@
 {
- "key": "5f1ea0f58d754dc1",
+ "key": "b21594faab21e1d2",
  "scene": "hk-overview",
  "event": "dubhe-1000",
  "windowSec": 93600,
@@ -8,15 +8,15 @@
  "frames": [
   {
    "t": 93600,
-   "dt": 2.400695306415207,
-   "maxDepthSeen": 6.038642883300781,
+   "dt": 2.400688505067482,
+   "maxDepthSeen": 6.038679122924805,
    "file": "f93600.bin",
    "n_state": 4896000,
    "n_aux": 4896000,
    "n_conn": 0,
-   "bytes": 762852
+   "bytes": 764665
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:34:25"
+ "baked": "2026-11-01T13:41:09"
 }

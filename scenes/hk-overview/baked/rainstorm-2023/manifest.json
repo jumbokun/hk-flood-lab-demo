@@ -1,5 +1,5 @@
 {
- "key": "7d70c7737fe8193b",
+ "key": "cf50f6fc7e066a84",
  "scene": "hk-overview",
  "event": "rainstorm-2023",
  "windowSec": 68400,
@@ -9,14 +9,14 @@
   {
    "t": 68400,
    "dt": 4.503907483589933,
-   "maxDepthSeen": 1.044015645980835,
+   "maxDepthSeen": 1.0439997911453247,
    "file": "f68400.bin",
    "n_state": 4896000,
    "n_aux": 4896000,
    "n_conn": 0,
-   "bytes": 423596
+   "bytes": 427978
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:33:36"
+ "baked": "2026-11-01T13:40:04"
 }

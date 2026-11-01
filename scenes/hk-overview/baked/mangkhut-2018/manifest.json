@@ -1,5 +1,5 @@
 {
- "key": "396bd32172a9a46d",
+ "key": "396210eed0532fee",
  "scene": "hk-overview",
  "event": "mangkhut-2018",
  "windowSec": 64800,
@@ -14,9 +14,9 @@
    "n_state": 4896000,
    "n_aux": 4896000,
    "n_conn": 0,
-   "bytes": 738430
+   "bytes": 740143
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:33:04"
+ "baked": "2026-11-01T13:39:23"
 }

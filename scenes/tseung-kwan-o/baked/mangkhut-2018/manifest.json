@@ -1,5 +1,5 @@
 {
- "key": "3573d71dbdaa8423",
+ "key": "a2fcc232a6d6189e",
  "scene": "tseung-kwan-o",
  "event": "mangkhut-2018",
  "windowSec": 64800,
@@ -14,9 +14,9 @@
    "n_state": 900000,
    "n_aux": 900000,
    "n_conn": 0,
-   "bytes": 187746
+   "bytes": 188422
   }
  ],
  "stride": 0.0,
- "baked": "2026-10-31T17:04:37"
+ "baked": "2026-11-01T13:16:10"
 }

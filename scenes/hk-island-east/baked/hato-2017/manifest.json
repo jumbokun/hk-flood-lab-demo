@@ -1,5 +1,5 @@
 {
- "key": "60a90aa2fcb6feea",
+ "key": "1deaa74d52e1ed1b",
  "scene": "hk-island-east",
  "event": "hato-2017",
  "windowSec": 72000,
@@ -8,13 +8,13 @@
  "frames": [
   {
    "t": 72000,
-   "dt": 0.7085329424188537,
-   "maxDepthSeen": 2.5798838138580322,
+   "dt": 0.7085329711770922,
+   "maxDepthSeen": 2.579883575439453,
    "file": "f72000.bin",
    "n_state": 990000,
    "n_aux": 990000,
    "n_conn": 0,
-   "bytes": 136217
+   "bytes": 137574
   }
  ],
  "series": {
@@ -23,7 +23,7 @@
   "dt": 900,
   "n": 80,
   "q": 0.02,
-  "bytes": 207434,
+  "bytes": 194858,
   "fac": {
    "hfc_cp": [
     0,
@@ -192,5 +192,5 @@
   }
  },
  "stride": 0.0,
- "baked": "2026-11-01T11:41:44"
+ "baked": "2026-11-01T13:01:51"
 }
